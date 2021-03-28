@@ -1,26 +1,75 @@
-# Example Change Notes
-For the steam workshop change notes I recommended to use major mod version increases when removing features or adding a plethora of them, minor ones when updating to a new game version or doing small tweaks and patch version increases when changing things unrelated to the users experience.
+Version 1.7.2
+* Migrated to GitHub
 
-Version 2.2.0
-* Update to game version 2.8.0
+Version 1.7.1
+* Fixed "Eldest Sibling" Origin, one dead file (ori_eldest_sibling) bloating the mod size has been removed
+* Fixed "Legacy of Nine Suns" Origin localisation
 
-Version 2.1.0
+Version 1.7.0
+* Update to game version 2.8.*
+
+Version 1.6.0
 * Update to game version 2.7.2
-* Fixed an issue that'd break something ingame.
-* Updated "Some Special" Feature, quickly described.
+* Updated "Legacy of Nine Suns" Origin, the supermassive black hole is now a possible candidate for Birch Worlds, if Gigastructural Engineering is enabled
+* Updated "Out of Sight, Out of Mind" Origin, it now starts the Subterranean Civilization event chain approximately a month later (this allows players more time to build up science production for the special projects)
+* Updated the Steam Workshop Icon, removing the outdated reference to the "Shattered Ring" Origin and replacing it with a picture from the "Legacy of Nine Suns" Origin
+* Fixed "Eldest Siblings" Origin, adding compatibility for all new planet classes from Planetary Diversity, as well as improving the code by refactoring 2000 lines into 700
+* Fixed "Back to the Future" Origin, relic moons were spawning without their planetary deposits when Planetary Diversity was enabled (thanks to Ragnin for reporting the issue concisely)
 
-Version 2.0.0
-* Added "Some Special" Feature, quickly described.
-* Added "Some Other Special" Feature, quickly described.
-* Removed "Another Initial" Feature, as it lead to too one to many issues.
+Version 1.5.1
+* Fixed "Eldest Sibling" Origin compatibility with all planet classes from Planetary Diversity, as well as Planetary Diversity - Exotic Worlds.
+
+Version 1.5.0
+* Update to game version 2.6.3
+* Fixed the 3 Origins that require solar system initializers to work correctly with the changed mod interface in 2.6.3
+* Fixed "Eldest Sibling" Origin, the descriptor was not displaying correctly
+
+Version 1.4.0
+* Added "Walking On Eggshells" Origin, a challenging start, which will have a Voidspawn (vanilla event chain) grow inside the player's planet until it cracks the home world open and takes over the system. At the start of the game the player can pick from many options to decide how soon the event happens (between 1 and 100 years).
+* Added support for all languages. But for now they'll be displaying english only, because I do not want to use google translate and ruin every second sentence.
+* Updated "Eldest Sibling" Origin, it will now let the player choose if they want to spawn primitives of their own species or randomly generated ones, as well as how many and what mix of them if they pick two instead of one. Machine empires are no longer allowed to pick this Origin, but Hive Minds can
+* Fixed "Eldest Sibling" Origin, it will now always spawn primitives
+* Fixed "Fratricide" Origin, it was impossible to get picked by Fanatic Xenophobes and incorrectly possible to be picked by Fanatic Pacifists
+* Fixed "The Chosen One" Origin being able to be picked by Machine Empires
+
+Version 1.3.2
+* Updated "Eldest Sibling" Origin, spawning the primitives randomly on any fitting planets and it's now possible to use any system initialiser in addition to the origin.
+* Updated "The Chosen One" Origin, allowing the player to research Psionic Theory right from the start and the ruler now starts with the Erudite trait instead of Charismatic.
+* Fixed some forgotten defines (thanks to joakim.westergaard for pointing them out)
+
+Version 1.3.1
+* Fixed "Eldest Sibling" Origin, now the primitives are of the empire's own species
+
+Version 1.3.0
+* Removed DLC requirements from all Origins
+* Added "Eldest Sibling" Origin, a start with two Primitives in the home system
+* Updated "Fratricide" Origin, adding a Xenophone, Non-Pacifist ethic requirement to it
+* Updated Icons and Pictures of all Origins to use more assets already present (but unused) in the vanilla files
+
+Version 1.2.0
+* Added "The Chosen One" Origin, where the initial ruler starts at level 10 and has both the Chosen One as well as the Charismatic trait
+* Fixed "Back to the Future" spawning Relic Worlds as guaranteed habitable worlds instead of random ones
 
 Version 1.1.0
-* Update to game version 2.7.0
-
-Version 1.0.1
-* Updated thumbnail
+* Added "Out of Sight, Out of Mind" Origin, with a Subterranean Civilization (vanilla event chain) on the empire's home world
+* Added "Legacy of Nine Suns" Origin, an eye-candy start with nine stars
 
 Version 1.0.0
-* Developed for game version 2.6.3
-* Added "Initial" Feature, quickly described.
-* Added "Another Initial" Feature, quickly described.
+* Update to game version 2.6.0
+* Removed all vanilla Origins that have been added in the Federations Update
+* Removed "Debris Dwellers" Origin, due to issues getting its Habitable World sprite to work
+* Added "Ecosystem Integration" Origin, a Hive World start
+* Fixed "Remnants II" -> "Back to the Future" Origin, integrating it with the new Origin system
+* Fixed "Fratricide" Origin, integrating it with the new Origin system
+
+Version 0.2.0
+* Added "Void Dwellers" Origin, a start on a Habitat
+* Updated "Shattered Ring" Origin, adding a planetary deposit for 2 of each rare resource to it, allowing the player to more easily expand into districts that require them as upkeep
+* Fixed "Shattered Ring" Origin, now starting with two ruined ring sections instead of colonizable ones
+
+Version 0.1.0
+* Added "Fratricide" Origin, a start with an additional, uninhabited Tomb World
+* Added "Remnants I" Origin and "Remnants II" Origin, two different Relic World starts
+* Added "Resource Consolidation", a Machine World start
+* Added "Shattered Ring", a Ringworld start
+* Added "Debris Dwellers", an Asteroid start
