@@ -1,3 +1,7 @@
+Version 1.8.0
+* Fixed "Eldest Siblings" Origin, adding compatibility for all new planet classes from Planetary Diversity (up to its releases from 3rd and 9th March 2021 respectively)
+* Fixed "Eldest Siblings" Origin, removing reliance on a global event target which prevented it from working in multiple instances
+
 Version 1.7.2
 * Migrated to GitHub
 

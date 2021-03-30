@@ -285,7 +285,7 @@ event = {
 				is_country_type = default
 				has_country_flag = eldest_sibling_start
 			}
-			save_global_event_target_as = my_country
+			save_event_target_as = my_country
 			country_event = {
 				id = emo.1
 			}
