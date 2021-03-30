@@ -223,6 +223,30 @@ terraform_planet_and_generate_same_species_primitives = {
 						reroll_planet_and_generate_same_species_primitives = yes
 					}
 				}
+				pc_duneforest = {
+					prevprev = {
+						change_pc = pc_duneforest
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_aeolian = {
+					prevprev = {
+						change_pc = pc_aeolian
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_semiarid = {
+					prevprev = {
+						change_pc = pc_semiarid
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_tepid = {
+					prevprev = {
+						change_pc = pc_tepid
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
 				# rare
 				pc_salt = {
 					prevprev = {
@@ -236,6 +260,18 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
+				pc_coral = {
+					prevprev = {
+						change_pc = pc_coral
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_coral_fields
+						add_modifier = {
+							modifier = pdcoral
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				pc_primal = {
 					prevprev = {
 						change_pc = pc_primal
@@ -244,6 +280,18 @@ terraform_planet_and_generate_same_species_primitives = {
 						add_deposit = d_lava_lakes
 						add_modifier = {
 							modifier = primal
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_supercon = {
+					prevprev = {
+						change_pc = pc_supercon
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_supercon_site
+						add_modifier = {
+							modifier = supercon
 						}
 						generate_same_species_late_primitives_on_planet = yes
 					}
@@ -333,6 +381,54 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
+				pc_glacio = {
+					prevprev = {
+						change_pc = pc_glacio
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_glacio_lake
+						add_modifier = {
+							modifier = pdglacio
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_rogue = {
+					prevprev = {
+						change_pc = pc_rogue
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_rogue_geo
+						add_modifier = {
+							modifier = pdrogue
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_eyeball = {
+					prevprev = {
+						change_pc = pc_eyeball
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_eyeball_site
+						add_modifier = {
+							modifier = pdeyeball
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_lanthanide = {
+					prevprev = {
+						change_pc = pc_lanthanide
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_lanthanide_deposit
+						add_modifier = {
+							modifier = pdlanthanide
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				pc_megaflora = {
 					prevprev = {
 						change_pc = pc_megaflora
@@ -346,6 +442,18 @@ terraform_planet_and_generate_same_species_primitives = {
 					}
 				}
 				# exotic
+				pc_sulfur = {
+					prevprev = {
+						change_pc = pc_sulfur
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_sulfur_pool
+						add_modifier = {
+							modifier = pdsulfur
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				pc_methane = {
 					prevprev = {
 						change_pc = pc_methane
@@ -390,6 +498,19 @@ terraform_planet_and_generate_same_species_primitives = {
 						add_deposit = d_rad_blooms
 						add_modifier = {
 							modifier = radiotrophic
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_acid = {
+					prevprev = {
+						change_pc = pc_acid
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_acid_lakes
+						add_deposit = d_pdacid_rain
+						add_modifier = {
+							modifier = pdacid
 						}
 						generate_same_species_late_primitives_on_planet = yes
 					}
