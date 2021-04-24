@@ -69,7 +69,6 @@ This mod should also be fully compatible with almost any other mod (even those a
 [url=https://github.com/n1ghthavvk/stellaris-evorin][img]https://i.imgur.com/0nVeF3I.png[/img][/url]
 Looking for my other creations?
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1868834704][img]https://i.imgur.com/sbtUpRC.jpg[/img][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1904693690][img]https://i.imgur.com/y6YiZ6I.png[/img][/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2080968400][img]https://i.imgur.com/IBj3WfX.jpg[/img][/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2036087802][img]https://i.imgur.com/JCGnvng.jpg[/img][/url]
 
