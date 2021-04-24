@@ -441,6 +441,30 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
+				pc_lichen = {
+					prevprev = {
+						change_pc = pc_lichen
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_lichen_forest
+						add_modifier = {
+							modifier = pdlichen
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_aquifer = {
+					prevprev = {
+						change_pc = pc_aquifer
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_deposit = d_aquifer_cave
+						add_modifier = {
+							modifier = pdaquifer
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				# exotic
 				pc_sulfur = {
 					prevprev = {
