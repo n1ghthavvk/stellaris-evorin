@@ -38,6 +38,10 @@ nine_suns_system_initializer = {
         orbit_angle = 0
         size = 235
 		has_ring = no
+
+		flags = {
+			giga_core_emo
+		}
 	}
 
 	asteroid_belt = {
