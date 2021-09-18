@@ -1,4 +1,7 @@
-Version 1.10.0
+Version 1.11.0
+* Fixed missing thumbnail update
+
+Version 1.11.0
 * Update to game version 3.1.*
 * Added "Endeavour to Enlightenment" Origin, which allows Leaders to gain more than one trait through leveling up
 * Updated "Ecosystem Integration" Origin, now also starts with two factory districts
@@ -6,6 +9,9 @@ Version 1.10.0
 * Updated "Eldest Sibling" Origin, adding compatibility for all new planet classes from Planetary Diversity (up to its release on 18th September 2021), as well as allowing any randomly generated worlds to use the normal and rare planet classes from it (and not just the vanilla ones).
 * Fixed "Out of Sight, Out of Mind" Origin, Gestalt Consciousness empires can no longer gain access to the Trade Value result
 * Fixed all Origins using the game_start.2 event to instead use an on_game_start effect (improves compatibility)
+
+Version 1.10.0
+* Updated "Legacy of Nine Suns" Origin, now other empires can discover the supermassive black hole as they first enter the system and be able to construct a Birch World on it (if Gigastructural Engineering is active and they can claim the system).
 
 Version 1.9.0
 * Update to game version 3.0.*
