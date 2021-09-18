@@ -1,3 +1,12 @@
+Version 1.10.0
+* Update to game version 3.1.*
+* Added "Endeavour to Enlightenment" Origin, which allows Leaders to gain more than one trait through leveling up
+* Updated "Ecosystem Integration" Origin, now also starts with two factory districts
+* Updated "The Chosen One" Origin, now adds a random beneficial ruler trait instead of Erudite and adds +50% Tech Progress to Psionic Theory.
+* Updated "Eldest Sibling" Origin, adding compatibility for all new planet classes from Planetary Diversity (up to its release on 18th September 2021), as well as allowing any randomly generated worlds to use the normal and rare planet classes from it (and not just the vanilla ones).
+* Fixed "Out of Sight, Out of Mind" Origin, Gestalt Consciousness empires can no longer gain access to the Trade Value result
+* Fixed all Origins using the game_start.2 event to instead use an on_game_start effect (improves compatibility)
+
 Version 1.9.0
 * Update to game version 3.0.*
 * Fixed "Eldest Siblings" Origin, adding compatibility for all new planet classes from Planetary Diversity (up to its release on 23th April 2021)

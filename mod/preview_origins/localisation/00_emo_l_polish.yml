@@ -52,7 +52,7 @@ emo.1.option.tworandom: "2 primitive civilizations of different, random species.
 
 origin_emperor:0 "The Chosen One"
 origin_emperor_desc:0 "''You are the Chosen One. You have brought balance to this world. Stay on this path and you will do it again... for the galaxy. But beware your heart...'' \n- The Father's last words"
-origin_tooltip_emperor_effects:0 "§WYour ruler is §YThe Chosen One§W, an immortal, erudite level 10 leader. You are granted the opportunity to research §YPsionic Theory§W early."
+origin_tooltip_emperor_effects:0 "§WYour ruler is §YThe Chosen One§W, an immortal, level 10 leader. You are granted the opportunity to research §YPsionic Theory§W early."
 
 
 fratricide_system_initializer_NAME:0 "Fratricide"
@@ -68,7 +68,7 @@ nine_suns_system_initializer_DESC:0 "When a sister galaxy collided with our own,
 
 origin_nine_suns:0 "Legacy of Nine Suns"
 origin_nine_suns_desc:0 "When a sister galaxy collided with our own, its supermassive black hole tore multiple stars away from their galactic niche. They all ended up here, accompanying their new center of gravity. A massive planet formed out of the debris present in the system, orbiting the black hole. The light of nine suns created a new cycle of varying perpetual daylight and radiation. Life still evolved there, defying the adverse conditions."
-origin_tooltip_nine_suns_effects:0 "§WStart on a §Ysize 30 §Wplanet, accompanied by nine different stars, orbiting the supermassive §YBlack Hole §Win your Home System. A §YSuperflare §W will strike after one year."
+origin_tooltip_nine_suns_effects:0 "§WStart on a §Ysize 30 §Wplanet, accompanied by nine different stars, orbiting the supermassive §YBlack Hole §Win your Home System. A §YSuperflare §Wwill strike after one year."
 
 emo.3.title: "Even More Origins: Legacy of Nine Suns"
 emo.3.desc: "If observing the light of distant stars has taught our civilization anything, it is that we are one of a kind. Nine stars are present in close proximity to the black hole our home planet is orbiting. And their combined influence has allowed life as we know it to develop. In the shadow of the supermassive black hole, our ancestors have long since dreamt about taking to the skies. Now, we know that the black hole in our system is not originally from here. A sister galaxy collided with this one over fourteen billion years ago and what is left of its core is now our home.\n\nEven before the development of the first Hyper Drive, scientists had already conceptualized a massive engineering project. It was called: The §YBirch World§!. Using concepts from early theoretical physics, it should be possible to construct a gigantic sphere around the event horizon of the black hole.\nSuch a construction might be far out of our reach for now, but visionaries and nerds agree: It would be the crown jewel of galactic civilization!"
@@ -82,6 +82,12 @@ emo.5.sister_galaxy_discovered: "This defies our current understanding of physic
 origin_subterra:0 "Out of Sight, Out of Mind"
 origin_subterra_desc:0 "Unbeknownst to your civilization, a subterranean species has thrived below the surface for eons."
 origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization §Won your Home Planet."
+
+
+origin_enlightenment:0 "Endeavour to Enlightenment"
+origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
+origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain traits when leveling up and can gain more than one.\nSciencists researching technologies can gain traits.\nLeaders do not gain negative traits when leveling up."
+emo.16.option.stop_it: "There's no need to inform me about these developments any longer."
 
 
 origin_bio_trophy:0 "Runaway Children"

@@ -247,6 +247,36 @@ terraform_planet_and_generate_same_species_primitives = {
 						reroll_planet_and_generate_same_species_primitives = yes
 					}
 				}
+				pc_cenote = {
+					prevprev = {
+						change_pc = pc_cenote
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_fog = {
+					prevprev = {
+						change_pc = pc_fog
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_badlands = {
+					prevprev = {
+						change_pc = pc_badlands
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_coastal = {
+					prevprev = {
+						change_pc = pc_coastal
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_basalt = {
+					prevprev = {
+						change_pc = pc_basalt
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
 				# rare
 				pc_salt = {
 					prevprev = {
@@ -519,7 +549,7 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_irradiated
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_rad_blooms
+						add_deposit = d_rad_blooms_field
 						add_modifier = {
 							modifier = radiotrophic
 						}
@@ -540,6 +570,122 @@ terraform_planet_and_generate_same_species_primitives = {
 					}
 				}
 				# unique and shroud worlds will never intentionally be spawned by this mod
+			}
+		}
+	}
+}
+
+add_missing_deposits_and_modifiers = {
+	switch = {
+		trigger = is_planet_class
+		# rare
+		pc_salt = {
+			add_deposit = d_salt_caves
+			add_modifier = {
+				modifier = pdsalt
+			}
+		}
+		pc_coral = {
+			add_deposit = d_coral_fields
+			add_modifier = {
+				modifier = pdcoral
+			}
+		}
+		pc_primal = {
+			add_deposit = d_lava_lakes
+			add_modifier = {
+				modifier = primal
+			}
+		}
+		pc_supercon = {
+			add_deposit = d_supercon_site
+			add_modifier = {
+				modifier = supercon
+			}
+		}
+		pc_karst = {
+			add_deposit = d_karst_cave
+			add_modifier = {
+				modifier = karst
+			}
+		}
+		pc_superhabitable = {
+			add_deposit = d_ancient_motes
+			add_modifier = {
+				modifier = superhabitable
+			}
+		}
+		pc_tidallylocked = {
+			add_deposit = d_nightside_mining_operations
+			add_modifier = {
+				modifier = tidal_locked2
+			}
+		}
+		pc_geothermal = {
+			add_deposit = d_geothermal_slurry_site
+			add_modifier = {
+				modifier = geothermal
+			}
+		}
+		pc_biolumen = {
+			add_deposit = d_biolumen_nature_preserve
+			add_modifier = {
+				modifier = biolumen
+			}
+		}
+		pc_aquatic = {
+			add_deposit = d_aquatic_trench
+			add_modifier = {
+				modifier = aquatic
+			}
+		}
+		pc_storm = {
+			add_deposit = d_storm_corridor
+			add_deposit = d_storm_waters
+			add_modifier = {
+				modifier = pdstorm
+			}
+		}
+		pc_glacio = {
+			add_deposit = d_glacio_lake
+			add_modifier = {
+				modifier = pdglacio
+			}
+		}
+		pc_rogue = {
+			add_deposit = d_rogue_geo
+			add_modifier = {
+				modifier = pdrogue
+			}
+		}
+		pc_eyeball = {
+			add_deposit = d_eyeball_site
+			add_modifier = {
+				modifier = pdeyeball
+			}
+		}
+		pc_lanthanide = {
+			add_deposit = d_lanthanide_deposit
+			add_modifier = {
+				modifier = pdlanthanide
+			}
+		}
+		pc_megaflora = {
+			add_deposit = d_megaflora_deposit
+			add_modifier = {
+				modifier = pdmegaflora
+			}
+		}
+		pc_lichen = {
+			add_deposit = d_lichen_forest
+			add_modifier = {
+				modifier = pdlichen
+			}
+		}
+		pc_aquifer = {
+			add_deposit = d_aquifer_cave
+			add_modifier = {
+				modifier = pdaquifer
 			}
 		}
 	}

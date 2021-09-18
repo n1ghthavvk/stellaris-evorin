@@ -1,0 +1,29 @@
+origin_enlightenment = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/unused/origins_unwashed_masses.dds"
+	picture = GFX_origin_enlightenment
+
+	playable = {
+	}
+
+	possible = {
+	}
+
+	description = "origin_tooltip_enlightenment_effects"
+
+	flags = { enlightened_start }
+
+	modifier = {
+		country_leader_pool_size = 2
+		species_leader_exp_gain = 2
+	}
+
+	traits = {
+	}
+
+	advanced_start = yes
+
+	random_weight = {
+		base = 2
+	}
+}

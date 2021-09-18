@@ -25,4 +25,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/origins/origin_egg.dds"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_origin_enlightenment"
+		texturefile = "gfx/event_pictures/origins/origin_enlightenment.dds"
+		alwaystransparent = yes
+	}
 }

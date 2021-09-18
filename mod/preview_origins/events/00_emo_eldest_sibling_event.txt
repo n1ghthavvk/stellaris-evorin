@@ -1,4 +1,25 @@
 namespace = emo
+
+event = {
+	id = emo.9
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		# "Eldest Sibling" Origin
+		every_country = {
+			limit = {
+				is_country_type = default
+				has_country_flag = eldest_sibling_start
+			}
+			save_event_target_as = my_country
+			country_event = {
+				id = emo.1
+			}
+		}
+	}
+}
+
 country_event = {
 	id = emo.1
 	title = "emo.1.title"
@@ -71,9 +92,18 @@ country_event = {
 								is_planet_class = pc_rare_crystal_asteroid
 							}
 						}
-						change_pc = rl_habitable_normal
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
+						if = {
+							limit = { has_global_flag = planetarydiversity }
+							change_pc = rl_pd_habitable_normal^
+							reroll_deposits = yes
+							reroll_planet_modifiers = yes
+							add_missing_deposits_and_modifiers = yes
+						}
+						else = {
+							change_pc = rl_habitable_normal
+							reroll_deposits = yes
+							reroll_planet_modifiers = yes
+						}
 						generate_late_primitives_on_planet = yes
 					}
 				}
@@ -110,9 +140,18 @@ country_event = {
 						is_planet_class = pc_rare_crystal_asteroid
 					}
 				}
-				change_pc = rl_habitable_normal
-				reroll_deposits = yes
-				reroll_planet_modifiers = yes
+				if = {
+					limit = { has_global_flag = planetarydiversity }
+					change_pc = rl_pd_habitable_normal
+					reroll_deposits = yes
+					reroll_planet_modifiers = yes
+					add_missing_deposits_and_modifiers = yes
+				}
+				else = {
+					change_pc = rl_habitable_normal
+					reroll_deposits = yes
+					reroll_planet_modifiers = yes
+				}
 				generate_late_primitives_on_planet = yes
 			}
 		}
@@ -149,9 +188,18 @@ country_event = {
 							is_planet_class = pc_rare_crystal_asteroid
 						}
 					}
-					change_pc = rl_habitable_normal
-					reroll_deposits = yes
-					reroll_planet_modifiers = yes
+					if = {
+						limit = { has_global_flag = planetarydiversity }
+						change_pc = rl_pd_habitable_normal
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_missing_deposits_and_modifiers = yes
+					}
+					else = {
+						change_pc = rl_habitable_normal
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+					}
 					generate_late_primitives_on_planet = yes
 				}
 			}

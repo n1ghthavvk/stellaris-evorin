@@ -13,6 +13,9 @@ Start on a Hive World.
 [h2]Eldest Sibling[/h2]
 Start with up to two primitive civilizations in your home system. At the start of the game you can choose whether to spawn one or two primitive civilizations and if they're of your own species or randomly generated ones.
 
+[h2]Endeavour to Enlightenment[/h2]
+Your leaders can gain more than one trait through leveling up, even Scientists researching technologies can do so, and all of them will only gain positive ones. Additionally your leader pool size is increased by 2 and your leader experience gain is increased by 200%.
+
 [h2]Fratricide[/h2]
 Paradox had dropped this idea from among their planned Origins - so here's me rushing to the rescue: This allows you to start in a system together with a Tomb World. Funnily enough they did add a picture sprite for this already.
 
@@ -58,12 +61,13 @@ Only the latest version of the game is supported, as several Origins use solar_s
 As of Mod Version 1.5.1 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=819148835]Planetary Diversity[/url] is fully compatible!
 It is now possible to use the "Eldest Sibling" Origin with a home world from that mod.
 Even the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279]Planetary Diversity - Exotic World[/url] ones!
+Any randomly generated worlds will also spawn using the Planetary Diversity list of normal and rare planet classes.
 
 As of Mod Version 1.6.0 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1121692237]Gigastructural Engineering[/url] will allow you to build a Birch World around the supermassive black hole featured by the "Legacy of Nine Suns" origin (a new save game is required).
 
 All of the added features above are optional. There's no need to subscribe to any more mods, if you don't want to do so in the first place.
 
-This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's three small exceptions: I have overwritten the following events: [code]gamestart.2 # added set up for Origins that require it[/code][code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code][code]utopia.2650 # fixed The Chosen One getting the Psionic trait[/code]
+This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's three small exceptions: I have overwritten the following events: [code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code][code]utopia.2650 # fixed The Chosen One getting the Psionic trait[/code]
 
 [h1]Obligatory Footnote[/h1]
 [url=https://github.com/n1ghthavvk/stellaris-evorin][img]https://i.imgur.com/0nVeF3I.png[/img][/url]

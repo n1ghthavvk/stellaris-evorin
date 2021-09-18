@@ -1,11 +1,41 @@
 on_game_start = {
 	events = {
-		emo.4 # Suppermassive Black Hole
+		emo.4 # Supermassive Black Hole
+		emo.6 # "The Chosen One" Origin
+		emo.8 # "Out of Sight, Out of Mind" Origin
+		emo.9 # "Eldest Sibling" Origin
+		emo.10 # "Walking On Eggshells" Origin
+		emo.11 # "Ecosystem Integration" Origin
+		emo.12 # "Back to the Future" Origin
+		emo.15 # "Endeavour to Enlightenment" Origin
 	}
 }
 
 on_entering_system_first_time = {
 	events = {
 		emo.5 # Sister Galaxy Discovered
+	}
+}
+
+on_leader_level_up = {
+	events = {
+		emo.7 # "Endeavour to Enlightenment" Origin
+	}
+}
+
+on_leader_spawned = {
+	events = {
+		emo.14 # "Endeavour to Enlightenment" Origin
+	}
+}
+
+on_game_start_country = {
+	events = {
+	}
+}
+
+on_press_begin = {
+	events = {
+		emo.13 # "Ecosystem Integration" Origin
 	}
 }
