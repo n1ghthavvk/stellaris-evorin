@@ -1,4 +1,4 @@
-Version 1.11.0
+Version 1.11.1
 * Fixed missing thumbnail update
 
 Version 1.11.0
