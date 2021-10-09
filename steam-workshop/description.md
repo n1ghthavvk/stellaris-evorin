@@ -30,7 +30,7 @@ If you are also subscribed to [url=https://steamcommunity.com/sharedfiles/filede
 Start with a Subterranean Civilization on your home world. This gives powerful bonuses in the form of additional districts or some districts and powerful jobs at the cost of losing quite a bit of science income for a while. If you aren't careful, they might take over the planet. And you don't want that, do you?
 
 [h2]The Chosen One[/h2]
-Your ruler is the Chosen One, an immortal, erudite level 10 leader. They will allow you to start researching Psionic Theory right from the beginning. Though you probably shouldn't do that as it would take about 72 months.
+Your ruler is the Chosen One, an immortal, level 10 leader. They will allow you to start researching Psionic Theory right from the beginning. Though you probably shouldn't do that as it would take about 72 months.
 
 [h2]Walking On Eggshells[/h2]
 Start with a Voidspawn growing inside your Home Planet. It will hatch and destroy your empire capital.
