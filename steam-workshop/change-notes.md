@@ -1,3 +1,6 @@
+Version 1.11.2
+* Added Spanish translation by [url=https://steamcommunity.com/profiles/76561198806487951]Alexander[/url]
+
 Version 1.11.1
 * Fixed missing thumbnail update
 
