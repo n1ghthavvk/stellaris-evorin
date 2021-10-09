@@ -1,0 +1,16 @@
+ambient_object = {
+	name = "scavenger_object"
+	entity = "leviathan_01_scavenger_bot_section_entity"
+	selectable = yes
+	show_name = yes
+	tooltip = "scavenger_object_tooltip"
+	description = "scavenger_object_desc"
+}
+
+ambient_object = {
+	name = "scavenger_helper_object"
+	entity = "leviathan_01_scavenger_bot_helper_bot_entity"
+	selectable = no
+	show_name = no
+}
+

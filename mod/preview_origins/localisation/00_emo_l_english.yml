@@ -90,6 +90,26 @@ origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain 
 emo.16.option.stop_it: "There's no need to inform me about these developments any longer."
 
 
+origin_scavenger:0 "Starship Scrapyard"
+origin_scavenger_desc:0 "Your home system has been the battleground of alien forces who clashed in the sky. Now, as you take to the stars, nothing but debris remains of them."
+origin_tooltip_scavenger_effects:0 "§WYou will be able to reverse-engineer blueprints for all kinds of alien starships, allowing you to build them."
+
+scavenger_object:0 "Broken Scavenger Bot"
+scavenger_object_tooltip:0 "This massive entity had roamed the system until about a hundred years before we took to space, when it unexpectedly broke down. Dubbed 'Scavenger Bot', it seemed protective of the debris floating around our space."
+scavenger_object_desc:0 "This massive entity had roamed the system until about a hundred years before we took to space, when it unexpectedly broke down. Dubbed 'Scavenger Bot', it seemed protective of the debris floating around our space."
+emo_leviathan_01_scavenger_bot:0 "Scavenger Bot"
+emo_leviathan_01_scavenger_bot_plural:0 "Scavenger Bot"
+scavenger_bot_key:0 "Scavenger Bot"
+scavenger_bot_small_bot_1_key:0 "Helper Drone" # "Reinforced"
+scavenger_bot_small_bot_2_key:0 "Helper Drone"
+scavenger_bot_small_bot_3_key:0 "Helper Drone"
+
+PERDITION_BEAM_SCAVENGER:0 "Perdition Beam"
+SCAVENGER_COMBAT_COMPUTER_DEFAULT:0 "Default Combat Computer"
+SCAVENGER_THRUSTER_1:0 "Thrusters"
+SCAVENGER_FISSION_REACTOR: 0 "Fission Reactor"
+
+
 origin_bio_trophy:0 "Runaway Children"
 origin_bio_trophy_desc:0 "#INSERT_FLUFF_HERE"
 origin_tooltip_bio_trophy_effects:0 "§WAnother advanced empire of your §YBio-Trophies §Wspecies is created somewhere in the galaxy."

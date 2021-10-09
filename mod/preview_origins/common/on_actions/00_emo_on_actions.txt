@@ -8,6 +8,7 @@ on_game_start = {
 		emo.11 # "Ecosystem Integration" Origin
 		emo.12 # "Back to the Future" Origin
 		emo.15 # "Endeavour to Enlightenment" Origin
+		emo.21 # "Scavengy" Origin
 	}
 }
 

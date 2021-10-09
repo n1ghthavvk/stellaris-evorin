@@ -1,0 +1,145 @@
+@titan_power_1 = 1100
+@titan_power_2 = 1450
+@titan_power_3 = 1900
+@titan_power_4 = 2500
+@titan_power_5 = 3200
+@titan_power_6 = 4200
+
+@titan_cost_1 = 160
+@titan_cost_2 = 208
+@titan_cost_3 = 272
+@titan_cost_4 = 352
+@titan_cost_5 = 448
+@titan_cost_6 = 592
+
+
+# ## Perdition Beam copied from Titans
+weapon_component_template = {
+	key = "PERDITION_BEAM_SCAVENGER"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	min_range = 30.0
+	use_ship_kill_target = no
+
+	damage = { min = 5000 max = 10000 }
+	total_fire_time = 25
+
+	range = 250
+	accuracy = 0.85
+	tracking = 0
+
+	tags = { weapon_type_energy }
+
+	prerequisites = { "tech_corvettes" }
+	component_set = "PERDITION_BEAM"
+	projectile_gfx = "perdition_beam"
+	class_restriction = { shipclass_military }
+	size_restriction = { "emo_leviathan_01_scavenger_bot" }
+
+	power = -100 # TODO
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1 # @titanic_t6_cost
+			# rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "SCAVENGER_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @titan_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_1
+		}
+		upkeep = {
+			energy = 1.60
+			alloys = 0.16
+		}
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	class_restriction = { shipclass_military }
+	size_restriction = { "emo_leviathan_01_scavenger_bot" }
+	# upgrades_to = "TITAN_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+@cost1 = 3
+@cost2 = 6
+@cost3 = 9
+@cost4 = 12
+@cost5 = 15
+
+@power_1 = -10
+@power_2 = -15
+@power_3 = -20
+@power_4 = -25
+@power_5 = -30
+
+utility_component_template = {
+	key = "SCAVENGER_THRUSTER_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = @power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+	}
+
+	modifier = {
+	}
+
+	prerequisites = { "tech_thrusters_1" }
+	component_set = "thruster_components"
+	class_restriction = { shipclass_military }
+	size_restriction = { "emo_leviathan_01_scavenger_bot" }
+	# upgrades_to = "SHIP_THRUSTER_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "SCAVENGER_COMBAT_COMPUTER_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	ship_behavior = "default"
+	# hidden = yes
+
+	class_restriction = { shipclass_military }
+	size_restriction = { "emo_leviathan_01_scavenger_bot" }
+	component_set = "combat_computers"
+
+	ai_weight = {
+		weight = 1
+	}
+}
