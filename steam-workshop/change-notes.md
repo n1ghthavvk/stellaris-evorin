@@ -1,3 +1,6 @@
+Version 1.11.4
+* Updated Spanish translation by [url=https://steamcommunity.com/profiles/76561198806487951]Alexander[/url]
+
 Version 1.11.3
 * Fixed "Back to the Future" Origin, deposit hadn't been updated to 3.1 syntax yet.
 
