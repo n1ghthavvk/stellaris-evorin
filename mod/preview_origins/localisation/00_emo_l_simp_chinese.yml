@@ -5,7 +5,7 @@ debris_dwellers_system_initializer_DESC:0 "这个星系中发生了灾难性的�
 
 
 reliquary_system_initializer_NAME:0 "回到未来"
-reliquary_system_initializer_DESC:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为26和1）。\n\n$system_initializer_DESC$"
+reliquary_system_initializer_DESC:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为11和1）。\n\n$system_initializer_DESC$"
 
 origin_reliquary:0 "回到未来"
 origin_reliquary_desc:0 "这个文明的科学曾取得了长足的进步，使其能够在其行星卫星上安居。然而，来自他们太阳的日冕物质抛射摧毁了所有电气设备，他们因而丧失了这份技术实力。流传下来的只剩他们先祖曾经神乎其技的传说。亿万年后，科学家们再次发现，魔法只不过是过去难以理解的技术罢了。"
