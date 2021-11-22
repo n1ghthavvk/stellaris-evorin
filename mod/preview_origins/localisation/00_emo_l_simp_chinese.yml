@@ -1,105 +1,105 @@
-﻿l_simp_chinese:
+l_simp_chinese:
 
-debris_dwellers_system_initializer_NAME:0 "Origin: Debris Dwellers"
-debris_dwellers_system_initializer_DESC:0 "A catastrophic incident happened within this system. Every single planetoid is shattered, creating multiple asteroid rings around the singular stellar body. \n\nStart with an §YAsteroid §Las your homeworld.\n\n§RWARNING: Extremely challenging; Currently the Asteroid does not have a background texture and will just show whatever you had selected first. Please contact me if you know how to fix this issue. \n\n$system_initializer_DESC$"
-
-
-reliquary_system_initializer_NAME:0 "Back to the Future"
-reliquary_system_initializer_DESC:0 "Maximum-sized Trinary System with a §YRelic World§L (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1).\n\n$system_initializer_DESC$"
-
-origin_reliquary:0 "Back to the Future"
-origin_reliquary_desc:0 "This civilization once experienced an enormous scientific growth that allowed it to settle its planetary moons. Their technological prowess was lost however, when a coronal mass ejection from their sun destroyed all electrical equipment. Only tales of the wonders their forefathers were capable of remained. Eons later, scientists discovered once again that magic was nothing more than incomprehensible technology."
-origin_tooltip_reliquary_effects:0 "Maximum-sized Trinary System with a §YRelic World§W (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1)."
+debris_dwellers_system_initializer_NAME:0 "起源：居于丘墟"
+debris_dwellers_system_initializer_DESC:0 "这个星系中发生了灾难性的事件。每个小行星都已粉碎，在单星周围形成多个小行星环。\n\n开局时母星是一个§Y小行星§La\n\n§R警告：极具挑战性；目前小行星没有背景纹理，只会显示您先前选择的内容。如果您知道如何解决此问题，请与我联系。\n\n$system_initializer_DESC$"
 
 
-origin_egg:0 "Walking On Eggshells"
-origin_egg_desc:0 "Strange earthquakes have shaken our planet for centuries now. Legends tell us about the great serpent that devours our world from within. Is it true?"
-origin_tooltip_egg_effects:0 "§WStart with a §YVoidspawn §Wgrowing inside your Home Planet. It will hatch and §Rdestroy §Wyour empire capital.\n\nYou will be able to pick how long it takes at the start of the game. Choose from options between certain annihilation at 1 year and the 'very challenging' timeframe of 100 years."
+reliquary_system_initializer_NAME:0 "回到未来"
+reliquary_system_initializer_DESC:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为11和1）。\n\n$system_initializer_DESC$"
 
-emo.2.title: "Even More Origins: Walking On Eggshells"
-emo.2.desc: "Choose after what time the egg hidden beneath the planets crust will start to hatch.\n\nThis indicates when the event chain starts, the colony will be destroyed about a year later.\n\nOptions are color coded to indicate how likely your survival will be. The first few options are almost certainly impossible, if you are not able to quickly locate and colonize a habitable planet. The last option is there if you just want to fight and slay a Void Spawn some time in the future. Everything up to five years will guarantee none of your original population survives (as you will not be able to resettle pops unto a developing colony)."
-emo.2.option.oneyear: "§R1 year§W"
-emo.2.option.oneandahalfyears: "§R1.5 years§W"
-emo.2.option.twoyears: "§P2 years§W"
-emo.2.option.threeyears: "§P3 years§W"
-emo.2.option.fouryears: "§S4 years§W"
-emo.2.option.fiveyears: "§S5 years§W"
-emo.2.option.sevenyears: "§H7 years§W"
-emo.2.option.tenyears: "§Y10 years§W"
-emo.2.option.fifteenyears: "15 years"
-emo.2.option.twentyfiveyears: "25 years"
-emo.2.option.hundredyears: "§G100 years§W"
+origin_reliquary:0 "回到未来"
+origin_reliquary_desc:0 "这个文明的科学曾取得了长足的进步，使其能够在其行星卫星上安居。然而，来自他们太阳的日冕物质抛射摧毁了所有电气设备，他们因而丧失了这份技术实力。流传下来的只剩他们先祖曾经神乎其技的传说。亿万年后，科学家们再次发现，魔法只不过是过去难以理解的技术罢了。"
+origin_tooltip_reliquary_effects:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为11和1）。"
 
 
-origin_hive:0 "Ecosystem Integration"
-origin_hive_desc:0 "This Hive Mind has developed an understanding of its surroundings, so far unknown. It has successfully merged with its Home Planet."
-origin_tooltip_hive_effects:0 "§WStart with a §YHive World §Was your Home Planet."
+origin_egg:0 "如履薄壳"
+origin_egg_desc:0 "几个世纪以来，奇异的地震现象不断侵扰我们的星球。有关一条巨蛇正从内部吞噬我们世界的传说广为流传。这究竟是不是真的？"
+origin_tooltip_egg_effects:0 "§WS开局时一个§Y虚空孳孽§W正在你的木星孵化。孵化后，它会§R破坏§W你的帝国首都。\n\n你可以在游戏开始时选择孵化所需要的时间，你可以选择这场毁灭在第1年或在「极具挑战性」的第100年时发生。"
+
+emo.2.title: "Even More Origins: 如履薄壳"
+emo.2.desc: "选择隐藏在行星地壳下的卵开始孵化的时间。\n\n当这一事件链开始时，标志着你的殖民地会在大约一年后毁灭。\n\n这些选项采用了不同的颜色，以表示你生存的可能性。如果你不能快速定位并殖民一颗宜居星球，前几个选项几乎是不可能的任务。如果你只是想在未来的某个时间和虚空孳孽战斗并杀死它，那么最后一个选项就是为你准备的。长达五年的事件会导致你的初始人口无一生还（因为你无法将人口重新安置到发展中的殖民地）。"
+emo.2.option.oneyear: "§R1年§W"
+emo.2.option.oneandahalfyears: "§R1.5年§W"
+emo.2.option.twoyears: "§P2年§W"
+emo.2.option.threeyears: "§P3年§W"
+emo.2.option.fouryears: "§S4年§W"
+emo.2.option.fiveyears: "§S5年§W"
+emo.2.option.sevenyears: "§H7年§W"
+emo.2.option.tenyears: "§Y10年§W"
+emo.2.option.fifteenyears: "15年"
+emo.2.option.twentyfiveyears: "25年"
+emo.2.option.hundredyears: "§G100年§W"
 
 
-origin_tooltip_emo_eldest_sibling_effects:0 "Start with up to §Ytwo other primitive civilizations§! in your home system. Choose if they're of your own species or randomly generated ones."
-origin_eldest_sibling_desc:0 "This society has always been fascinated by the presence of two specific other planets in their solar system. With the discovery of telescopes, scientists have verified the existence of alien life present on at least one of them! \nOld legends long retold seem more credible now, and as the first among us, we take to the stars."
-
-START_SCREEN_ELDEST_SIBLING:0 "Even before the invention of the telescope, we've long since known stories of our sibling civilizations. Time has shrouded their origin into mystery. And for centuries, observing them from the comfort of our home world was the only way to gather information.\n\nWith the advent of telecommunication it wasn't long before ambitious scientists tried to contact them. The first reply gathered worldwide attention. Finally - answers would be ours!\n\nSoon thereafter we knew that they had their own stories about us and legends about portals to other worlds. Speculation ensued, but no consent could be reached upon our shared past.\n\n The discovery of sustainable spaceflight has gifted us the immeasurable opportunity to visit them. The communication so far had always been positive, reinforced by the leading scientists of our time. But now there are voices among us, gathering support for a preventative first strike!"
-
-emo.1.title: "Even More Origins: Eldest Sibling"
-emo.1.desc: "Choose what kind of primitive civilizations have been located by our scientists."
-emo.1.option.sametwo: "2 primitive civilizations of our species."
-emo.1.option.sameone: "1 primitive civilization of our species."
-emo.1.option.oneandone: "1 primitive civilization of our species and another, random one."
-emo.1.option.onerandom: "1 primitive civilization of a single, random species."
-emo.1.option.tworandom: "2 primitive civilizations of different, random species."
+origin_hive:0 "生态系统集成"
+origin_hive_desc:0 "这个蜂巢思维已经对它周围环境有所了解，虽然我们目前还尚未了解。它已与其母星成功融合。"
+origin_tooltip_hive_effects:0 "§W开局时母星是一个§Y蜂巢星球§。"
 
 
-origin_emperor:0 "The Chosen One"
-origin_emperor_desc:0 "''You are the Chosen One. You have brought balance to this world. Stay on this path and you will do it again... for the galaxy. But beware your heart...'' \n- The Father's last words"
-origin_tooltip_emperor_effects:0 "§WYour ruler is §YThe Chosen One§W, an immortal, level 10 leader. You are granted the opportunity to research §YPsionic Theory§W early."
+origin_tooltip_emo_eldest_sibling_effects:0 "开局时母星星系中至多有§Y其他两个原始文明§!。你可以选择他们是你的物种，还是随机生成的物种。"
+origin_eldest_sibling_desc:0 "星系中的另外两颗行星是最令这个社会着迷的存在。随着望远镜的发明，科学家们已经验证了其中至少一颗星球上存在着外星生命！\n长期传颂的古老传说现在看来更加令人信服，作为众人的先驱，我们向星空迈出了第一步。"
+
+START_SCREEN_ELDEST_SIBLING:0 "甚至在望远镜发明之前，我们就已经知道了我们姊妹文明的故事。岁月的长河将它们的起源笼罩在一片神秘之中。几个世纪以来，从我们安逸的母星观察他们，是收集他们信息的唯一途径。\n\n随着电子通信技术的进步，不久之后，我们雄心勃勃的科学家们就会试图与他们联系。第一个答复引起了全世界的关注。最后——我们终于得到了答案！\n\n此后不久，我们了解到他们也有关于我们的故事，以及通往其他世界门户的传说。随之而来的是各种猜测，但我们对自身共同的起源无法达成一致的意见。\n\n可持续空间飞行的发明，让我们有能力去拜访他们的世界。受益于我们这个时代领军科学家的帮助，我们和姊妹文明之间的沟通迄今为止一直是积极向好的。但是现在，我们之中有一些声音，正在呼吁进行预防性的首次攻击！"
+
+emo.1.title: "Even More Origins: 古源同宗"
+emo.1.desc: "选择你的科学家定位了何种原始文明。"
+emo.1.option.sametwo: "2个由我们的物种建立的原始文明"
+emo.1.option.sameone: "1个由我们的物种建立的原始文明"
+emo.1.option.oneandone: "1个由我们的物种建立的原始文明，另一个由随机物种建立"
+emo.1.option.onerandom: "1个由单一随机物种建立的原始文明"
+emo.1.option.tworandom: "2个各由不同随机物种建立的原始文明"
 
 
-fratricide_system_initializer_NAME:0 "Fratricide"
-fratricide_system_initializer_DESC:0 "The §YTomb World §Lpart of this Unary System is a silent reminder of the civilization once neighbouring your own.\n\n$system_initializer_DESC$"
-
-origin_fratricide:0 "Fratricide"
-origin_fratricide_desc:0 "The Tomb World part of this Unary System is a silent reminder of the civilization once neighbouring your own. Learn from your history or embrace and repeat it."
-origin_tooltip_fratricide_effects:0 "§WStart with an additional §YTomb World §Win your Home System."
+origin_emperor:0 "天选之子"
+origin_emperor_desc:0 "「你是天选之子。你为这个世界带来了平衡。坚守此道，你会再次……给银河系带来平衡。但要谨防……你的内心。」\n- 「父亲」的遗言"
+origin_tooltip_emperor_effects:0 "§W你的统治者是§Y天选之子§W，他是一位不朽的等级10领袖。你可以更早地研究§Y灵能理论§W。"
 
 
-nine_suns_system_initializer_NAME:0 "Legacy of Nine Suns"
-nine_suns_system_initializer_DESC:0 "When a sister galaxy collided with our own, its supermassive black hole tore multiple stars away from their galactic niche. They all ended up here, accompanying their new center of gravity. A massive planet formed out of the debris present in the system, orbiting the black hole. The light of nine suns created a new cycle of varying perpetual daylight and radiation. Life still evolved there, defying the adverse conditions.\n\n$system_initializer_DESC$"
+fratricide_system_initializer_NAME:0 "同室操戈"
+fratricide_system_initializer_DESC:0 "作为这个单星系统的一部分，这个§Y死寂星球§L是一个无声的警醒，提示着曾有另一个文明与你相邻。\n\n$system_initializer_DESC$"
 
-origin_nine_suns:0 "Legacy of Nine Suns"
-origin_nine_suns_desc:0 "When a sister galaxy collided with our own, its supermassive black hole tore multiple stars away from their galactic niche. They all ended up here, accompanying their new center of gravity. A massive planet formed out of the debris present in the system, orbiting the black hole. The light of nine suns created a new cycle of varying perpetual daylight and radiation. Life still evolved there, defying the adverse conditions."
-origin_tooltip_nine_suns_effects:0 "§WStart on a §Ysize 30 §Wplanet, accompanied by nine different stars, orbiting the supermassive §YBlack Hole §Win your Home System. A §YSuperflare §Wwill strike after one year."
-
-emo.3.title: "Even More Origins: Legacy of Nine Suns"
-emo.3.desc: "If observing the light of distant stars has taught our civilization anything, it is that we are one of a kind. Nine stars are present in close proximity to the black hole our home planet is orbiting. And their combined influence has allowed life as we know it to develop. In the shadow of the supermassive black hole, our ancestors have long since dreamt about taking to the skies. Now, we know that the black hole in our system is not originally from here. A sister galaxy collided with this one over fourteen billion years ago and what is left of its core is now our home.\n\nEven before the development of the first Hyper Drive, scientists had already conceptualized a massive engineering project. It was called: The §YBirch World§!. Using concepts from early theoretical physics, it should be possible to construct a gigantic sphere around the event horizon of the black hole.\nSuch a construction might be far out of our reach for now, but visionaries and nerds agree: It would be the crown jewel of galactic civilization!"
-emo.3.option.birch_world_conceptualized: "A goal worth pursuing."
-
-emo.5.title: "Even More Origins: Legacy of Nine Suns"
-emo.5.desc: "If observing the light of distant stars has taught our civilization anything, it is that our galaxy is extraordinary. There has been a long-standing theory that the center of each galaxy must be of such concentrated mass that only a black hole or quasar could be present.\nHowever, for as long as that theory exists we have always wondered why it is that our galaxy seemed to have two distinct centers of gravity.\n\nNo longer! With our approach to the second, slightly smaller center, we have learned of its secret: Billions of years ago, a sister galaxy must have collided with our own. But instead of parting ways after the collision, the two merged and both of their cores have now entered a semi-stable orbit that will continue for at least another few billion years.\nThis second core has attracted nine stars which orbit it closer than we have thought possible.\n\nChatter among our scientists includes disturbingly insane proposals for the supermassive black hole. Necessary funding to construct one of these, a so-called §YBirch World§!, would exceed anything already built in the galaxy, be it by us or those who came before."
-emo.5.sister_galaxy_discovered: "This defies our current understanding of physics!"
+origin_fratricide:0 "同室操戈"
+origin_fratricide_desc:0 "作为这个单星系统的一部分，这个死寂星球是一个无声的警醒，提示着曾有另一个文明与你相邻。前事不忘，后事之师。"
+origin_tooltip_fratricide_effects:0 "§W游戏开始时你的母星星系中有额外的一个§Y死寂星球§W"
 
 
-origin_subterra:0 "Out of Sight, Out of Mind"
-origin_subterra_desc:0 "Unbeknownst to your civilization, a subterranean species has thrived below the surface for eons."
-origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization §Won your Home Planet."
+nine_suns_system_initializer_NAME:0 "九阳遗产"
+nine_suns_system_initializer_DESC:0 "当一个姊妹星系与我们的银河系相撞时，它的超大质量黑洞将多颗恒星从星系中扯了出来。这些恒星最终都来到了这里，并形成了它们新的重心。星系中的碎片形成了一个巨大的行星，围绕着黑洞运行。九个太阳的光芒创造了不断变化的永恒日光与辐射。尽管条件十分恶劣，生命仍然在那里进化。\n\n$system_initializer_DESC$"
+
+origin_nine_suns:0 "九阳遗产"
+origin_nine_suns_desc:0 "当一个姊妹星系与我们的银河系相撞时，它的超大质量黑洞将多颗恒星从星系中扯了出来。这些恒星最终都来到了这里，并形成了它们新的重心。星系中的碎片形成了一个巨大的行星，围绕着黑洞运行。九个太阳的光芒创造了不断变化的永恒日光与辐射。尽管条件十分恶劣，生命仍然在那里进化。"
+origin_tooltip_nine_suns_effects:0 "§W游戏开始时母星§Y规模为30§W，伴有九个不同的太阳，这些太阳围绕着你母星星系中的超大质量§Y黑洞§W运行。一年后将会有一个§Y超级耀斑§W袭来。"
+
+emo.3.title: "Even More Origins: 九阳遗产"
+emo.3.desc: "如果说观察遥远恒星之光让我们的文明领悟了什么，那就是我们是独一无二的。在我们的母星所围绕的黑洞附近有九颗恒星。在它们的共同影响下，我们所熟知的生命得以繁衍生息。栖于超大质量黑洞的阴影之下，我们的祖先早就梦想着飞向天空。现在，我们知道星系中的黑洞最初并非来自这里。一个姊妹星系在140多亿年前与我们的银河系相撞，它的核心所留下的东西，就是我们现在的家。\n\n甚至在开发第一个超光速驱动器之前，科学家们已经构思出了一个巨大的工程项目。它被称作：§Y白桦世界§!。利用早期理论物理学的概念，应该可以在黑洞的事件视界周围构建一个巨大的球体。\n这样的建筑目前可能远远超出我们的能力范围，但无论是远见卓识者还是闭门造车者，都达成了统一意见：它将是银河系文明皇冠上的明珠！"
+emo.3.option.birch_world_conceptualized: "这是一个值得追求的目标。"
+
+emo.5.title: "Even More Origins: 九阳遗产"
+emo.5.desc: "如果说观察遥远恒星之光让我们的文明领悟了什么，那就是我们的银河是非同寻常的。长久以来，有一种理论认为，每个银河系的中心都必须具有如此集中的质量，只能是黑洞或类星体。\n然而，这个理论的存在伴随着我们的疑问，我们一直想知道为什么我们的银河系似乎有两个不同的重力中心。\n\n现在不再是了！在我们接近第二个稍小的重力中心之后，我们便知道了它的秘密：数十亿年前，一定有一个姊妹星系与我们的星系相撞。但是，在碰撞之后，两者并没有分道扬镳，而是合为一体了，它们的核心现在都进入了一个半稳定的轨道，这个轨道将至少再持续几十亿年。\n这第二个核心吸引了九颗恒星，这些恒星绕着这个核心运行的距离比我们想象的要更接近。\n\n我们的科学家们在喋喋不休地争论着，讨论有关超大质量黑洞的各种令人不安的疯狂提案。其中一个提案被称为§Y白桦世界§!，建造该方案的必要资金，将超过银河系中已经建成的任何东西，无论是由我们还是前人所建造的。"
+emo.5.sister_galaxy_discovered: "这违背了我们目前对物理学的理解！"
 
 
-origin_enlightenment:0 "Endeavour to Enlightenment"
-origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain traits when leveling up and can gain more than one.\nSciencists researching technologies can gain traits.\nLeaders do not gain negative traits when leveling up."
-emo.16.option.stop_it: "There's no need to inform me about these developments any longer."
+origin_subterra:0 "眼不见，心不念"
+origin_subterra_desc:0 "你们的文明不会知道，一个地下物种已经在地表下繁衍了好几个世纪。"
+origin_tooltip_subterra_effects:0 "§W游戏开始时你的母星上有一个§Y地下文明§W。"
 
 
-origin_bio_trophy:0 "Runaway Children"
+origin_enlightenment:0 "致知力行"
+origin_enlightenment_desc:0 "对无涯学海的不懈追求，对揭开奥秘的无尽好奇。这个文明从未停止过言传身教。"
+origin_tooltip_enlightenment_effects:0 "§W领袖在升级时有更大概率获得新特性，且可以获得多于一个的特性。\n研究科技中的科学家可以获得新特性。\n领袖在升级时不会获得负面特性。"
+emo.16.option.stop_it: "没有必要再向我通报这些情况了。"
+
+
+origin_bio_trophy:0 "落跑子民"
 origin_bio_trophy_desc:0 "#INSERT_FLUFF_HERE"
-origin_tooltip_bio_trophy_effects:0 "§WAnother advanced empire of your §YBio-Trophies §Wspecies is created somewhere in the galaxy."
+origin_tooltip_bio_trophy_effects:0 "§W另一个由你的§Y活体陈设§W物种组建的帝国在银河系的某处建立了。"
 
 
 
-pc_asteroid_ori:1 "Asteroid"
-pc_asteroid_ori_desc:0 "This Asteroid was once the tectonic plate of a Broken World, which it now orbits."
+pc_asteroid_ori:1 "小行星"
+pc_asteroid_ori_desc:0 "这颗小行星曾经是一个残破星球的构造板块，也就是它现在围绕着运行的那个星球。 "
 
 
 
-d_hydroponic_farms:1 "Hydroponic Farms"
-d_hydroponic_farms_desc:0 "This area of greenhouses and fields has been used to feed the planet since time immemorial. Now most of it is unusable, but it's still yielding a bit of food."
+d_hydroponic_farms:1 "水培农场"
+d_hydroponic_farms_desc:0 "自古以来，这片由温室和田野组成的区域一直在养活这个星球。现在，虽然其大部分区域都无法使用，但它仍在生产一些食物。"
