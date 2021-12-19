@@ -1,3 +1,7 @@
+Version 1.12.0
+* Update to game version 3.2.*
+* Added Chinese translation by [url=https://steamcommunity.com/id/RanshenZ]Ranshen[/url]
+
 Version 1.11.4
 * Updated Spanish translation by [url=https://steamcommunity.com/profiles/76561198806487951]Alexander[/url]
 
