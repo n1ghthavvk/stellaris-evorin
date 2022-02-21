@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
 
 debris_dwellers_system_initializer_NAME:0 "起源：居于丘墟"
 debris_dwellers_system_initializer_DESC:0 "这个星系中发生了灾难性的事件。每个小行星都已粉碎，在单星周围形成多个小行星环。\n\n开局时母星是一个§Y小行星§La\n\n§R警告：极具挑战性；目前小行星没有背景纹理，只会显示您先前选择的内容。如果您知道如何解决此问题，请与我联系。\n\n$system_initializer_DESC$"
