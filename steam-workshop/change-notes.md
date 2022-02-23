@@ -1,3 +1,8 @@
+Version 1.13.0
+* Update to game version 3.3.*
+* Updated "Endeavour to Enlightenment" Origin, now adds an additional random trait to all starting and recruited leaders
+* Fixed Chinese translation by [url=https://github.com/ccinv]ccinv[/url]
+
 Version 1.12.0
 * Update to game version 3.2.*
 * Added Chinese translation by [url=https://steamcommunity.com/id/RanshenZ]Ranshen[/url]

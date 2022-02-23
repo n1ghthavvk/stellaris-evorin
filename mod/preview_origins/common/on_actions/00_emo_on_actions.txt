@@ -7,7 +7,6 @@ on_game_start = {
 		emo.10 # "Walking On Eggshells" Origin
 		emo.11 # "Ecosystem Integration" Origin
 		emo.12 # "Back to the Future" Origin
-		emo.15 # "Endeavour to Enlightenment" Origin
 	}
 }
 
@@ -31,6 +30,7 @@ on_leader_spawned = {
 
 on_game_start_country = {
 	events = {
+		emo.15 # "Endeavour to Enlightenment" Origin
 	}
 }
 

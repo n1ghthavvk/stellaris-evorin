@@ -107,6 +107,7 @@ event = {
 			from = {
 				# prevent vanilla level up behaviour
 				set_leader_flag = has_gained_level_trait
+				add_random_beneficial_leader_trait = yes
 			}
 		}
 	}
@@ -133,6 +134,7 @@ event = {
 						}
 					}
 					set_leader_flag = has_gained_level_trait
+					add_random_beneficial_leader_trait = yes
 				}
 			}
 			every_owned_leader = {
@@ -143,6 +145,7 @@ event = {
 						}
 					}
 					set_leader_flag = has_gained_level_trait
+					add_random_beneficial_leader_trait = yes
 				}
 			}
 		}

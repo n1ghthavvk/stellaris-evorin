@@ -14,7 +14,7 @@ Start on a Hive World.
 Start with up to two primitive civilizations in your home system. At the start of the game you can choose whether to spawn one or two primitive civilizations and if they're of your own species or randomly generated ones.
 
 [h2]Endeavour to Enlightenment[/h2]
-Your leaders can gain more than one trait through leveling up, even Scientists researching technologies can do so, and all of them will only gain positive ones. Additionally your leader pool size is increased by 2 and your leader experience gain is increased by 200%.
+Your leaders can gain more than one trait through leveling up, and all of them will only gain positive ones. Leaders start with an additional random trait. Additionally your leader pool size is increased by 2 and your leader experience gain is increased by 200%.
 
 [h2]Fratricide[/h2]
 Paradox had dropped this idea from among their planned Origins - so here's me rushing to the rescue: This allows you to start in a system together with a Tomb World. Funnily enough they did add a picture sprite for this already.

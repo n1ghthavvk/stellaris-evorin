@@ -86,7 +86,7 @@ origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization 
 
 origin_enlightenment:0 "Endeavour to Enlightenment"
 origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain traits when leveling up and can gain more than one.\nSciencists researching technologies can gain traits.\nLeaders do not gain negative traits when leveling up."
+origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain traits when leveling up and can gain more than one.\nLeaders start with an additional random trait.\nLeaders do not gain negative traits when leveling up."
 emo.16.option.stop_it: "There's no need to inform me about these developments any longer."
 
 
