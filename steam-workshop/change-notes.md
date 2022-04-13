@@ -10,16 +10,16 @@ Version 1.12.0
 * Update to game version 3.2.*
 * Added Chinese translation by [url=https://steamcommunity.com/id/RanshenZ]Ranshen[/url]
 
-Version 1.11.4
+Version 1.11.3
 * Updated Spanish translation by [url=https://steamcommunity.com/profiles/76561198806487951]Alexander[/url]
 
-Version 1.11.3
+Version 1.11.2
 * Fixed "Back to the Future" Origin, deposit hadn't been updated to 3.1 syntax yet.
 
-Version 1.11.2
+Version 1.11.1
 * Added Spanish translation by [url=https://steamcommunity.com/profiles/76561198806487951]Alexander[/url]
 
-Version 1.11.1
+Version 1.11.0
 * Fixed missing thumbnail update
 
 Version 1.11.0
