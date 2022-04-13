@@ -1,3 +1,6 @@
+Veersion 1.13.1
+* Fixed "Eldest Sibling" Origin, correcting the "invisible" planet when using the 1+1 option at the start, as well as adding missing compatibility for the Reef planet class.
+
 Version 1.13.0
 * Update to game version 3.3.*
 * Updated "Endeavour to Enlightenment" Origin, now adds an additional random trait to all starting and recruited leaders

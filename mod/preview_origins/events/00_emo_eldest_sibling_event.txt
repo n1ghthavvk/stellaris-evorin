@@ -94,7 +94,7 @@ country_event = {
 						}
 						if = {
 							limit = { has_global_flag = planetarydiversity }
-							change_pc = rl_pd_habitable_normal^
+							change_pc = rl_pd_habitable_normal
 							reroll_deposits = yes
 							reroll_planet_modifiers = yes
 							add_missing_deposits_and_modifiers = yes
