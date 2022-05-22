@@ -1,6 +1,6 @@
 origin_subterra = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/unused/origins_subterranean.dds"
+	icon = "gfx/interface/icons/origins/origins_subterranean.dds"
 	picture = GFX_origin_subterra
 
 	playable = {

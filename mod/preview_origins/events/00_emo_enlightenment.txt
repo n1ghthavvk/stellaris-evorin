@@ -96,7 +96,6 @@ event = {
 	id = emo.14
 	hide_window = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 	immediate = {
 		# "Endeavour to Enlightenment" Origin
 		# on_leader_spawned
@@ -104,10 +103,26 @@ event = {
 			limit = {
 				has_origin = origin_enlightenment
 			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = stop_enlightened_popups
+					}
+				}
+				set_country_flag = stop_enlightened_popups
+				set_country_flag = remove_emo_popup_stopper
+			}
 			from = {
 				# prevent vanilla level up behaviour
 				set_leader_flag = has_gained_level_trait
 				add_random_beneficial_leader_trait = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = remove_emo_popup_stopper
+				}
+				remove_country_flag = stop_enlightened_popups
+				remove_country_flag = remove_emo_popup_stopper
 			}
 		}
 	}
@@ -124,6 +139,15 @@ event = {
 		if = {
 			limit = {
 				has_origin = origin_enlightenment
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = stop_enlightened_popups
+					}
+				}
+				set_country_flag = stop_enlightened_popups
+				set_country_flag = remove_emo_popup_stopper
 			}
 			# prevent vanilla level up behaviour
 			every_pool_leader = {
@@ -147,6 +171,24 @@ event = {
 					set_leader_flag = has_gained_level_trait
 					add_random_beneficial_leader_trait = yes
 				}
+			}
+			ruler = {
+				if = {
+					limit = {
+						NOT = {
+							has_leader_flag = has_gained_level_trait
+						}
+					}
+					set_leader_flag = has_gained_level_trait
+					add_random_beneficial_leader_trait = yes
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = remove_emo_popup_stopper
+				}
+				remove_country_flag = stop_enlightened_popups
+				remove_country_flag = remove_emo_popup_stopper
 			}
 		}
 	}

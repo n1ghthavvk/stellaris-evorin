@@ -1,3 +1,8 @@
+Version 1.14.1
+* Updated "Endeavour to Enlightenment" Origin, the initial ruler now also gains an additional trait.
+* Fixed "Endeavour to Enlightenment" Origin, preventing popups at the start, as well as for leaders in the leader pool.
+* Fixed "Out of Sight, Out of Mind" Origin, the used icon was moved due to the new vanilla origin.
+
 Version 1.14.0
 * Update to game version 3.4.*
 
