@@ -1,4 +1,7 @@
-Veersion 1.13.1
+Version 1.14.0
+* Update to game version 3.4.*
+
+Version 1.13.1
 * Fixed "Eldest Sibling" Origin, correcting the "invisible" planet when using the 1+1 option at the start, as well as adding missing compatibility for the Reef planet class.
 
 Version 1.13.0
