@@ -1,3 +1,7 @@
+Version 1.14.2
+* Updated "Eldest Sibling" Origin, it no longer spawns primitives on planets with an orbital station (starting deposits will no longer be lost in some cases).
+* Fixed "Eldest Sibling" Origin, it no longer crashes when choosing primitives of your own species.
+
 Version 1.14.1
 * Updated "Endeavour to Enlightenment" Origin, the initial ruler now also gains an additional trait.
 * Fixed "Endeavour to Enlightenment" Origin, preventing popups at the start, as well as for leaders in the leader pool.
