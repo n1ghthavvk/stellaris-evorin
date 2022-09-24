@@ -1,3 +1,7 @@
+Version 1.15.0
+* Update to game version 3.5.*
+* Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 23th September 2022)
+
 Version 1.14.2
 * Updated "Eldest Sibling" Origin, it no longer spawns primitives on planets with an orbital station (starting deposits will no longer be lost in some cases).
 * Fixed "Eldest Sibling" Origin, it no longer crashes when choosing primitives of your own species.
