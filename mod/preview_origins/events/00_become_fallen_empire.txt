@@ -1,0 +1,42 @@
+
+namespace = emo
+
+event = {
+	id = emo.21
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		every_country = {
+			limit = {
+				is_country_type = default
+				is_ai = no
+			}
+			save_event_target_as = theplayer
+			country_event = {
+				id = emo.22
+			}
+		}
+	}
+}
+
+country_event = {
+	id = emo.22
+	is_triggered_only = yes
+	title = "Who am I?"
+	desc = "To be or not to be?"
+
+	option = {
+		name = "Meh."
+	}
+
+	option = {
+		name = "We are the Fallen Empire now!"
+		random_country = {
+			limit = {
+				is_country_type = fallen_empire
+			}
+			set_player = event_target:theplayer
+		}
+	}
+}

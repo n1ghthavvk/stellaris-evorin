@@ -37,5 +37,6 @@ on_game_start_country = {
 on_press_begin = {
 	events = {
 		emo.13 # "Ecosystem Integration" Origin
+		emo.21 # Take control if you want
 	}
 }
