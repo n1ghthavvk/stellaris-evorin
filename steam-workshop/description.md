@@ -67,7 +67,7 @@ As of Mod Version 1.6.0 [url=https://steamcommunity.com/sharedfiles/filedetails/
 
 All of the added features above are optional. There's no need to subscribe to any more mods, if you don't want to do so in the first place.
 
-This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's three small exceptions: I have overwritten the following events: [code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code][code]utopia.2650 # fixed The Chosen One getting the Psionic trait[/code]
+This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's two small exceptions: I have overwritten the following events: [code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code][code]utopia.2650 # fixed The Chosen One getting the Psionic trait[/code]
 
 [h1]Obligatory Footnote[/h1]
 [url=https://github.com/n1ghthavvk/stellaris-evorin][img]https://i.imgur.com/0nVeF3I.png[/img][/url]
