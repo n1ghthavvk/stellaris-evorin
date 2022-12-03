@@ -1,3 +1,7 @@
+Version 1.16.0
+* Update to game version 3.6.*
+* Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 2nd December 2022)
+
 Version 1.15.0
 * Update to game version 3.5.*
 * Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 23th September 2022)

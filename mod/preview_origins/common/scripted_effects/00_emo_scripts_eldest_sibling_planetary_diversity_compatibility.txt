@@ -60,7 +60,7 @@ terraform_planet_and_generate_same_species_primitives = {
 					}
 				}
 				#### PLANETARY DIVERSITY PLANET CLASSES
-				# atoll, crag, tepui, fog desert, frigid, bog, mycellium, dry tidally-locked, and frozen tidally-locked planets have different names in the code
+				# atoll, crag, tepui, fog desert, frigid, bog, mycellium, dune, dry tidally-locked, and frozen tidally-locked planets have different names in the code
 				# base
 				pc_prairie = {
 					prevprev = {
@@ -284,7 +284,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_salt
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_salt_caves
 						add_modifier = {
 							modifier = pdsalt
 						}
@@ -296,7 +295,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_coral
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_coral_fields
 						add_modifier = {
 							modifier = pdcoral
 						}
@@ -308,7 +306,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_primal
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_lava_lakes
 						add_modifier = {
 							modifier = primal
 						}
@@ -320,7 +317,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_supercon
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_supercon_site
 						add_modifier = {
 							modifier = supercon
 						}
@@ -332,7 +328,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_karst
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_karst_cave
 						add_modifier = {
 							modifier = karst
 						}
@@ -344,7 +339,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_ancient_motes
 						add_modifier = {
 							modifier = superhabitable
 						}
@@ -356,7 +350,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_tidallylocked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_nightside_mining_operations
 						add_modifier = {
 							modifier = tidal_locked2
 						}
@@ -368,7 +361,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_geothermal
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_geothermal_slurry_site
 						add_modifier = {
 							modifier = geothermal
 						}
@@ -380,7 +372,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_biolumen
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_biolumen_nature_preserve
 						add_modifier = {
 							modifier = biolumen
 						}
@@ -404,8 +395,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_storm
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_storm_corridor
-						add_deposit = d_storm_waters
 						add_modifier = {
 							modifier = pdstorm
 						}
@@ -417,7 +406,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_glacio
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_glacio_lake
 						add_modifier = {
 							modifier = pdglacio
 						}
@@ -429,7 +417,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_rogue
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_rogue_geo
 						add_modifier = {
 							modifier = pdrogue
 						}
@@ -441,7 +428,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_eyeball
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_eyeball_site
 						add_modifier = {
 							modifier = pdeyeball
 						}
@@ -453,7 +439,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_lanthanide
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_lanthanide_deposit
 						add_modifier = {
 							modifier = pdlanthanide
 						}
@@ -465,7 +450,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_megaflora
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_megaflora_deposit
 						add_modifier = {
 							modifier = pdmegaflora
 						}
@@ -477,7 +461,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_lichen
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_lichen_forest
 						add_modifier = {
 							modifier = pdlichen
 						}
@@ -489,7 +472,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_aquifer
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_aquifer_cave
 						add_modifier = {
 							modifier = pdaquifer
 						}
@@ -501,7 +483,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_reef
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_deposit = d_great_reef
 						add_modifier = {
 							modifier = pdreef
 						}
@@ -530,6 +511,50 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
+				pc_pd_archipelago = {
+					prevprev = {
+						change_pc = pc_pd_archipelago
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pdarchipelago
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_petrified = {
+					prevprev = {
+						change_pc = pc_pd_petrified
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pdpetrified
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_sinkhole = {
+					prevprev = {
+						change_pc = pc_pd_sinkhole
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pdsinkhole
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_iceberg = {
+					prevprev = {
+						change_pc = pc_pd_iceberg
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pdiceberg
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				# exotic worlds require usage of their own origin and do not need compatibility
 				# unique and shrouded worlds will never intentionally be spawned by this mod
 			}
@@ -542,55 +567,46 @@ add_missing_deposits_and_modifiers = {
 		trigger = is_planet_class
 		# rare
 		pc_salt = {
-			add_deposit = d_salt_caves
 			add_modifier = {
 				modifier = pdsalt
 			}
 		}
 		pc_coral = {
-			add_deposit = d_coral_fields
 			add_modifier = {
 				modifier = pdcoral
 			}
 		}
 		pc_primal = {
-			add_deposit = d_lava_lakes
 			add_modifier = {
 				modifier = primal
 			}
 		}
 		pc_supercon = {
-			add_deposit = d_supercon_site
 			add_modifier = {
 				modifier = supercon
 			}
 		}
 		pc_karst = {
-			add_deposit = d_karst_cave
 			add_modifier = {
 				modifier = karst
 			}
 		}
 		pc_superhabitable = {
-			add_deposit = d_ancient_motes
 			add_modifier = {
 				modifier = superhabitable
 			}
 		}
 		pc_tidallylocked = {
-			add_deposit = d_nightside_mining_operations
 			add_modifier = {
 				modifier = tidal_locked2
 			}
 		}
 		pc_geothermal = {
-			add_deposit = d_geothermal_slurry_site
 			add_modifier = {
 				modifier = geothermal
 			}
 		}
 		pc_biolumen = {
-			add_deposit = d_biolumen_nature_preserve
 			add_modifier = {
 				modifier = biolumen
 			}
@@ -602,52 +618,78 @@ add_missing_deposits_and_modifiers = {
 			}
 		}
 		pc_storm = {
-			add_deposit = d_storm_corridor
-			add_deposit = d_storm_waters
 			add_modifier = {
 				modifier = pdstorm
 			}
 		}
 		pc_glacio = {
-			add_deposit = d_glacio_lake
 			add_modifier = {
 				modifier = pdglacio
 			}
 		}
 		pc_rogue = {
-			add_deposit = d_rogue_geo
 			add_modifier = {
 				modifier = pdrogue
 			}
 		}
 		pc_eyeball = {
-			add_deposit = d_eyeball_site
 			add_modifier = {
 				modifier = pdeyeball
 			}
 		}
 		pc_lanthanide = {
-			add_deposit = d_lanthanide_deposit
 			add_modifier = {
 				modifier = pdlanthanide
 			}
 		}
 		pc_megaflora = {
-			add_deposit = d_megaflora_deposit
 			add_modifier = {
 				modifier = pdmegaflora
 			}
 		}
 		pc_lichen = {
-			add_deposit = d_lichen_forest
 			add_modifier = {
 				modifier = pdlichen
 			}
 		}
 		pc_aquifer = {
-			add_deposit = d_aquifer_cave
 			add_modifier = {
 				modifier = pdaquifer
+			}
+		}
+		pc_reef = {
+			add_modifier = {
+				modifier = pdreef
+			}
+		}
+		pc_wettidallylocked = {
+			add_modifier = {
+				modifier = wettidallylocked
+			}
+		}
+		pc_cryoflora = {
+			add_modifier = {
+				modifier = pdcryoflora
+			}
+		}
+		pc_pd_archipelago = {
+			add_modifier = {
+				modifier = pdarchipelago
+			}
+		}
+		pc_pd_petrified = {
+			add_modifier = {
+				modifier = pdpetrified
+			}
+		}
+		pc_pd_sinkhole = {
+			add_modifier = {
+				modifier = pdsinkhole
+			}
+		}
+		pc_pd_iceberg = {
+			add_modifier = {
+				modifier = pdiceberg
 			}
 		}
 	}
