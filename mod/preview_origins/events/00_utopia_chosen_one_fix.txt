@@ -7,8 +7,12 @@ country_event = {
 	desc = "utopia.2650.desc"
 	picture = GFX_evt_psionics
 	show_sound = event_the_great_awakening
-	
+
 	is_triggered_only = yes
+
+	trigger = {
+		has_tradition = tr_psionics_psionic_assimilation
+	}
 
 	immediate = {
 		every_owned_pop = {
@@ -20,8 +24,10 @@ country_event = {
 				species = this
 				remove_trait = trait_latent_psionic
 				add_trait = trait_psionic
+				effect = {
+					save_event_target_as = psionic_species
+				}
 			}
-			species = { save_event_target_as = psionic_species }
 		}
 		change_dominant_species = { species = event_target:psionic_species change_all = yes }
 	}
@@ -38,11 +44,10 @@ country_event = {
 				}
 				every_owned_leader = {
 					limit = {
-						is_same_species = root
-						#species = { 
-						#	has_trait = trait_psionic
-						#	is_same_value = event_target:psionic_species
-						#}
+						species = {
+							has_trait = trait_psionic
+							is_same_value = event_target:psionic_species
+						}
 						NOR = {
 							has_trait =	leader_trait_admiral_psionic
 							has_trait =	leader_trait_general_psionic
@@ -85,11 +90,10 @@ country_event = {
 				}
 				every_pool_leader = {
 					limit = {
-						is_same_species = root
-						#species = { 
-						#	has_trait = trait_psionic
-						#	is_same_value = event_target:psionic_species
-						#}
+						species = {
+							has_trait = trait_psionic
+							is_same_value = event_target:psionic_species
+						}
 						NOR = {
 							has_trait = leader_trait_admiral_psionic
 							has_trait = leader_trait_general_psionic
@@ -127,14 +131,13 @@ country_event = {
 			}
 			observer_event = { id = observer.6 }
 			every_country = {
-				limit = { 
+				limit = {
 					is_ai = no
 					has_communications = root
 					NOT = { is_same_value = root }
 				}
 				country_event = { id = utopia.2652 }
 			}
-			country_event = { id = utopia.2655 days = 30 random = 20 }
 		}
 	}
 }
