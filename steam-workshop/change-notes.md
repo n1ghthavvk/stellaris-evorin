@@ -1,3 +1,6 @@
+Version 1.16.1
+* Fixed "The Chosen One" Origin, which had still kept the old game version 3.5 logic in the overwritten event (which allowed access to the Shroud earlier than it should've).
+
 Version 1.16.0
 * Update to game version 3.6.*
 * Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 2nd December 2022)
