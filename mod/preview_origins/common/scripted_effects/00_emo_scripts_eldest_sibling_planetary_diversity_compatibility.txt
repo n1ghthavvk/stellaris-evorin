@@ -278,6 +278,18 @@ terraform_planet_and_generate_same_species_primitives = {
 						reroll_planet_and_generate_same_species_primitives = yes
 					}
 				}
+				pc_pd_dry_cave = { # dry cavern
+					prevprev = {
+						change_pc = pc_pd_dry_cave
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
+				pc_pd_cold_cave = { # frozen cavern
+					prevprev = {
+						change_pc = pc_pd_cold_cave
+						reroll_planet_and_generate_same_species_primitives = yes
+					}
+				}
 				# rare
 				pc_salt = {
 					prevprev = {
@@ -323,7 +335,7 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_karst = {
+				pc_karst = { # wet cavern
 					prevprev = {
 						change_pc = pc_karst
 						reroll_deposits = yes
