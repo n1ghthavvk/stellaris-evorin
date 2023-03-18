@@ -757,6 +757,36 @@ add_random_beneficial_leader_trait = {
 						}
 					}
 				}
+				5 = {
+					modifier = {
+						factor = 8
+						is_researching_area = society
+					}
+					modifier = {
+						factor = 0.25
+						NOR = {
+							is_researching_area = engineering
+							is_researching_area = physics
+							is_researching_area = society
+						}
+					}
+					if = {
+						limit = {
+							NOT = {
+								has_trait = leader_trait_expertise_archaeostudies
+							}
+						}
+						add_trait = leader_trait_expertise_archaeostudies
+						set_timed_leader_flag = {
+							flag = gained_leader_trait_expertise_archaeostudies
+							days = 7
+						}
+						set_timed_leader_flag = {
+							flag = has_gained_trait
+							days = 7
+						}
+					}
+				}
 				#5 = {
 				#	if = {
 				#		limit = {

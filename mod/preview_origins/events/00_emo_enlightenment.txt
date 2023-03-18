@@ -228,6 +228,7 @@ country_event = {
 					gained_leader_trait_expertise_statecraft = { text = leader.newtrait }
 					gained_leader_trait_expertise_biology = { text = leader.newtrait }
 					gained_leader_trait_expertise_military_theory = { text = leader.newtrait }
+					gained_leader_trait_expertise_archaeostudies = { text = leader.newtrait }
 					gained_leader_trait_paranoid = { text = leader.newtrait }
 					gained_leader_trait_rigid_programming = { text = leader.newtrait }
 					gained_leader_trait_cataloger = { text = leader.newtrait }
@@ -366,6 +367,10 @@ country_event = {
 				if = {
 					limit = { has_leader_flag = gained_leader_trait_expertise_military_theory }
 					add_trait = leader_trait_expertise_military_theory
+				}
+				if = {
+					limit = { has_leader_flag = gained_leader_trait_expertise_archaeostudies }
+					add_trait = leader_trait_expertise_archaeostudies
 				}
 				if = {
 					limit = { has_leader_flag = gained_leader_trait_paranoid }
