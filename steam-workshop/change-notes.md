@@ -1,3 +1,8 @@
+Version 1.17.0
+* Update to game version 3.7.*
+* Updated "Eldest Sibling" Origin, it is now fully compatible with Hive Minds and may spawn them as a random pre ftl empire (10%). Added a small chance for your species to mutate into a hive mind or out of it (10%), as well as a slightly bigger chance (20%) to live above or below ground instead.
+* Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 15th March 2023)
+
 Version 1.16.1
 * Fixed "The Chosen One" Origin, which had still kept the old game version 3.5 logic in the overwritten event (which allowed access to the Shroud earlier than it should've).
 
