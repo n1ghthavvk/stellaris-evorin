@@ -1,8 +1,5 @@
 ﻿l_simp_chinese:
 
-debris_dwellers_system_initializer_NAME:0 "起源：居于丘墟"
-debris_dwellers_system_initializer_DESC:0 "这个星系中发生了灾难性的事件。每个小行星都已粉碎，在单星周围形成多个小行星环。\n\n开局时母星是一个§Y小行星§La\n\n§R警告：极具挑战性；目前小行星没有背景纹理，只会显示您先前选择的内容。如果您知道如何解决此问题，请与我联系。\n\n$system_initializer_DESC$"
-
 
 reliquary_system_initializer_NAME:0 "回到未来"
 reliquary_system_initializer_DESC:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为11和1）。\n\n$system_initializer_DESC$"
@@ -10,6 +7,9 @@ reliquary_system_initializer_DESC:0 "该最大尺寸三星系统具有一个遗�
 origin_reliquary:0 "回到未来"
 origin_reliquary_desc:0 "这个文明的科学曾取得了长足的进步，使其能够在其行星卫星上安居。然而，来自他们太阳的日冕物质抛射摧毁了所有电气设备，他们因而丧失了这份技术实力。流传下来的只剩他们先祖曾经神乎其技的传说。亿万年后，科学家们再次发现，魔法只不过是过去难以理解的技术罢了。"
 origin_tooltip_reliquary_effects:0 "该最大尺寸三星系统具有一个遗落星球（规模为26），伴有两个遗落卫星，其中一个较小（规模分别为11和1）。"
+
+d_hydroponic_farms:1 "水培农场"
+d_hydroponic_farms_desc:0 "自古以来，这片由温室和田野组成的区域一直在养活这个星球。现在，虽然其大部分区域都无法使用，但它仍在生产一些食物。"
 
 
 origin_egg:0 "如履薄壳"
@@ -86,20 +86,4 @@ origin_tooltip_subterra_effects:0 "§W游戏开始时你的母星上有一个§Y
 
 origin_enlightenment:0 "致知力行"
 origin_enlightenment_desc:0 "对无涯学海的不懈追求，对揭开奥秘的无尽好奇。这个文明从未停止过言传身教。"
-origin_tooltip_enlightenment_effects:0 "§W领袖在升级时有更大概率获得新特性，且可以获得多于一个的特性。\n研究科技中的科学家可以获得新特性。\n领袖在升级时不会获得负面特性。"
-emo.16.option.stop_it: "没有必要再向我通报这些情况了。"
-
-
-origin_bio_trophy:0 "落跑子民"
-origin_bio_trophy_desc:0 "#INSERT_FLUFF_HERE"
-origin_tooltip_bio_trophy_effects:0 "§W另一个由你的§Y活体陈设§W物种组建的帝国在银河系的某处建立了。"
-
-
-
-pc_asteroid_ori:1 "小行星"
-pc_asteroid_ori_desc:0 "这颗小行星曾经是一个残破星球的构造板块，也就是它现在围绕着运行的那个星球。 "
-
-
-
-d_hydroponic_farms:1 "水培农场"
-d_hydroponic_farms_desc:0 "自古以来，这片由温室和田野组成的区域一直在养活这个星球。现在，虽然其大部分区域都无法使用，但它仍在生产一些食物。"
+origin_tooltip_enlightenment_effects:0 "§W领导人每级随机获得一个额外的特质。"

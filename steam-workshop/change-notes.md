@@ -1,3 +1,9 @@
+Version 1.18.0
+* Update to game version 3.8.*
+* Updated "Eldest Sibling" Origin, it now prefers to spawn primitives on empty habitable world, if any are present.
+* Updated "Endeavour to Enlightenment", it now uses the new leader modding interfaces instead of hand-written code and its effects have been improved, to compensate for leaders getting buffed in vanilla.
+* Updated "The Chosen One" Origin, it will now prevent the Chosen One from gaining negative traits. The overwritten Utopia event has been updated to the newest version.
+
 Version 1.17.0
 * Update to game version 3.7.*
 * Updated "Eldest Sibling" Origin, it is now fully compatible with Hive Minds and may spawn them as a random pre ftl empire (10%). Added a small chance for your species to mutate into a hive mind or out of it (10%), as well as a slightly bigger chance (20%) to live above or below ground instead.

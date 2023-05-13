@@ -14,8 +14,15 @@ origin_enlightenment = {
 	flags = { enlightened_start }
 
 	modifier = {
-		country_leader_pool_size = 2
 		species_leader_exp_gain = 2
+		#councilor_exp_gain = 0.1
+		councilor_skill_add = 2
+		country_leader_cap_add = 2
+		leader_trait_selection_options_add = 2
+		#country_leader_pool_size = 1
+		negative_traits_country = -2 # instead of set_leader_flag = immune_to_negative_traits
+		leaders_upkeep_mult = 0.2
+		#leader_age = 10
 	}
 
 	traits = {

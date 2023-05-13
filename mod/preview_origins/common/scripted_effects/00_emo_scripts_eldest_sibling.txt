@@ -1,69 +1,24 @@
 # scope = country
 terraform_planet_and_generate_late_pre_ftl_empire = {
-	random_planet_within_border = {
+	if = {
 		limit = {
-			# limits cannot be scripted effects and need to be duplicated code
-			is_colony = no
-			planet_size < 26
-			NOT = {
-				is_planet_class = pc_gas_giant
-			}
-			NOR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-				is_planet_class = pc_f_star
-				is_planet_class = pc_g_star
-				is_planet_class = pc_k_star
-				is_planet_class = pc_m_star
-				is_planet_class = pc_t_star
-				is_planet_class = pc_m_giant_star
-				is_planet_class = pc_neutron_star
-				is_planet_class = pc_black_hole
-			}
-			NOR = {
-				is_planet_class = pc_asteroid
-				is_planet_class = pc_ice_asteroid
-				is_planet_class = pc_crystal_asteroid
-				is_planet_class = pc_rare_crystal_asteroid
-			}
-			NOT = {
-				has_orbital_station = yes
+			any_planet_within_border = {
+				is_colony = no
+				habitable_planet = yes
 			}
 		}
-		if = {
-			limit = { has_global_flag = planetarydiversity }
-			change_pc = rl_pd_habitable_normal
-			reroll_deposits = yes
-			reroll_planet_modifiers = yes
-			add_missing_deposits_and_modifiers = yes
-		}
-		else = {
-			change_pc = rl_habitable_normal
-			reroll_deposits = yes
-			reroll_planet_modifiers = yes
-		}
-		# chance to generate hive minds
-		random_list = {
-			10 = {
-				set_planet_flag = pre_ftl_hive_mind
-				optimize_memory
-				select_pre_ftl_origin = yes
-				create_pre_ftl_hive_species = yes
-				create_late_pre_ftl_hive_empire = yes
-				setup_pre_ftl_hive_planet = yes
+		random_planet_within_border = {
+			limit = {
+				is_colony = no
+				habitable_planet = yes
 			}
-			90 = {
-				generate_late_pre_ftls_on_planet = yes
-			}
+			generate_late_primitives_on_planet = yes
 		}
 	}
-}
-
-# scope = capital
-choose_random_planet_to_terraform_and_generate_same_species_primitives = {
-	solar_system = {
-		random_system_planet = {
+	else = {
+		random_planet_within_border = {
 			limit = {
+				# limits cannot be scripted effects and need to be duplicated code
 				is_colony = no
 				planet_size < 26
 				NOT = {
@@ -91,7 +46,91 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 					has_orbital_station = yes
 				}
 			}
-			terraform_planet_and_generate_same_species_primitives = yes
+			if = {
+				limit = { has_global_flag = planetarydiversity }
+				change_pc = rl_pd_habitable_normal
+				reroll_deposits = yes
+				reroll_planet_modifiers = yes
+				add_missing_deposits_and_modifiers = yes
+			}
+			else = {
+				change_pc = rl_habitable_normal
+				reroll_deposits = yes
+				reroll_planet_modifiers = yes
+			}
+			generate_late_primitives_on_planet = yes
+		}
+	}
+}
+
+# scope = planet
+generate_late_primitives_on_planet = {
+	# chance to generate hive minds
+	random_list = {
+		10 = {
+			set_planet_flag = pre_ftl_hive_mind
+			optimize_memory
+			select_pre_ftl_origin = yes
+			create_pre_ftl_hive_species = yes
+			create_late_pre_ftl_hive_empire = yes
+			setup_pre_ftl_hive_planet = yes
+		}
+		90 = {
+			generate_late_pre_ftls_on_planet = yes
+		}
+	}
+}
+
+# scope = capital
+choose_random_planet_to_terraform_and_generate_same_species_primitives = {
+	solar_system = {
+		if = {
+			limit = {
+				any_system_planet = {
+					is_colony = no
+					habitable_planet = yes
+				}
+			}
+			random_system_planet = {
+				limit = {
+					is_colony = no
+					habitable_planet = yes
+				}
+				generate_same_species_late_primitives_on_planet = yes
+			}
+		}
+		else = {
+			random_system_planet = {
+				limit = {
+					is_colony = no
+					planet_size < 26
+					NOT = {
+						is_planet_class = pc_gas_giant
+					}
+					NOR = {
+						is_planet_class = pc_a_star
+						is_planet_class = pc_b_star
+						is_planet_class = pc_f_star
+						is_planet_class = pc_g_star
+						is_planet_class = pc_k_star
+						is_planet_class = pc_m_star
+						is_planet_class = pc_t_star
+						is_planet_class = pc_m_giant_star
+						is_planet_class = pc_neutron_star
+						is_planet_class = pc_black_hole
+					}
+					NOR = {
+						is_planet_class = pc_asteroid
+						is_planet_class = pc_ice_asteroid
+						is_planet_class = pc_crystal_asteroid
+						is_planet_class = pc_rare_crystal_asteroid
+					}
+					NOT = {
+						has_orbital_station = yes
+					}
+				}
+				terraform_planet_and_generate_same_species_primitives = yes
+			}
 		}
 	}
 }

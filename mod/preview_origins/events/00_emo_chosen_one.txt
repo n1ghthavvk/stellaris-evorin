@@ -13,9 +13,9 @@ event = {
 				has_country_flag = emperor_start
 			}
 			ruler = {
-				add_random_beneficial_leader_trait = yes
-				add_trait = leader_trait_ruler_chosen
-				set_skill = 10
+				add_trait = leader_trait_chosen
+				set_leader_flag = immune_to_negative_traits
+				add_skill_without_trait_selection = 9
 			}
 			add_research_option = tech_psionic_theory
 			add_tech_progress = {

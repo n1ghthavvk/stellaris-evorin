@@ -49,83 +49,74 @@ country_event = {
 							is_same_value = event_target:psionic_species
 						}
 						NOR = {
-							has_trait =	leader_trait_admiral_psionic
-							has_trait =	leader_trait_general_psionic
-							has_trait =	leader_trait_governor_psionic
-							has_trait =	leader_trait_scientist_psionic
-							has_trait =	leader_trait_ruler_psionic
+							has_trait = leader_trait_psionic
+							has_leader_flag = renowned_leader
+							has_leader_flag = legendary_leader
+							# "The Chosen One" Origin does not need this event's charity!
+							has_trait = leader_trait_chosen
 						}
 					}
-					if = {
-						limit = { leader_class = admiral }
-						add_trait = leader_trait_admiral_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = general }
-						add_trait = leader_trait_general_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = governor }
-						add_trait = leader_trait_governor_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = scientist }
-						add_trait = leader_trait_scientist_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = {
-							leader_class = ruler
-							# Origin: Emperor does not need this event's charity!
-							NOT = {
-								has_trait =	leader_trait_ruler_chosen
+					add_trait_no_notify = leader_trait_psionic
+					owner = {
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = psionic_leader_toast
+								}
+							}
+							set_timed_country_flag = { 
+								flag = psionic_leader_toast
+								days = 30
 							}
 						}
-						add_trait = leader_trait_ruler_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
 					}
 				}
+
 				every_pool_leader = {
 					limit = {
 						species = {
 							has_trait = trait_psionic
 							is_same_value = event_target:psionic_species
 						}
-						NOR = {
-							has_trait = leader_trait_admiral_psionic
-							has_trait = leader_trait_general_psionic
-							has_trait = leader_trait_governor_psionic
-							has_trait = leader_trait_scientist_psionic
-							has_trait = leader_trait_ruler_psionic
+						NOT = { has_trait = leader_trait_psionic }
+					}
+					add_trait_no_notify = leader_trait_psionic
+					owner = {
+						if = {
+							limit = {
+								NOT = {
+									has_country_flag = psionic_leader_toast
+								}
+							}
+							set_timed_country_flag = { 
+								flag = psionic_leader_toast
+								days = 30
+							}
 						}
 					}
-					if = {
-						limit = { leader_class = admiral }
-						add_trait = leader_trait_admiral_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
+				}
+
+				if = {
+					limit = {
+						has_country_flag = psionic_leader_toast
 					}
-					if = {
-						limit = { leader_class = general }
-						add_trait = leader_trait_general_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = governor }
-						add_trait = leader_trait_governor_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = scientist }
-						add_trait = leader_trait_scientist_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
-					}
-					if = {
-						limit = { leader_class = ruler }
-						add_trait = leader_trait_ruler_psionic
-						add_ruler_trait = leader_trait_ruler_psionic
+					create_message = {
+						type = MESSAGE_ALL_GAINED_TRAIT
+						localization = MESSAGE_ALL_GAINED_TRAIT_DESC
+						days = @toast_message_days
+						variable = {
+							type = key
+							value = leader_trait_psionic
+							localization = TRAIT
+						}
+						variable = {
+							key = TRAIT_KEY
+							value = leader_trait_psionic
+						}
+						variable = {
+							key = "border"
+							value = "GFX_invisible" #TODO Common/ no rarity frame
+						}
 					}
 				}
 			}

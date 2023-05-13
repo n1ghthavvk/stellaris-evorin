@@ -1,8 +1,5 @@
 ﻿l_spanish:
 
-debris_dwellers_system_initializer_NAME:0 "Origen: Habitantes de los Escombros"
-debris_dwellers_system_initializer_DESC:0 "Un incidente catastrófico ocurrió dentro de este sistema. Cada planetoide se hace añicos, creando múltiples anillos de asteroides alrededor del singular cuerpo estelar. \n\nComienza en un §Yasteroide §Lcomo su mundo natal.\n\n§RADVERTENCIA: Extremadamente desafiante; Actualmente, el asteroide no tiene una textura de fondo y solo mostrará lo que haya seleccionado primero. Comuníquese conmigo si sabe cómo solucionar este problema. \n\n$system_initializer_DESC$"
-
 
 reliquary_system_initializer_NAME:0 "Regreso al Futuro"
 reliquary_system_initializer_DESC:0 "Sistema Trinario de tamaño máximo con un §YMundo Reliquia§L (tamaño 26), acompañado de dos lunas reliquia, una de ellas diminuta (tamaño 11 y 1).\n\n$system_initializer_DESC$"
@@ -10,6 +7,9 @@ reliquary_system_initializer_DESC:0 "Sistema Trinario de tamaño máximo con un 
 origin_reliquary:0 "Regreso al Futuro"
 origin_reliquary_desc:0 "Esta civilización una vez experimentó un enorme crecimiento científico que le permitió asentar sus lunas planetarias. Sin embargo, su destreza tecnológica se perdió cuando una eyección de masa coronal de su sol destruyó todo el equipo eléctrico. Solo quedaban historias de las maravillas de las que fueron capaces sus antepasados. Eones más tarde, los científicos descubrieron una vez más que la magia no era más que tecnología incomprensible."
 origin_tooltip_reliquary_effects:0 "Sistema Trinario de tamaño máximo con un §YMundo Reliquia§L (tamaño 26), acompañado de dos lunas Reliquia, una de ellas diminuta (tamaño 11 y 1)."
+
+d_hydroponic_farms:1 "Granjas Hidropónicas"
+d_hydroponic_farms_desc:0 "Esta zona de invernaderos y campos ha sido utilizada para alimentar al planeta desde tiempos inmemoriales. Ahora la mayor parte es inutilizable, pero aún está produciendo un poco de alimento."
 
 
 origin_egg:0 "Caminando sobre un Huevo"
@@ -86,20 +86,4 @@ origin_tooltip_subterra_effects:0 "§WComience con una §YCivilización Subterr�
 
 origin_enlightenment:0 "Esfuerzo por la Iluminación"
 origin_enlightenment_desc:0 "La búsqueda de un conocimiento cada vez mayor, la curiosidad por levantar el velo. Esta civilización nunca detiene su educación."
-origin_tooltip_enlightenment_effects:0 "§WLos líderes tienen una mayor probabilidad de obtener rasgos al subir de nivel y pueden obtener más de uno.\nLos científicos que investigan tecnologías pueden obtener rasgos.\nLos líderes no obtienen rasgos negativos al subir de nivel."
-emo.16.option.stop_it: "Ya no es necesario que me informe sobre estos desarrollos."
-
-
-origin_bio_trophy:0 "Niños Fugitivos"
-origin_bio_trophy_desc:0 "#INSERT_FLUFF_HERE"
-origin_tooltip_bio_trophy_effects:0 "§WUn imperio avanzado de tu especie se crea en algún lugar de la galaxia."
-
-
-
-pc_asteroid_ori:1 "Asteroide"
-pc_asteroid_ori_desc:0 "Este asteroide fue una vez la placa tectónica de un mundo roto, que ahora orbita."
-
-
-
-d_hydroponic_farms:1 "Granjas Hidropónicas"
-d_hydroponic_farms_desc:0 "Esta zona de invernaderos y campos ha sido utilizada para alimentar al planeta desde tiempos inmemoriales. Ahora la mayor parte es inutilizable, pero aún está produciendo un poco de alimento."
+origin_tooltip_enlightenment_effects:0 "§WLos líderes ganan un rasgo adicional cada nivel de forma aleatoria."

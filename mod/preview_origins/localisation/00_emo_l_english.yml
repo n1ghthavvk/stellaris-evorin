@@ -1,8 +1,5 @@
 ﻿l_english:
 
-debris_dwellers_system_initializer_NAME:0 "Origin: Debris Dwellers"
-debris_dwellers_system_initializer_DESC:0 "A catastrophic incident happened within this system. Every single planetoid is shattered, creating multiple asteroid rings around the singular stellar body. \n\nStart with an §YAsteroid §Las your homeworld.\n\n§RWARNING: Extremely challenging; Currently the Asteroid does not have a background texture and will just show whatever you had selected first. Please contact me if you know how to fix this issue. \n\n$system_initializer_DESC$"
-
 
 reliquary_system_initializer_NAME:0 "Back to the Future"
 reliquary_system_initializer_DESC:0 "Maximum-sized Trinary System with a §YRelic World§L (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1).\n\n$system_initializer_DESC$"
@@ -10,6 +7,9 @@ reliquary_system_initializer_DESC:0 "Maximum-sized Trinary System with a §YReli
 origin_reliquary:0 "Back to the Future"
 origin_reliquary_desc:0 "This civilization once experienced an enormous scientific growth that allowed it to settle its planetary moons. Their technological prowess was lost however, when a coronal mass ejection from their sun destroyed all electrical equipment. Only tales of the wonders their forefathers were capable of remained. Eons later, scientists discovered once again that magic was nothing more than incomprehensible technology."
 origin_tooltip_reliquary_effects:0 "Maximum-sized Trinary System with a §YRelic World§W (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1)."
+
+d_hydroponic_farms:1 "Hydroponic Farms"
+d_hydroponic_farms_desc:0 "This area of greenhouses and fields has been used to feed the planet since time immemorial. Now most of it is unusable, but it's still yielding a bit of food."
 
 
 origin_egg:0 "Walking On Eggshells"
@@ -86,20 +86,4 @@ origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization 
 
 origin_enlightenment:0 "Endeavour to Enlightenment"
 origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§WLeaders have a higher chance to gain traits when leveling up and can gain more than one.\nLeaders start with an additional random trait.\nLeaders do not gain negative traits when leveling up."
-emo.16.option.stop_it: "There's no need to inform me about these developments any longer."
-
-
-origin_bio_trophy:0 "Runaway Children"
-origin_bio_trophy_desc:0 "#INSERT_FLUFF_HERE"
-origin_tooltip_bio_trophy_effects:0 "§WAnother advanced empire of your §YBio-Trophies §Wspecies is created somewhere in the galaxy."
-
-
-
-pc_asteroid_ori:1 "Asteroid"
-pc_asteroid_ori_desc:0 "This Asteroid was once the tectonic plate of a Broken World, which it now orbits."
-
-
-
-d_hydroponic_farms:1 "Hydroponic Farms"
-d_hydroponic_farms_desc:0 "This area of greenhouses and fields has been used to feed the planet since time immemorial. Now most of it is unusable, but it's still yielding a bit of food."
+origin_tooltip_enlightenment_effects:0 "§WLeaders gain one additional trait each level randomly."
