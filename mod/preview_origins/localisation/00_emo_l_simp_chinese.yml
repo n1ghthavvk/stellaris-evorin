@@ -89,4 +89,6 @@ origin_tooltip_subterra_effects:0 "§W游戏开始时你的母星上有一个§Y
 
 origin_enlightenment:0 "致知力行"
 origin_enlightenment_desc:0 "对无涯学海的不懈追求，对揭开奥秘的无尽好奇。这个文明从未停止过言传身教。"
-origin_tooltip_enlightenment_effects:0 "§W领导人每级随机获得一个额外的特质。"
+origin_tooltip_enlightenment_effects:0 "§W- Chance that leaders retain their level: §G20%§!"
+MESSAGE_ENLIGHTENED_TITLE:0 "Level Retained"
+MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! has retained their leader level."

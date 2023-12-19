@@ -1,3 +1,6 @@
+Version 1.19.1
+* Fixed missing localization for non-english languages.
+
 Version 1.19.0
 * Update to game version 3.10.*
 * Updated "The Chosen One" Origin, it now adds 5% shroud delve cooldown reduction and its description is using the new localization features.

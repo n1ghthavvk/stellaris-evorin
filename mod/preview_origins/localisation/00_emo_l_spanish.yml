@@ -89,4 +89,6 @@ origin_tooltip_subterra_effects:0 "§WComience con una §YCivilización Subterr�
 
 origin_enlightenment:0 "Esfuerzo por la Iluminación"
 origin_enlightenment_desc:0 "La búsqueda de un conocimiento cada vez mayor, la curiosidad por levantar el velo. Esta civilización nunca detiene su educación."
-origin_tooltip_enlightenment_effects:0 "§WLos líderes ganan un rasgo adicional cada nivel de forma aleatoria."
+origin_tooltip_enlightenment_effects:0 "§W- Chance that leaders retain their level: §G20%§!"
+MESSAGE_ENLIGHTENED_TITLE:0 "Level Retained"
+MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! has retained their leader level."

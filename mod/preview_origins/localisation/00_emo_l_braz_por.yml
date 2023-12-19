@@ -89,4 +89,6 @@ origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization 
 
 origin_enlightenment:0 "Endeavour to Enlightenment"
 origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§WLeaders gain one additional trait each level randomly."
+origin_tooltip_enlightenment_effects:0 "§W- Chance that leaders retain their level: §G20%§!"
+MESSAGE_ENLIGHTENED_TITLE:0 "Level Retained"
+MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! has retained their leader level."
