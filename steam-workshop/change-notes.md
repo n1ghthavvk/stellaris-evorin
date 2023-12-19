@@ -1,3 +1,10 @@
+Version 1.19.0
+* Update to game version 3.10.*
+* Updated "The Chosen One" Origin, it now adds 5% shroud delve cooldown reduction and its description is using the new localization features.
+* Updated "Endeavour to Enlightenment" Origin, it now provides a 20% chance for leaders to retain their level instead of randomly adding common traits (this fires a new custom toast message) and it benefits agendas while leader improvements are removed. Added a 200% cost increase to hire new leaders. Updated its description to also use the new localization features.
+* Updated "Eldest Sibling" Origin, ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 10th December 2023).
+* Fixed localization bug reported by user "idallo" on GitHub. Thank you!
+
 Version 1.18.0
 * Update to game version 3.8.*
 * Updated "Eldest Sibling" Origin, it now prefers to spawn primitives on empty habitable world, if any are present.

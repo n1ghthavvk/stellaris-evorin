@@ -36,6 +36,7 @@ origin_hive_desc:0 "Esta Mente Colmena ha desarrollado un entendimiento de su en
 origin_tooltip_hive_effects:0 "§WComienza con un §YMundo Colmena §Wcomo su planeta de origen."
 
 
+origin_eldest_sibling:0 “Hermana Mayor”
 origin_tooltip_emo_eldest_sibling_effects:0 "Comience con hasta otras §Ydos civilizaciones primitivas§! en su sistema doméstico. Elija si son de su propia especie o generados aleatoriamente."
 origin_eldest_sibling_desc:0 "A esta sociedad siempre le ha fascinado la presencia de otros dos planetas específicos en su sistema solar. ¡Con el descubrimiento de telescopios, los científicos han verificado la existencia de vida extraterrestre presente en al menos uno de ellos! \nLas viejas leyendas contadas hace mucho tiempo parecen más creíbles ahora, y como los primeros entre nosotros, nos dirigimos a las estrellas."
 
@@ -52,7 +53,9 @@ emo.1.option.tworandom: "Dos civilizaciones primitivas de especies diferentes y 
 
 origin_emperor:0 "El Elegido"
 origin_emperor_desc:0 "''Tu eres el elegido. Le has traído equilibrio a este mundo. Mantente en este camino y lo harás de nuevo ... por la galaxia. Pero cuidado con tu corazón ...'' \n- Las últimas palabras del Padre."
-origin_tooltip_emperor_effects:0 "§WTu gobernante es §YEl Elegido§W, un líder inmortal de nivel 10. Se le concede la oportunidad de investigar la §Yteoría psiónica§W desde el principio."
+origin_tooltip_emperor_effects:0 "- Ruler Initial Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+concept_leader_trait_chosen: "$leader_trait_chosen$"
+concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortal§!\n\n§L$leader_trait_chosen_desc$§!"
 
 
 fratricide_system_initializer_NAME:0 "Fratricidio"

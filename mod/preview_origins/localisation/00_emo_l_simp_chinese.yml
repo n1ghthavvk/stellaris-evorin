@@ -36,6 +36,7 @@ origin_hive_desc:0 "这个蜂巢思维已经对它周围环境有所了解，虽
 origin_tooltip_hive_effects:0 "§W开局时母星是一个§Y蜂巢星球§。"
 
 
+origin_eldest_sibling:0 “长兄妹”
 origin_tooltip_emo_eldest_sibling_effects:0 "开局时母星星系中至多有§Y其他两个原始文明§!。你可以选择他们是你的物种，还是随机生成的物种。"
 origin_eldest_sibling_desc:0 "星系中的另外两颗行星是最令这个社会着迷的存在。随着望远镜的发明，科学家们已经验证了其中至少一颗星球上存在着外星生命！\n长期传颂的古老传说现在看来更加令人信服，作为众人的先驱，我们向星空迈出了第一步。"
 
@@ -52,7 +53,9 @@ emo.1.option.tworandom: "2个各由不同随机物种建立的原始文明"
 
 origin_emperor:0 "天选之子"
 origin_emperor_desc:0 "「你是天选之子。你为这个世界带来了平衡。坚守此道，你会再次……给银河系带来平衡。但要谨防……你的内心。」\n- 「父亲」的遗言"
-origin_tooltip_emperor_effects:0 "§W你的统治者是§Y天选之子§W，他是一位不朽的等级10领袖。你可以更早地研究§Y灵能理论§W。"
+origin_tooltip_emperor_effects:0 "- Ruler Initial Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+concept_leader_trait_chosen: "$leader_trait_chosen$"
+concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortal§!\n\n§L$leader_trait_chosen_desc$§!"
 
 
 fratricide_system_initializer_NAME:0 "同室操戈"

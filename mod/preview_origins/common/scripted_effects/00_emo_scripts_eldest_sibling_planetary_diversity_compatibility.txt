@@ -357,6 +357,28 @@ terraform_planet_and_generate_same_species_primitives = {
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
+				pc_pd_dry_superhab = {
+					prevprev = {
+						change_pc = pc_pd_dry_superhab
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pd_dry_superhab
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_cold_superhab = {
+					prevprev = {
+						change_pc = pc_pd_cold_superhab
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						add_modifier = {
+							modifier = pd_cold_superhab
+						}
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
 				pc_tidallylocked = {
 					prevprev = {
 						change_pc = pc_tidallylocked
@@ -606,6 +628,16 @@ add_missing_deposits_and_modifiers = {
 		pc_superhabitable = {
 			add_modifier = {
 				modifier = superhabitable
+			}
+		}
+		pc_pd_dry_superhab = {
+			add_modifier = {
+				modifier = pd_dry_superhab
+			}
+		}
+		pc_pd_cold_superhab = {
+			add_modifier = {
+				modifier = pd_cold_superhab
 			}
 		}
 		pc_tidallylocked = {

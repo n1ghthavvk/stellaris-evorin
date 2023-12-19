@@ -9,13 +9,14 @@ event = {
 		if = {
 			limit = {
 				has_origin = origin_enlightenment
+				from = {
+					has_skill > 1
+				}
 			}
 			# Add additional traits a little later
 			from = {
 				leader_event = {
 					id = emo.14
-					days = 360
-					random = 90
 				}
 			}
 		}
@@ -27,6 +28,68 @@ leader_event = {
 	is_triggered_only = yes
 	hide_window = yes
 	immediate = {
-		add_trait = "random_common"
+		random_list = {
+			20 = {
+				# add_trait = "random_common"
+				if = {
+					limit = {
+						has_skill = 2
+					}
+					set_skill = 1
+				} else_if = {
+					limit = {
+						has_skill = 3
+					}
+					set_skill = 2
+				} else_if = {
+					limit = {
+						has_skill = 4
+					}
+					set_skill = 3
+				} else_if = {
+					limit = {
+						has_skill = 5
+					}
+					set_skill = 4
+				} else_if = {
+					limit = {
+						has_skill = 6
+					}
+					set_skill = 5
+				} else_if = {
+					limit = {
+						has_skill = 7
+					}
+					set_skill = 6
+				} else_if = {
+					limit = {
+						has_skill = 8
+					}
+					set_skill = 7
+				} else_if = {
+					limit = {
+						has_skill = 9
+					}
+					set_skill = 8
+				} else_if = {
+					limit = {
+						has_skill = 10
+					}
+					set_skill = 9
+				}
+				create_message = {
+					type = MESSAGE_TYPE_ENLIGHTENED
+					localization = MESSAGE_ENLIGHTENED
+					days = 30
+					target = this
+					variable = {
+						type = name
+						localization = LEVEL
+						scope = this.skill
+					}
+				}
+			}
+			80 = {}
+		}
 	}
 }

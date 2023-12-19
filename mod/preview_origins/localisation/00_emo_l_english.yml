@@ -36,6 +36,7 @@ origin_hive_desc:0 "This Hive Mind has developed an understanding of its surroun
 origin_tooltip_hive_effects:0 "§WStart with a §YHive World §Was your Home Planet."
 
 
+origin_eldest_sibling:0 “Eldest Sibling”
 origin_tooltip_emo_eldest_sibling_effects:0 "Start with up to §Ytwo other primitive civilizations§! in your home system. Choose if they're of your own species or randomly generated ones."
 origin_eldest_sibling_desc:0 "This society has always been fascinated by the presence of two specific other planets in their solar system. With the discovery of telescopes, scientists have verified the existence of alien life present on at least one of them! \nOld legends long retold seem more credible now, and as the first among us, we take to the stars."
 
@@ -52,7 +53,9 @@ emo.1.option.tworandom: "2 primitive civilizations of different, random species.
 
 origin_emperor:0 "The Chosen One"
 origin_emperor_desc:0 "''You are the Chosen One. You have brought balance to this world. Stay on this path and you will do it again... for the galaxy. But beware your heart...'' \n- The Father's last words"
-origin_tooltip_emperor_effects:0 "§WYour ruler is §YThe Chosen One§W, an immortal, level 10 leader. You are granted the opportunity to research §YPsionic Theory§W early."
+origin_tooltip_emperor_effects:0 "- Ruler Initial Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+concept_leader_trait_chosen: "$leader_trait_chosen$"
+concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortal§!\n\n§L$leader_trait_chosen_desc$§!"
 
 
 fratricide_system_initializer_NAME:0 "Fratricide"
@@ -86,4 +89,6 @@ origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization 
 
 origin_enlightenment:0 "Endeavour to Enlightenment"
 origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§WLeaders gain one additional trait each level randomly."
+origin_tooltip_enlightenment_effects:0 "§W- Chance that leaders retain their level: §G20%§!"
+MESSAGE_ENLIGHTENED_TITLE:0 "Level Retained"
+MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! has retained their leader level."

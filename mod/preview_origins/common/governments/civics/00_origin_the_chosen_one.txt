@@ -16,6 +16,10 @@ origin_emperor = {
 
 	flags = { emperor_start }
 
+	modifier = {
+		shroud_delve_cooldown = -0.05
+	}
+
 	traits = {
 
 	}
