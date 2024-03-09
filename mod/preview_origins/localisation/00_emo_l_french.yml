@@ -49,6 +49,16 @@ emo.1.option.sameone: "1 primitive civilization of our species."
 emo.1.option.oneandone: "1 primitive civilization of our species and another, random one."
 emo.1.option.onerandom: "1 primitive civilization of a single, random species."
 emo.1.option.tworandom: "2 primitive civilizations of different, random species."
+emo.1.option.decideyourself: "Use planetary decisions to choose within 1 year."
+emo.1.option.decideyourself_desc: "For one year you will be able to 'discover' as many pre-FTL empires on planets within your home system as you like."
+
+emo_decision_discover_preftl:0 "Discover late pre-FTL empire on this planet"
+emo_decision_discover_preftl_desc: "This will spawn a random pre-FTL empire on this planet. Use with care."
+
+emo.15.title: "Even More Origins: Eldest Sibling"
+emo.15.desc: "Choose what kind of primitive civilization has been located by our scientists on this planet."
+emo.15.option.same: "A primitive civilization of our species."
+emo.15.option.diff: "A primitive civilization of another, random species."
 
 
 origin_emperor:0 "The Chosen One"

@@ -1,3 +1,10 @@
+Version 1.20.1
+* Fixed thumbnail
+
+Version 1.20.0
+* Update to game version 3.11.*
+* Updated "Eldest Sibling" Origin, allowing you to choose on which planets pre-FTL empires will spawn.
+
 Version 1.19.1
 * Fixed missing localization for non-english languages.
 

@@ -1,16 +1,37 @@
 # scope = country
 terraform_planet_and_generate_late_pre_ftl_empire = {
+	# prefer habitable planets and terraforming candidates
 	if = {
 		limit = {
 			any_planet_within_border = {
-				is_colony = no
-				habitable_planet = yes
+				OR = {
+					any_system_planet = {
+						is_colony = no
+						habitable_planet = yes
+					}
+					any_system_planet = {
+						has_modifier = terraforming_candidate
+					}
+					any_system_planet = {
+						has_modifier = toxic_terraforming_candidate
+					}
+				}
 			}
 		}
 		random_planet_within_border = {
 			limit = {
-				is_colony = no
-				habitable_planet = yes
+				OR = {
+					any_system_planet = {
+						is_colony = no
+						habitable_planet = yes
+					}
+					any_system_planet = {
+						has_modifier = terraforming_candidate
+					}
+					any_system_planet = {
+						has_modifier = toxic_terraforming_candidate
+					}
+				}
 			}
 			generate_late_primitives_on_planet = yes
 		}
@@ -21,30 +42,10 @@ terraform_planet_and_generate_late_pre_ftl_empire = {
 				# limits cannot be scripted effects and need to be duplicated code
 				is_colony = no
 				planet_size < 26
-				NOT = {
-					is_planet_class = pc_gas_giant
-				}
-				NOR = {
-					is_planet_class = pc_a_star
-					is_planet_class = pc_b_star
-					is_planet_class = pc_f_star
-					is_planet_class = pc_g_star
-					is_planet_class = pc_k_star
-					is_planet_class = pc_m_star
-					is_planet_class = pc_t_star
-					is_planet_class = pc_m_giant_star
-					is_planet_class = pc_neutron_star
-					is_planet_class = pc_black_hole
-				}
-				NOR = {
-					is_planet_class = pc_asteroid
-					is_planet_class = pc_ice_asteroid
-					is_planet_class = pc_crystal_asteroid
-					is_planet_class = pc_rare_crystal_asteroid
-				}
-				NOT = {
-					has_orbital_station = yes
-				}
+				is_star = no
+				is_asteroid = no
+				NOT = { is_planet_class = pc_gas_giant }
+				NOT = { has_orbital_station = yes }
 			}
 			if = {
 				limit = { has_global_flag = planetarydiversity }
@@ -61,6 +62,35 @@ terraform_planet_and_generate_late_pre_ftl_empire = {
 			generate_late_primitives_on_planet = yes
 		}
 	}
+}
+
+# scope = planet
+terraform_this_planet_and_generate_late_pre_ftl_empire = {
+	if = {
+		limit = {
+			has_modifier = terraforming_candidate
+		}
+		remove_modifier = terraforming_candidate
+	}
+	if = {
+		limit = {
+			has_modifier = toxic_terraforming_candidate
+		}
+		remove_modifier = toxic_terraforming_candidate
+	}
+	if = {
+		limit = { has_global_flag = planetarydiversity }
+		change_pc = rl_pd_habitable_normal
+		reroll_deposits = yes
+		reroll_planet_modifiers = yes
+		add_missing_deposits_and_modifiers = yes
+	}
+	else = {
+		change_pc = rl_habitable_normal
+		reroll_deposits = yes
+		reroll_planet_modifiers = yes
+	}
+	generate_late_primitives_on_planet = yes
 }
 
 # scope = planet
@@ -84,17 +114,36 @@ generate_late_primitives_on_planet = {
 # scope = capital
 choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 	solar_system = {
+		# prefer habitable planets and terraforming candidates
 		if = {
 			limit = {
-				any_system_planet = {
-					is_colony = no
-					habitable_planet = yes
+				OR = {
+					any_system_planet = {
+						is_colony = no
+						habitable_planet = yes
+					}
+					any_system_planet = {
+						has_modifier = terraforming_candidate
+					}
+					any_system_planet = {
+						has_modifier = toxic_terraforming_candidate
+					}
 				}
 			}
 			random_system_planet = {
 				limit = {
-					is_colony = no
-					habitable_planet = yes
+					OR = {
+						any_system_planet = {
+							is_colony = no
+							habitable_planet = yes
+						}
+						any_system_planet = {
+							has_modifier = terraforming_candidate
+						}
+						any_system_planet = {
+							has_modifier = toxic_terraforming_candidate
+						}
+					}
 				}
 				generate_same_species_late_primitives_on_planet = yes
 			}
@@ -104,30 +153,10 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 				limit = {
 					is_colony = no
 					planet_size < 26
-					NOT = {
-						is_planet_class = pc_gas_giant
-					}
-					NOR = {
-						is_planet_class = pc_a_star
-						is_planet_class = pc_b_star
-						is_planet_class = pc_f_star
-						is_planet_class = pc_g_star
-						is_planet_class = pc_k_star
-						is_planet_class = pc_m_star
-						is_planet_class = pc_t_star
-						is_planet_class = pc_m_giant_star
-						is_planet_class = pc_neutron_star
-						is_planet_class = pc_black_hole
-					}
-					NOR = {
-						is_planet_class = pc_asteroid
-						is_planet_class = pc_ice_asteroid
-						is_planet_class = pc_crystal_asteroid
-						is_planet_class = pc_rare_crystal_asteroid
-					}
-					NOT = {
-						has_orbital_station = yes
-					}
+					is_star = no
+					is_asteroid = no
+					NOT = { is_planet_class = pc_gas_giant }
+					NOT = { has_orbital_station = yes }
 				}
 				terraform_planet_and_generate_same_species_primitives = yes
 			}
@@ -135,6 +164,7 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 	}
 }
 
+# scope = Non-habitable planet
 terraform_planet_and_generate_same_species_primitives = {
 	root = {
 		capital_scope = {
@@ -142,7 +172,7 @@ terraform_planet_and_generate_same_species_primitives = {
 				trigger = is_planet_class
 				##### VANILLA PLANET CLASSES
 				pc_continental = {
-					# prevprev = randomly chosen planet in system
+					# prevprev = chosen planet in system
 					prevprev = {
 						change_pc = pc_continental
 						reroll_planet_and_generate_same_species_primitives = yes
@@ -203,6 +233,18 @@ terraform_planet_and_generate_same_species_primitives = {
 
 # scope = Non-Colonized Habitable Planet
 reroll_planet_and_generate_same_species_primitives = {
+	if = {
+		limit = {
+			has_modifier = terraforming_candidate
+		}
+		remove_modifier = terraforming_candidate
+	}
+	if = {
+		limit = {
+			has_modifier = toxic_terraforming_candidate
+		}
+		remove_modifier = toxic_terraforming_candidate
+	}
 	reroll_deposits = yes
 	reroll_planet_modifiers = yes
 	generate_same_species_late_primitives_on_planet = yes
@@ -214,7 +256,7 @@ generate_same_species_late_primitives_on_planet = {
 	optimize_memory
 	# create new species based on the original one
 	modify_species = {
-		species = event_target:my_country.species
+		species = space_owner.species
 	}
 	# randomize whether to keep or gain subterranean origin and trait
 	random_list = {
@@ -222,14 +264,14 @@ generate_same_species_late_primitives_on_planet = {
 		10 = {
 			modifier = {
 				factor = 16
-				event_target:my_country.species = {
+				space_owner.species = {
 					has_trait = trait_cave_dweller
 				}
 			}
 			set_planet_flag = pre_ftl_subterranean
 			if = {
 				limit = {
-					event_target:my_country.species = {
+					space_owner.species = {
 						NOT = {
 							has_trait = trait_cave_dweller
 						}
@@ -243,10 +285,11 @@ generate_same_species_late_primitives_on_planet = {
 			}
 		}
 		40 = {
+			factor = 
 			set_default_origin = yes
 			if = {
 				limit = {
-					event_target:my_country.species = {
+					space_owner.species = {
 						has_trait = trait_cave_dweller
 					}
 				}
@@ -263,14 +306,14 @@ generate_same_species_late_primitives_on_planet = {
 		10 = {
 			modifier = {
 				factor = 81
-				event_target:my_country.species = {
+				space_owner.species = {
 					has_trait = trait_hive_mind
 				}
 			}
 			# create hive mind pre ftl empire
 			if = {
 				limit = {
-					event_target:my_country.species = {
+					space_owner.species = {
 						NOT = {
 							has_trait = trait_hive_mind
 						}
@@ -290,7 +333,7 @@ generate_same_species_late_primitives_on_planet = {
 			# create default pre ftl empire
 			if = {
 				limit = {
-					event_target:my_country.species = {
+					space_owner.species = {
 						has_trait = trait_hive_mind
 					}
 				}

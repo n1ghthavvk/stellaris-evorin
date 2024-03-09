@@ -12,7 +12,6 @@ event = {
 				is_country_type = default
 				has_country_flag = eldest_sibling_start
 			}
-			save_event_target_as = my_country
 			country_event = {
 				id = emo.1
 			}
@@ -34,7 +33,7 @@ country_event = {
 			has_country_flag = eldest_sibling_start
 		}
 	}
-	############################ SAME TWO ############################
+	############################# SAME TWO ##############################
 	option = {
 		name = emo.1.option.sametwo
 		hidden_effect = {
@@ -46,7 +45,7 @@ country_event = {
 			}
 		}
 	}
-	############################ SAME ONE ############################
+	############################# SAME ONE ##############################
 	option = {
 		name = emo.1.option.sameone
 		hidden_effect = {
@@ -71,20 +70,63 @@ country_event = {
 			}
 		}
 	}
-	############################ ONE RANDOM ############################
+	############################ ONE RANDOM #############################
 	option = {
 		name = emo.1.option.onerandom
 		hidden_effect = {
 			terraform_planet_and_generate_late_pre_ftl_empire = yes
 		}
 	}
-	############################ TWO RANDOM ############################
+	############################ TWO RANDOM #############################
 	option = {
 		name = emo.1.option.tworandom
 		hidden_effect = {
 			while = {
 				count = 2
 				terraform_planet_and_generate_late_pre_ftl_empire = yes
+			}
+		}
+	}
+	########################## DECIDE YOURSELF ##########################
+	option = {
+		name = emo.1.option.decideyourself
+		hidden_effect = {
+			set_timed_country_flag = {
+				flag = emo_discover_primitives
+				days = 360
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = emo.15
+	title = "emo.15.title"
+	desc = "emo.15.desc"
+	picture = GFX_evt_medieval_alien_civilization
+	location = from
+	show_sound = event_alien_nature
+	is_triggered_only = yes
+	fire_only_once = no
+	########################### SAME SPECIES ############################
+	option = {
+		name = emo.15.option.same
+		hidden_effect = {
+			# should be the chosen planet
+			from = {
+				terraform_planet_and_generate_same_species_primitives = yes
+			}
+		}
+	}
+	######################### DIFFERENT SPECIES #########################
+	option = {
+		name = emo.15.option.diff
+		hidden_effect = {
+			from = {
+				terraform_this_planet_and_generate_late_pre_ftl_empire = yes
 			}
 		}
 	}

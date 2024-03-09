@@ -1,0 +1,39 @@
+emo_decision_discover_preftl = {
+	resources = {
+		category = decisions
+	}
+
+	icon = decision_medieval_alien_civilization
+
+	potential = {
+		exists = from
+		from = {
+			has_origin = origin_eldest_sibling
+		}
+		exists = space_owner
+		space_owner = { 
+			is_same_value = from 
+			capital_star = {
+				is_same_value = system_star
+			}
+			has_country_flag = emo_discover_primitives
+		}
+		is_star = no
+		is_astral_scar = no
+		is_artificial = no
+		is_ringworld = no
+		is_asteroid = no
+		NOT = { is_planet_class = pc_gas_giant }
+		is_colony = no
+	}
+
+	allow = {}
+
+	effect = {
+		space_owner = {
+			country_event = {
+				id = emo.15
+			}
+		}
+	}
+}
