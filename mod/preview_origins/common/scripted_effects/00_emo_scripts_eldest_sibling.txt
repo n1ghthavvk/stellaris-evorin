@@ -5,32 +5,24 @@ terraform_planet_and_generate_late_pre_ftl_empire = {
 		limit = {
 			any_planet_within_border = {
 				OR = {
-					any_system_planet = {
+					AND = {
 						is_colony = no
 						habitable_planet = yes
 					}
-					any_system_planet = {
-						has_modifier = terraforming_candidate
-					}
-					any_system_planet = {
-						has_modifier = toxic_terraforming_candidate
-					}
+					has_modifier = terraforming_candidate
+					has_modifier = toxic_terraforming_candidate
 				}
 			}
 		}
 		random_planet_within_border = {
 			limit = {
 				OR = {
-					any_system_planet = {
+					AND = {
 						is_colony = no
 						habitable_planet = yes
 					}
-					any_system_planet = {
-						has_modifier = terraforming_candidate
-					}
-					any_system_planet = {
-						has_modifier = toxic_terraforming_candidate
-					}
+					has_modifier = terraforming_candidate
+					has_modifier = toxic_terraforming_candidate
 				}
 			}
 			generate_late_primitives_on_planet = yes
@@ -49,10 +41,10 @@ terraform_planet_and_generate_late_pre_ftl_empire = {
 			}
 			if = {
 				limit = { has_global_flag = planetarydiversity }
-				change_pc = rl_pd_habitable_normal
+				change_pc = rl_habitable_normal
 				reroll_deposits = yes
 				reroll_planet_modifiers = yes
-				add_missing_deposits_and_modifiers = yes
+				reroll_pd_class_modifiers = yes
 			}
 			else = {
 				change_pc = rl_habitable_normal
@@ -80,10 +72,10 @@ terraform_this_planet_and_generate_late_pre_ftl_empire = {
 	}
 	if = {
 		limit = { has_global_flag = planetarydiversity }
-		change_pc = rl_pd_habitable_normal
+		change_pc = rl_habitable_normal
 		reroll_deposits = yes
 		reroll_planet_modifiers = yes
-		add_missing_deposits_and_modifiers = yes
+		reroll_pd_class_modifiers = yes
 	}
 	else = {
 		change_pc = rl_habitable_normal
@@ -133,16 +125,12 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 			random_system_planet = {
 				limit = {
 					OR = {
-						any_system_planet = {
+						AND = {
 							is_colony = no
 							habitable_planet = yes
 						}
-						any_system_planet = {
-							has_modifier = terraforming_candidate
-						}
-						any_system_planet = {
-							has_modifier = toxic_terraforming_candidate
-						}
+						has_modifier = terraforming_candidate
+						has_modifier = toxic_terraforming_candidate
 					}
 				}
 				generate_same_species_late_primitives_on_planet = yes
@@ -285,7 +273,6 @@ generate_same_species_late_primitives_on_planet = {
 			}
 		}
 		40 = {
-			factor = 
 			set_default_origin = yes
 			if = {
 				limit = {

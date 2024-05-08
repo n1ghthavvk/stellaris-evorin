@@ -9,583 +9,149 @@ terraform_planet_and_generate_same_species_primitives = {
 					prevprev = {
 						change_pc = pc_continental
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_ocean = {
 					prevprev = {
 						change_pc = pc_ocean
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_tropical = {
 					prevprev = {
 						change_pc = pc_tropical
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_alpine = {
 					prevprev = {
 						change_pc = pc_alpine
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_arctic = {
 					prevprev = {
 						change_pc = pc_arctic
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_desert = {
 					prevprev = {
 						change_pc = pc_desert
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_savannah = {
 					prevprev = {
 						change_pc = pc_savannah
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_tundra = {
 					prevprev = {
 						change_pc = pc_tundra
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				pc_arid = {
 					prevprev = {
 						change_pc = pc_arid
 						reroll_planet_and_generate_same_species_primitives = yes
+						match_pd_class_modifiers = yes
 					}
 				}
 				#### PLANETARY DIVERSITY PLANET CLASSES
 				# atoll, crag, tepui, fog desert, frigid, bog, mycellium, dune, dry tidally-locked, and frozen tidally-locked planets have different names in the code
-				# base
-				pc_prairie = {
-					prevprev = {
-						change_pc = pc_prairie
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_antarctic = {
-					prevprev = {
-						change_pc = pc_antarctic
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_snow = {
-					prevprev = {
-						change_pc = pc_snow
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_glacial = {
-					prevprev = {
-						change_pc = pc_glacial
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_frozen_desert = {
-					prevprev = {
-						change_pc = pc_frozen_desert
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_steppe = {
-					prevprev = {
-						change_pc = pc_steppe
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_hadesert = {
-					prevprev = {
-						change_pc = pc_hadesert
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_boreal = {
-					prevprev = {
-						change_pc = pc_boreal
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_highland = {
-					prevprev = {
-						change_pc = pc_highland
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_sandsea = {
-					prevprev = {
-						change_pc = pc_sandsea
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_subarctic = {
-					prevprev = {
-						change_pc = pc_subarctic
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_cascadian = {
-					prevprev = {
-						change_pc = pc_cascadian
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_swamp = {
-					prevprev = {
-						change_pc = pc_swamp
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_mangrove = {
-					prevprev = {
-						change_pc = pc_mangrove
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_wetswamp = {
-					prevprev = {
-						change_pc = pc_wetswamp
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_desertislands = {
-					prevprev = {
-						change_pc = pc_desertislands
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_mesa = {
-					prevprev = {
-						change_pc = pc_mesa
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_outback = {
-					prevprev = {
-						change_pc = pc_outback
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_oasis = {
-					prevprev = {
-						change_pc = pc_oasis
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_hajungle = {
-					prevprev = {
-						change_pc = pc_hajungle
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_mushroom = {
-					prevprev = {
-						change_pc = pc_mushroom
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_retinal = {
-					prevprev = {
-						change_pc = pc_retinal
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_forest = {
-					prevprev = {
-						change_pc = pc_forest
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_med = {
-					prevprev = {
-						change_pc = pc_med
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_lake = {
-					prevprev = {
-						change_pc = pc_lake
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_veld = {
-					prevprev = {
-						change_pc = pc_veld
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_mud = {
-					prevprev = {
-						change_pc = pc_mud
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_duneforest = {
-					prevprev = {
-						change_pc = pc_duneforest
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_aeolian = {
-					prevprev = {
-						change_pc = pc_aeolian
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_semiarid = {
-					prevprev = {
-						change_pc = pc_semiarid
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_tepid = {
-					prevprev = {
-						change_pc = pc_tepid
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_cenote = {
-					prevprev = {
-						change_pc = pc_cenote
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_fog = {
-					prevprev = {
-						change_pc = pc_fog
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_badlands = {
-					prevprev = {
-						change_pc = pc_badlands
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_coastal = {
-					prevprev = {
-						change_pc = pc_coastal
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_basalt = {
-					prevprev = {
-						change_pc = pc_basalt
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_pd_dry_cave = { # dry cavern
-					prevprev = {
-						change_pc = pc_pd_dry_cave
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_pd_cold_cave = { # frozen cavern
+				# following their file structure:
+				# cavern
+				pc_pd_cold_cave = {
 					prevprev = {
 						change_pc = pc_pd_cold_cave
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				# rare
-				pc_salt = {
-					prevprev = {
-						change_pc = pc_salt
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdsalt
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_coral = {
+				pc_pd_dry_cave = {
 					prevprev = {
-						change_pc = pc_coral
+						change_pc = pc_pd_dry_cave
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdcoral
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_primal = {
+				pc_pd_wet_cave = {
 					prevprev = {
-						change_pc = pc_primal
+						change_pc = pc_pd_wet_cave
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = primal
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_supercon = {
+				# superhabitable
+				pc_pd_wet_superhabitable = {
 					prevprev = {
-						change_pc = pc_supercon
+						change_pc = pc_pd_wet_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = supercon
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_karst = { # wet cavern
+				pc_pd_cold_superhabitable = {
 					prevprev = {
-						change_pc = pc_karst
+						change_pc = pc_pd_cold_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = karst
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_superhabitable = {
+				pc_pd_dry_superhabitable = {
 					prevprev = {
-						change_pc = pc_superhabitable
+						change_pc = pc_pd_dry_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = superhabitable
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_pd_dry_superhab = {
+				# tidally-locked
+				pc_pd_wet_tidally_locked = {
 					prevprev = {
-						change_pc = pc_pd_dry_superhab
+						change_pc = pc_pd_wet_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pd_dry_superhab
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_pd_cold_superhab = {
+				pc_pd_dry_tidally_locked = {
 					prevprev = {
-						change_pc = pc_pd_cold_superhab
+						change_pc = pc_pd_dry_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pd_cold_superhab
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
-				pc_tidallylocked = {
+				pc_pd_cold_tidally_locked = {
 					prevprev = {
-						change_pc = pc_tidallylocked
+						change_pc = pc_pd_cold_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = tidal_locked2
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_geothermal = {
-					prevprev = {
-						change_pc = pc_geothermal
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = geothermal
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_biolumen = {
-					prevprev = {
-						change_pc = pc_biolumen
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = biolumen
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_aquatic = {
-					prevprev = {
-						change_pc = pc_aquatic
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_deposit = d_aquatic_trench
-						add_modifier = {
-							modifier = aquatic
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_storm = {
-					prevprev = {
-						change_pc = pc_storm
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdstorm
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_glacio = {
-					prevprev = {
-						change_pc = pc_glacio
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdglacio
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_rogue = {
-					prevprev = {
-						change_pc = pc_rogue
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdrogue
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_eyeball = {
-					prevprev = {
-						change_pc = pc_eyeball
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdeyeball
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_lanthanide = {
-					prevprev = {
-						change_pc = pc_lanthanide
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdlanthanide
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_megaflora = {
-					prevprev = {
-						change_pc = pc_megaflora
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdmegaflora
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_lichen = {
-					prevprev = {
-						change_pc = pc_lichen
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdlichen
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_aquifer = {
-					prevprev = {
-						change_pc = pc_aquifer
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdaquifer
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_reef = {
-					prevprev = {
-						change_pc = pc_reef
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdreef
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_wettidallylocked = {
-					prevprev = {
-						change_pc = pc_wettidallylocked
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = wettidallylocked
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_cryoflora = {
-					prevprev = {
-						change_pc = pc_cryoflora
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdcryoflora
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_archipelago = {
-					prevprev = {
-						change_pc = pc_pd_archipelago
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdarchipelago
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_petrified = {
-					prevprev = {
-						change_pc = pc_pd_petrified
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdpetrified
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_sinkhole = {
-					prevprev = {
-						change_pc = pc_pd_sinkhole
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdsinkhole
-						}
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_iceberg = {
-					prevprev = {
-						change_pc = pc_pd_iceberg
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						add_modifier = {
-							modifier = pdiceberg
-						}
+						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -596,145 +162,658 @@ terraform_planet_and_generate_same_species_primitives = {
 	}
 }
 
-add_missing_deposits_and_modifiers = {
+match_pd_class_modifiers = {
+	root = {
+		capital_scope = {
+			switch = {
+				trigger = has_modifier
+				# continental
+				pd_continental = {
+					prevprev = {
+						add_modifier = { modifier = pd_continental }
+					}
+				}
+				pd_retinal = {
+					prevprev = {
+						pd_retinal_world_effect = yes
+					}
+				}
+				pd_lake = {
+					prevprev = {
+						pd_lake_world_effect = yes
+					}
+				}
+				pd_forest = {
+					prevprev = {
+						pd_forest_world_effect = yes
+					}
+				}
+				pd_temperate = {
+					prevprev = {
+						pd_temperate_world_effect = yes
+					}
+				}
+				pd_tepid = {
+					prevprev = {
+						pd_tepid_world_effect = yes
+					}
+				}
+				pd_mushroom = {
+					prevprev = {
+						pd_mushroom_world_effect = yes
+					}
+				}
+				pd_megaflora = {
+					prevprev = {
+						pd_megaflora_world_effect = yes
+					}
+				}
+				pd_petrified = {
+					prevprev = {
+						pd_petrified_world_effect = yes
+					}
+				}
+				# ocean
+				pd_ocean = {
+					prevprev = {
+						add_modifier = { modifier = pd_ocean }
+					}
+				}
+				pd_cascadian = {
+					prevprev = {
+						pd_cascadian_world_effect = yes
+					}
+				}
+				pd_swamp = {
+					prevprev = {
+						pd_swamp_world_effect = yes
+					}
+				}
+				pd_crag = {
+					prevprev = {
+						pd_crag_world_effect = yes
+					}
+				}
+				pd_fog = {
+					prevprev = {
+						pd_fog_world_effect = yes
+					}
+				}
+				pd_kelp = {
+					prevprev = {
+						pd_kelp_world_effect = yes
+					}
+				}
+				pd_algae = {
+					prevprev = {
+						pd_algae_world_effect = yes
+					}
+				}
+				pd_reef = {
+					prevprev = {
+						pd_reef_world_effect = yes
+					}
+				}
+				pd_archipelago = {
+					prevprev = {
+						pd_archipelago_world_effect = yes
+					}
+				}
+				# tropical
+				pd_tropical = {
+					prevprev = {
+						add_modifier = { modifier = pd_tropical }
+					}
+				}
+				pd_atoll = {
+					prevprev = {
+						pd_atoll_world_effect = yes
+					}
+				}
+				pd_tepui = {
+					prevprev = {
+						pd_tepui_world_effect = yes
+					}
+				}
+				pd_mangrove = {
+					prevprev = {
+						pd_mangrove_world_effect = yes
+					}
+				}
+				pd_cenote = {
+					prevprev = {
+						pd_cenote_world_effect = yes
+					}
+				}
+				pd_fungal = {
+					prevprev = {
+						pd_fungal_world_effect = yes
+					}
+				}
+				pd_aerial = {
+					prevprev = {
+						pd_aerial_world_effect = yes
+					}
+				}
+				pd_lilypad = {
+					prevprev = {
+						pd_lilypad_world_effect = yes
+					}
+				}
+				pd_geothermal = {
+					prevprev = {
+						pd_geothermal_world_effect = yes
+					}
+				}
+				pd_biolumen = {
+					prevprev = {
+						pd_biolumen_world_effect = yes
+					}
+				}
+				# desert
+				pd_desert = {
+					prevprev = {
+						add_modifier = { modifier = pd_desert }
+					}
+				}
+				pd_dune = {
+					prevprev = {
+						pd_dune_world_effect = yes
+					}
+				}
+				pd_oasis = {
+					prevprev = {
+						pd_oasis_world_effect = yes
+					}
+				}
+				pd_outback = {
+					prevprev = {
+						pd_outback_world_effect = yes
+					}
+				}
+				pd_coastal = {
+					prevprev = {
+						pd_coastal_world_effect = yes
+					}
+				}
+				pd_fungi = {
+					prevprev = {
+						pd_fungi_world_effect = yes
+					}
+				}
+				pd_salt = {
+					prevprev = {
+						pd_salt_world_effect = yes
+					}
+				}
+				pd_aquifer = {
+					prevprev = {
+						pd_aquifer_world_effect = yes
+					}
+				}
+				# arid
+				pd_arid = {
+					prevprev = {
+						add_modifier = { modifier = pd_arid }
+					}
+				}
+				pd_mesa = {
+					prevprev = {
+						pd_mesa_world_effect = yes
+					}
+				}
+				pd_fog_desert = {
+					prevprev = {
+						pd_fog_desert_world_effect = yes
+					}
+				}
+				pd_mediterranean = {
+					prevprev = {
+						pd_mediterranean_world_effect = yes
+					}
+				}
+				pd_badlands = {
+					prevprev = {
+						pd_badlands_world_effect = yes
+					}
+				}
+				pd_succulent = {
+					prevprev = {
+						pd_succulent_world_effect = yes
+					}
+				}
+				pd_striped = {
+					prevprev = {
+						pd_striped_world_effect = yes
+					}
+				}
+				pd_coral = {
+					prevprev = {
+						pd_coral_world_effect = yes
+					}
+				}
+				pd_primal = {
+					prevprev = {
+						pd_primal_world_effect = yes
+					}
+				}
+				# savannah
+				pd_savannah = {
+					prevprev = {
+						add_modifier = { modifier = pd_savannah }
+					}
+				}
+				pd_steppe = {
+					prevprev = {
+						pd_steppe_world_effect = yes
+					}
+				}
+				pd_prairie = {
+					prevprev = {
+						pd_prairie_world_effect = yes
+					}
+				}
+				pd_veld = {
+					prevprev = {
+						pd_veld_world_effect = yes
+					}
+				}
+				pd_semi_arid = {
+					prevprev = {
+						pd_semi_arid_world_effect = yes
+					}
+				}
+				pd_aspen = {
+					prevprev = {
+						pd_aspen_world_effect = yes
+					}
+				}
+				pd_sandstone = {
+					prevprev = {
+						pd_sandstone_world_effect = yes
+					}
+				}
+				pd_supercontinent = {
+					prevprev = {
+						pd_supercontinent_world_effect = yes
+					}
+				}
+				pd_sinkhole = {
+					prevprev = {
+						pd_sinkhole_world_effect = yes
+					}
+				}
+				# arctic
+				pd_arctic = {
+					prevprev = {
+						add_modifier = { modifier = pd_arctic }
+					}
+				}
+				pd_cold_desert = {
+					prevprev = {
+						pd_cold_desert_world_effect = yes
+					}
+				}
+				pd_glacial = {
+					prevprev = {
+						pd_glacial_world_effect = yes
+					}
+				}
+				pd_antarctic = {
+					prevprev = {
+						pd_antarctic_world_effect = yes
+					}
+				}
+				pd_aeolian = {
+					prevprev = {
+						pd_aeolian_world_effect = yes
+					}
+				}
+				pd_ice_spike = {
+					prevprev = {
+						pd_ice_spike_world_effect = yes
+					}
+				}
+				pd_crevasse = {
+					prevprev = {
+						pd_crevasse_world_effect = yes
+					}
+				}
+				pd_ice_dunes = {
+					prevprev = {
+						pd_ice_dunes_world_effect = yes
+					}
+				}
+				pd_storm = {
+					prevprev = {
+						pd_storm_world_effect = yes
+					}
+				}
+				pd_iceberg = {
+					prevprev = {
+						pd_iceberg_world_effect = yes
+					}
+				}
+				# alpine
+				pd_alpine = {
+					prevprev = {
+						add_modifier = { modifier = pd_alpine }
+					}
+				}
+				pd_boreal = {
+					prevprev = {
+						pd_boreal_world_effect = yes
+					}
+				}
+				pd_snow = {
+					prevprev = {
+						pd_snow_world_effect = yes
+					}
+				}
+				pd_highland = {
+					prevprev = {
+						pd_highland_world_effect = yes
+					}
+				}
+				pd_dune_forest = {
+					prevprev = {
+						pd_dune_forest_world_effect = yes
+					}
+				}
+				pd_fjord = {
+					prevprev = {
+						pd_fjord_world_effect = yes
+					}
+				}
+				pd_blossom = {
+					prevprev = {
+						pd_blossom_world_effect = yes
+					}
+				}
+				pd_glaciovolcanic = {
+					prevprev = {
+						pd_glaciovolcanic_world_effect = yes
+					}
+				}
+				pd_lanthanide = {
+					prevprev = {
+						pd_lanthanide_world_effect = yes
+					}
+				}
+				# tundra
+				pd_tundra = {
+					prevprev = {
+						add_modifier = { modifier = pd_tundra }
+					}
+				}
+				pd_bog = {
+					prevprev = {
+						pd_bog_world_effect = yes
+					}
+				}
+				pd_mycelium = {
+					prevprev = {
+						pd_mycelium_world_effect = yes
+					}
+				}
+				pd_mud = {
+					prevprev = {
+						pd_mud_world_effect = yes
+					}
+				}
+				pd_basalt = {
+					prevprev = {
+						pd_basalt_world_effect = yes
+					}
+				}
+				pd_tuya = {
+					prevprev = {
+						pd_tuya_world_effect = yes
+					}
+				}
+				pd_cryoflora = {
+					prevprev = {
+						pd_cryoflora_world_effect = yes
+					}
+				}
+				pd_lichen = {
+					prevprev = {
+						pd_lichen_world_effect = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+reroll_pd_class_modifiers = {
 	switch = {
 		trigger = is_planet_class
-		# rare
-		pc_salt = {
-			add_modifier = {
-				modifier = pdsalt
+		pc_continental = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_continental }
+				}
+				25 = {
+					pd_retinal_world_effect = yes
+				}
+				25 = {
+					pd_lake_world_effect = yes
+				}
+				25 = {
+					pd_forest_world_effect = yes
+				}
+				25 = {
+					pd_temperate_world_effect = yes
+				}
+				25 = {
+					pd_tepid_world_effect = yes
+				}
+				25 = {
+					pd_mushroom_world_effect = yes
+				}
 			}
 		}
-		pc_coral = {
-			add_modifier = {
-				modifier = pdcoral
+		pc_ocean = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_ocean }
+				}
+				25 = {
+					pd_cascadian_world_effect = yes
+				}
+				25 = {
+					pd_swamp_world_effect = yes
+				}
+				25 = {
+					pd_crag_world_effect = yes
+				}
+				25 = {
+					pd_fog_world_effect = yes
+				}
+				25 = {
+					pd_kelp_world_effect = yes
+				}
+				25 = {
+					pd_algae_world_effect = yes
+				}
 			}
 		}
-		pc_primal = {
-			add_modifier = {
-				modifier = primal
+		pc_tropical = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_tropical }
+				}
+				25 = {
+					pd_atoll_world_effect = yes
+				}
+				25 = {
+					pd_tepui_world_effect = yes
+				}
+				25 = {
+					pd_mangrove_world_effect = yes
+				}
+				25 = {
+					pd_cenote_world_effect = yes
+				}
+				25 = {
+					pd_fungal_world_effect = yes
+				}
+				25 = {
+					pd_aerial_world_effect = yes
+				}
+				25 = {
+					pd_lilypad_world_effect = yes
+				}
 			}
 		}
-		pc_supercon = {
-			add_modifier = {
-				modifier = supercon
+		pc_desert = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_desert }
+				}
+				25 = {
+					pd_dune_world_effect = yes
+				}
+				25 = {
+					pd_oasis_world_effect = yes
+				}
+				25 = {
+					pd_outback_world_effect = yes
+				}
+				25 = {
+					pd_coastal_world_effect = yes
+				}
+				25 = {
+					pd_fungi_world_effect = yes
+				}
 			}
 		}
-		pc_karst = {
-			add_modifier = {
-				modifier = karst
+		pc_arid = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_arid }
+				}
+				25 = {
+					pd_mesa_world_effect = yes
+				}
+				25 = {
+					pd_fog_desert_world_effect = yes
+				}
+				25 = {
+					pd_mediterranean_world_effect = yes
+				}
+				25 = {
+					pd_badlands_world_effect = yes
+				}
+				25 = {
+					pd_succulent_world_effect = yes
+				}
+				25 = {
+					pd_striped_world_effect = yes
+				}
 			}
 		}
-		pc_superhabitable = {
-			add_modifier = {
-				modifier = superhabitable
+		pc_savannah = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_savannah }
+				}
+				25 = {
+					pd_steppe_world_effect = yes
+				}
+				25 = {
+					pd_prairie_world_effect = yes
+				}
+				25 = {
+					pd_veld_world_effect = yes
+				}
+				25 = {
+					pd_semi_arid_world_effect = yes
+				}
+				25 = {
+					pd_aspen_world_effect = yes
+				}
+				25 = {
+					pd_sandstone_world_effect = yes
+				}
 			}
 		}
-		pc_pd_dry_superhab = {
-			add_modifier = {
-				modifier = pd_dry_superhab
+		pc_arctic = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_arctic }
+				}
+				25 = {
+					pd_cold_desert_world_effect = yes
+				}
+				25 = {
+					pd_glacial_world_effect = yes
+				}
+				25 = {
+					pd_antarctic_world_effect = yes
+				}
+				25 = {
+					pd_aeolian_world_effect = yes
+				}
+				25 = {
+					pd_ice_spike_world_effect = yes
+				}
+				25 = {
+					pd_crevasse_world_effect = yes
+				}
+				25 = {
+					pd_ice_dunes_world_effect = yes
+				}
 			}
 		}
-		pc_pd_cold_superhab = {
-			add_modifier = {
-				modifier = pd_cold_superhab
+		pc_alpine = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_alpine }
+				}
+				25 = {
+					pd_boreal_world_effect = yes
+				}
+				25 = {
+					pd_snow_world_effect = yes
+				}
+				25 = {
+					pd_highland_world_effect = yes
+				}
+				25 = {
+					pd_dune_forest_world_effect = yes
+				}
+				25 = {
+					pd_fjord_world_effect = yes
+				}
+				25 = {
+					pd_blossom_world_effect = yes
+				}
 			}
 		}
-		pc_tidallylocked = {
-			add_modifier = {
-				modifier = tidal_locked2
+		pc_tundra = {
+			random_list = {
+				25 = {
+					add_modifier = { modifier = pd_tundra }
+				}
+				25 = {
+					pd_bog_world_effect = yes
+				}
+				25 = {
+					pd_mycelium_world_effect = yes
+				}
+				25 = {
+					pd_mud_world_effect = yes
+				}
+				25 = {
+					pd_basalt_world_effect = yes
+				}
+				25 = {
+					pd_tuya_world_effect = yes
+				}
 			}
 		}
-		pc_geothermal = {
-			add_modifier = {
-				modifier = geothermal
-			}
-		}
-		pc_biolumen = {
-			add_modifier = {
-				modifier = biolumen
-			}
-		}
-		pc_aquatic = {
-			add_deposit = d_aquatic_trench
-			add_modifier = {
-				modifier = aquatic
-			}
-		}
-		pc_storm = {
-			add_modifier = {
-				modifier = pdstorm
-			}
-		}
-		pc_glacio = {
-			add_modifier = {
-				modifier = pdglacio
-			}
-		}
-		pc_rogue = {
-			add_modifier = {
-				modifier = pdrogue
-			}
-		}
-		pc_eyeball = {
-			add_modifier = {
-				modifier = pdeyeball
-			}
-		}
-		pc_lanthanide = {
-			add_modifier = {
-				modifier = pdlanthanide
-			}
-		}
-		pc_megaflora = {
-			add_modifier = {
-				modifier = pdmegaflora
-			}
-		}
-		pc_lichen = {
-			add_modifier = {
-				modifier = pdlichen
-			}
-		}
-		pc_aquifer = {
-			add_modifier = {
-				modifier = pdaquifer
-			}
-		}
-		pc_reef = {
-			add_modifier = {
-				modifier = pdreef
-			}
-		}
-		pc_wettidallylocked = {
-			add_modifier = {
-				modifier = wettidallylocked
-			}
-		}
-		pc_cryoflora = {
-			add_modifier = {
-				modifier = pdcryoflora
-			}
-		}
-		pc_pd_archipelago = {
-			add_modifier = {
-				modifier = pdarchipelago
-			}
-		}
-		pc_pd_petrified = {
-			add_modifier = {
-				modifier = pdpetrified
-			}
-		}
-		pc_pd_sinkhole = {
-			add_modifier = {
-				modifier = pdsinkhole
-			}
-		}
-		pc_pd_iceberg = {
-			add_modifier = {
-				modifier = pdiceberg
-			}
-		}
+		
 	}
 }
