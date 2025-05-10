@@ -14,24 +14,74 @@ event = {
 			}
 			capital_scope = {
 				# tweak uncapped districts
+				if = {
+					limit = {
+						has_district = district_hive
+					}
+					remove_district = district_hive
+				}
 				while = {
-					count = 1
+					count = 2
 					if = {
 						limit = {
-							has_district = district_farming_uncapped
+							has_district = district_generator
 						}
-						remove_district = district_farming_uncapped
+						remove_district = district_generator
 					}
 				}
 				while = {
-					count = 1
+					count = 2
 					if = {
 						limit = {
-							has_district = district_hive
+							has_district = district_mining
 						}
-						remove_district = district_hive
+						remove_district = district_mining
 					}
 				}
+				while = {
+					count = 3
+					if = {
+						limit = {
+							has_district = district_farming
+						}
+						remove_district = district_farming
+					}
+				}
+
+				add_district_and_planet_size_if_needed_effect = {
+					district = district_hive_1
+				}
+				add_zone = {
+					district = district_hive_1
+					zone = zone_energy
+					zone_slot = 0
+					replace = yes
+				}
+				while = {
+					count = 3
+					add_district_and_planet_size_if_needed_effect = {
+						district = district_hive_2
+					}
+				}
+				add_zone = {
+					district = district_hive_2
+					zone = zone_minerals
+					zone_slot = 0
+					replace = yes
+				}
+				while = {
+					count = 2
+					add_district_and_planet_size_if_needed_effect = {
+						district = district_hive_3
+					}
+				}
+				add_zone = {
+					district = district_hive_3
+					zone = zone_food
+					zone_slot = 0
+					replace = yes
+				}
+				add_building = building_sentinel_posts
 			}
 		}
 	}
