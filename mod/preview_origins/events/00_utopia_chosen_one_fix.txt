@@ -16,25 +16,25 @@ country_event = {
 
 	immediate = {
 		country_event = { id = timeline.81 }
-	 	every_owned_pop_group = {
-	 		limit = {
-	 			is_same_species = root
-	 			has_trait = trait_latent_psionic
-	 		}
-	 		modify_species = {
-	 			species = this
-	 			remove_trait = trait_latent_psionic
-	 			add_trait = trait_psionic
-	 			effect = {
-	 				save_event_target_as = psionic_species
-	 			}
-	 		}
-	 	}
-	 	change_dominant_species = { species = event_target:psionic_species change_all = yes	}
+		every_owned_pop_group = {
+			limit = {
+				is_same_species = root
+				has_trait = trait_latent_psionic
+			}
+			modify_species = {
+				species = this
+				remove_trait = trait_latent_psionic
+				add_trait = trait_psionic
+				effect = {
+					save_event_target_as = psionic_species
+				}
+			}
+		}
+		change_dominant_species = { species = event_target:psionic_species change_all = yes }
 	}
 	option = {
-	 	name = "utopia.2650.a"
-	 	hidden_effect = {
+		name = "utopia.2650.a"
+		hidden_effect = {
 			every_country = {
 				limit = {
 					OR = {
@@ -57,7 +57,10 @@ country_event = {
 							has_trait = leader_trait_chosen
 						}
 					}
-					add_trait_no_notify = leader_trait_psionic
+					add_trait = {
+						trait = leader_trait_psionic
+						show_message = no
+					}
 					owner = {
 						if = {
 							limit = {
@@ -65,7 +68,7 @@ country_event = {
 									has_country_flag = psionic_leader_toast
 								}
 							}
-							set_timed_country_flag = { 
+							set_timed_country_flag = {
 								flag = psionic_leader_toast
 								days = 30
 							}
@@ -81,7 +84,10 @@ country_event = {
 						}
 						NOT = { has_trait = leader_trait_psionic }
 					}
-					add_trait_no_notify = leader_trait_psionic
+					add_trait = {
+						trait = leader_trait_psionic
+						show_message = no
+					}
 					owner = {
 						if = {
 							limit = {
@@ -89,7 +95,7 @@ country_event = {
 									has_country_flag = psionic_leader_toast
 								}
 							}
-							set_timed_country_flag = { 
+							set_timed_country_flag = {
 								flag = psionic_leader_toast
 								days = 30
 							}
@@ -121,15 +127,15 @@ country_event = {
 					}
 				}
 			}
-	 		observer_event = { id = observer.6 }
-	 		every_country = {
-	 			limit = {
-	 				is_ai = no
-	 				has_communications = root
-	 				NOT = { is_same_value = root }
-	 			}
-	 			country_event = { id = utopia.2652 }
-	 		}
-	 	}
+			observer_event = { id = observer.6 }
+			every_country = {
+				limit = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+				country_event = { id = utopia.2652 }
+			}
+		}
 	}
 }
