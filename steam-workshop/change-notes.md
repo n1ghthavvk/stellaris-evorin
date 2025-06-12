@@ -1,5 +1,5 @@
 Version 1.22.1
-* Updated utopia.2605 from old to new vanilla code
+* Fixed "The Chosen One" Origin, updating utopia.2605 from old to new vanilla code
 
 Version 1.22.0
 * Update to game version 4.0.*
