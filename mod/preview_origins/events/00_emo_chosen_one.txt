@@ -13,7 +13,10 @@ event = {
 				has_country_flag = emperor_start
 			}
 			ruler = {
-				add_trait = leader_trait_chosen
+				add_trait = {
+					trait = leader_trait_chosen
+					show_message = no
+				}
 				set_leader_flag = immune_to_negative_traits
 				add_skill_without_trait_selection = 9
 			}

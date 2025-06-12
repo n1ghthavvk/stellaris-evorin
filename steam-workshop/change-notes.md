@@ -1,3 +1,7 @@
+Version 1.22.2
+* Fixed "The Chosen One" Origin, updating its add_trait logic from old to new API
+* Updated "Endeavour to Enlightenment" toast message, linking it to the leader's scope correctly, so you can click on it
+
 Version 1.22.1
 * Fixed "The Chosen One" Origin, updating utopia.2605 from old to new vanilla code
 

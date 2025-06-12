@@ -30,7 +30,6 @@ leader_event = {
 	immediate = {
 		random_list = {
 			20 = {
-				# add_trait = "random_common"
 				if = {
 					limit = {
 						has_base_skill = 2
@@ -85,7 +84,7 @@ leader_event = {
 					variable = {
 						type = name
 						localization = LEVEL
-						scope = this.skill
+						scope = root
 					}
 				}
 			}
