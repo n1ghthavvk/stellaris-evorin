@@ -1,104 +1,104 @@
 ﻿l_french:
 
 
-reliquary_system_initializer_NAME:0 "Back to the Future"
-reliquary_system_initializer_DESC:0 "Maximum-sized Trinary System with a §YRelic World§L (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1).\n\n$system_initializer_DESC$"
+reliquary_system_initializer_NAME:0 "Retour vers le futur"
+reliquary_system_initializer_DESC:0 "Système trinaire de taille maximale avec un §YRelic World§L (taille 26), accompagné de deux lunes Relique, dont l'une est minuscule (taille 11 et 1).\n\n$system_initializer_DESC$"
 
-origin_reliquary:0 "Back to the Future"
-origin_reliquary_desc:0 "This civilization once experienced an enormous scientific growth that allowed it to settle its planetary moons. Their technological prowess was lost however, when a coronal mass ejection from their sun destroyed all electrical equipment. Only tales of the wonders their forefathers were capable of remained. Eons later, scientists discovered once again that magic was nothing more than incomprehensible technology."
-origin_tooltip_reliquary_effects:0 "Maximum-sized Trinary System with a §YRelic World§W (size 26), accompanied by two Relic moons, one of them tiny (size 11 and 1)."
+origin_reliquary:0 "Retour vers le futur"
+origin_reliquary_desc:0 "Cette civilisation a connu autrefois un essor scientifique considérable qui lui a permis de coloniser les lunes de sa planète. Cependant, ses prouesses technologiques ont été perdues lorsqu'une éjection de masse coronale provenant de son soleil a détruit tous les équipements électriques. Seules les légendes relatant les merveilles accomplies par leurs ancêtres ont survécu. Des millénaires plus tard, les scientifiques ont redécouvert que la magie n'était rien d'autre qu'une technologie incompréhensible."
+origin_tooltip_reliquary_effects:0 "Système trinaire de taille maximale avec un §YMonde Relique§W (taille 26), accompagné de deux lunes Relique, dont l'une est minuscule (taille 11 et 1)."
 
-d_hydroponic_farms:1 "Hydroponic Farms"
-d_hydroponic_farms_desc:0 "This area of greenhouses and fields has been used to feed the planet since time immemorial. Now most of it is unusable, but it's still yielding a bit of food."
-
-
-origin_egg:0 "Walking On Eggshells"
-origin_egg_desc:0 "Strange earthquakes have shaken our planet for centuries now. Legends tell us about the great serpent that devours our world from within. Is it true?"
-origin_tooltip_egg_effects:0 "§WStart with a §YVoidspawn §Wgrowing inside your Home Planet. It will hatch and §Rdestroy §Wyour empire capital.\n\nYou will be able to pick how long it takes at the start of the game. Choose from options between certain annihilation at 1 year and the 'very challenging' timeframe of 100 years."
-
-emo.2.title: "Even More Origins: Walking On Eggshells"
-emo.2.desc: "Choose after what time the egg hidden beneath the planets crust will start to hatch.\n\nThis indicates when the event chain starts, the colony will be destroyed about a year later.\n\nOptions are color coded to indicate how likely your survival will be. The first few options are almost certainly impossible, if you are not able to quickly locate and colonize a habitable planet. The last option is there if you just want to fight and slay a Void Spawn some time in the future. Everything up to five years will guarantee none of your original population survives (as you will not be able to resettle pops unto a developing colony)."
-emo.2.option.oneyear: "§R1 year§W"
-emo.2.option.oneandahalfyears: "§R1.5 years§W"
-emo.2.option.twoyears: "§P2 years§W"
-emo.2.option.threeyears: "§P3 years§W"
-emo.2.option.fouryears: "§S4 years§W"
-emo.2.option.fiveyears: "§S5 years§W"
-emo.2.option.sevenyears: "§H7 years§W"
-emo.2.option.tenyears: "§Y10 years§W"
-emo.2.option.fifteenyears: "15 years"
-emo.2.option.twentyfiveyears: "25 years"
-emo.2.option.hundredyears: "§G100 years§W"
+d_hydroponic_farms:1 "Fermes hydroponiques"
+d_hydroponic_farms_desc:0 "Cette zone de serres et de champs a été utilisée pour nourrir la planète depuis des temps immémoriaux. Aujourd'hui, la majeure partie est inutilisable, mais elle produit encore un peu de nourriture."
 
 
-origin_hive:0 "Ecosystem Integration"
-origin_hive_desc:0 "This Hive Mind has developed an understanding of its surroundings, so far unknown. It has successfully merged with its Home Planet."
-origin_tooltip_hive_effects:0 "§WStart with a §YHive World §Was your Home Planet."
+origin_egg:0 "Marcher sur des coquilles d'oeufs"
+origin_egg_desc:0 "Depuis des siècles, d'étranges tremblements de terre secouent notre planète. Les légendes nous parlent d'un grand serpent qui dévore notre monde de l'intérieur. Est-ce vrai ?"
+origin_tooltip_egg_effects:0 "§WCommence avec une §YApparition du vide §W qui grandit à l'intérieur de votre planète natale. Il éclora et §Rdétruira§W la capitale de votre empire.\n\nVous pourrez choisir la durée au début du jeu. Choisissez entre une destruction certaine au bout d'un an et un délai de 100 ans 'très difficile'."
+
+emo.2.title: "Even More Origins: Marcher sur des coquilles d'oeufs"
+emo.2.desc: "Choisissez à partir de quel moment l'oeuf caché sous la croûte de la planète commencera à éclore.\n\nCela indique que lorsque la chaîne d'événements commence, la colonie sera détruite environ un an plus tard.\n\nLes options sont codées par couleur pour indiquer vos chances de survie. Les premières options sont presque certainement impossibles, si vous n'êtes pas en mesure de localiser et de coloniser rapidement une planète habitable. La dernière option est là si vous voulez simplement combattre et tuer un Void Spawn à un moment donné dans le futur. Tout ce qui va jusqu'à cinq ans garantit qu'aucun membre de votre population d'origine ne survivra (car vous ne serez pas en mesure de réinstaller des populations dans une colonie en développement)."
+emo.2.option.oneyear: "§R1 an§W"
+emo.2.option.oneandahalfyears: "§R1.5 ans§W"
+emo.2.option.twoyears: "§P2 ans§W"
+emo.2.option.threeyears: "§P3 ans§W"
+emo.2.option.fouryears: "§S4 ans§W"
+emo.2.option.fiveyears: "§S5 ans§W"
+emo.2.option.sevenyears: "§H7 ans§W"
+emo.2.option.tenyears: "§Y10 ans§W"
+emo.2.option.fifteenyears: "15 ans"
+emo.2.option.twentyfiveyears: "25 ans"
+emo.2.option.hundredyears: "§G100 ans§W"
 
 
-origin_eldest_sibling:0 "Eldest Sibling"
-origin_tooltip_emo_eldest_sibling_effects:0 "Start with up to §Ytwo other primitive civilizations§! in your home system. Choose if they're of your own species or randomly generated ones."
-origin_eldest_sibling_desc:0 "This society has always been fascinated by the presence of two specific other planets in their solar system. With the discovery of telescopes, scientists have verified the existence of alien life present on at least one of them! \nOld legends long retold seem more credible now, and as the first among us, we take to the stars."
-
-START_SCREEN_ELDEST_SIBLING:0 "Even before the invention of the telescope, we've long since known stories of our sibling civilizations. Time has shrouded their origin into mystery. And for centuries, observing them from the comfort of our home world was the only way to gather information.\n\nWith the advent of telecommunication it wasn't long before ambitious scientists tried to contact them. The first reply gathered worldwide attention. Finally - answers would be ours!\n\nSoon thereafter we knew that they had their own stories about us and legends about portals to other worlds. Speculation ensued, but no consent could be reached upon our shared past.\n\n The discovery of sustainable spaceflight has gifted us the immeasurable opportunity to visit them. The communication so far had always been positive, reinforced by the leading scientists of our time. But now there are voices among us, gathering support for a preventative first strike!"
-
-emo.1.title: "Even More Origins: Eldest Sibling"
-emo.1.desc: "Choose what kind of primitive civilizations have been located by our scientists."
-emo.1.option.sametwo: "2 primitive civilizations of our species."
-emo.1.option.sameone: "1 primitive civilization of our species."
-emo.1.option.oneandone: "1 primitive civilization of our species and another, random one."
-emo.1.option.onerandom: "1 primitive civilization of a single, random species."
-emo.1.option.tworandom: "2 primitive civilizations of different, random species."
-emo.1.option.decideyourself: "Use planetary decisions to choose within 1 year."
-emo.1.option.decideyourself_desc: "For one year you will be able to 'discover' as many pre-FTL empires on planets within your home system as you like."
-
-emo_decision_discover_preftl:0 "Discover late pre-FTL empire on this planet"
-emo_decision_discover_preftl_desc: "This will spawn a random pre-FTL empire on this planet. Use with care."
-
-emo.15.title: "Even More Origins: Eldest Sibling"
-emo.15.desc: "Choose what kind of primitive civilization has been located by our scientists on this planet."
-emo.15.option.same: "A primitive civilization of our species."
-emo.15.option.diff: "A primitive civilization of another, random species."
+origin_hive:0 "Intégration de l'écosystème"
+origin_hive_desc:0 "Cette conscience collective a développé une compréhension de son environnement jusqu'alors inconnue. Elle a réussi à fusionner avec sa planète d'origine."
+origin_tooltip_hive_effects:0 "§WCommencez avec un §YMonde ruche §Wcomme votre planète d'origine."
 
 
-origin_emperor:0 "The Chosen One"
-origin_emperor_desc:0 "''You are the Chosen One. You have brought balance to this world. Stay on this path and you will do it again... for the galaxy. But beware your heart...'' \n- The Father's last words"
-origin_tooltip_emperor_effects:0 "- Ruler Initial Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+origin_eldest_sibling:0 "Fratrie aînée"
+origin_tooltip_emo_eldest_sibling_effects:0 "Commencez avec jusqu'à §Ydeux autres civilisations primitives§! dans votre système d'origine. Choisissez s'ils appartiennent à votre propre espèce ou s'ils sont générés aléatoirement."
+origin_eldest_sibling_desc:0 "Cette société a toujours été fascinée par la présence de deux autres planètes spécifiques dans leur système solaire. Grâce à la découverte des télescopes, les scientifiques ont vérifié l'existence d'une vie extraterrestre sur au moins l'une d'entre elles ! \nLes vieilles légendes racontées depuis longtemps semblent désormais plus crédibles, et en tant que premiers parmi nous, nous partons à la conquête des étoiles."
+
+START_SCREEN_ELDEST_SIBLING:0 "Même avant l'invention du télescope, nous connaissions depuis longtemps les histoires de nos civilisations sœurs. Le temps a enveloppé leur origine d'un voile de mystère. Et pendant des siècles, les observer depuis le confort de notre monde natal était le seul moyen de recueillir des informations.\n\nAvec l'avènement des télécommunications, il n'a pas fallu longtemps avant que des scientifiques ambitieux tentent de les contacter. La première réponse a attiré l'attention du monde entier. Enfin, nous allions obtenir des réponses !\n\nPeu après, nous avons appris qu'ils avaient leurs propres histoires à notre sujet et des légendes sur des portails vers d'autres mondes. Des spéculations ont suivi, mais aucun accord n'a pu être trouvé sur notre passé commun.\n\n La découverte des vols spatiaux durables nous a offert l'opportunité inestimable de leur rendre visite. Jusqu'à présent, la communication a toujours été positive, renforcée par les scientifiques les plus éminents de notre époque. Mais aujourd'hui, certaines voix s'élèvent parmi nous pour réclamer une première frappe préventive !"
+
+emo.1.title: "Even More Origins: Fratrie aînée"
+emo.1.desc: "Choisissez le type de civilisations primitives qui ont été localisées par nos scientifiques."
+emo.1.option.sametwo: "2 civilisations primitives de notre espèce."
+emo.1.option.sameone: "1 civilisations primitives de notre espèce."
+emo.1.option.oneandone: "1 civilisation primitive de notre espèce et une autre, aléatoire."
+emo.1.option.onerandom: "1 civilisation primitive d'une seule espèce aléatoire."
+emo.1.option.tworandom: "2 civilisations primitives d'espèces différentes et aléatoires."
+emo.1.option.decideyourself: "Utilisez les décisions planétaires pour faire votre choix dans un délai d'un an."
+emo.1.option.decideyourself_desc: "Pendant un an, vous pourrez 'découvrir' autant d'empires pré-FTL que vous le souhaitez sur les planètes de votre système d'origine."
+
+emo_decision_discover_preftl:0 "Découvrez l'empire pré-FTL tardif sur cette planète"
+emo_decision_discover_preftl_desc: "Cela générera un empire pré-FTL aléatoire sur cette planète. À utiliser avec précaution."
+
+emo.15.title: "Even More Origins: Fratrie aînée"
+emo.15.desc: "Choisissez quel type de civilisation primitive a été localisée par nos scientifiques sur cette planète."
+emo.15.option.same: "Une civilisation primitive de notre espèce."
+emo.15.option.diff: "Une civilisation primitive d'une autre espèce aléatoire."
+
+
+origin_emperor:0 "L'Élu"
+origin_emperor_desc:0 "''Vous êtes l'Élu. Vous avez ramené l'équilibre dans ce monde. Continuez sur cette voie et vous y parviendrez à nouveau... pour la galaxie. Mais prenez garde à votre cœur...'' \n- Les dernières paroles du Père"
+origin_tooltip_emperor_effects:0 "- Niveau initial du dirigeant: §G10§!$NEW_LINE$- Trait du dirigeant: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
 concept_leader_trait_chosen: "$leader_trait_chosen$"
-concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortal§!\n\n§L$leader_trait_chosen_desc$§!"
+concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortel§!\n\n§L$leader_trait_chosen_desc$§!"
 
 
 fratricide_system_initializer_NAME:0 "Fratricide"
-fratricide_system_initializer_DESC:0 "The §YTomb World §Lpart of this Unary System is a silent reminder of the civilization once neighbouring your own.\n\n$system_initializer_DESC$"
+fratricide_system_initializer_DESC:0 "La partie du §YMonde Mort §L de ce système unaire est un rappel silencieux de la civilisation qui était autrefois voisine de la vôtre.\n\n$system_initializer_DESC$"
 
 origin_fratricide:0 "Fratricide"
-origin_fratricide_desc:0 "The Tomb World part of this Unary System is a silent reminder of the civilization once neighbouring your own. Learn from your history or embrace and repeat it."
-origin_tooltip_fratricide_effects:0 "§WStart with an additional §YTomb World §Win your Home System."
+origin_fratricide_desc:0 "La partie du Monde Mort de ce système unaire est un rappel silencieux de la civilisation qui était autrefois voisine de la vôtre. Tirez les leçons de votre histoire ou acceptez-la et répétez-la."
+origin_tooltip_fratricide_effects:0 "§WCommencez avec un §YMonde Mort supplémentaire §Wdans votre système natale."
 
 
-nine_suns_system_initializer_NAME:0 "Legacy of Nine Suns"
-nine_suns_system_initializer_DESC:0 "When a sister galaxy collided with our own, its supermassive black hole tore multiple stars away from their galactic niche. They all ended up here, accompanying their new center of gravity. A massive planet formed out of the debris present in the system, orbiting the black hole. The light of nine suns created a new cycle of varying perpetual daylight and radiation. Life still evolved there, defying the adverse conditions.\n\n$system_initializer_DESC$"
+nine_suns_system_initializer_NAME:0 "Héritage des Neuf Soleils"
+nine_suns_system_initializer_DESC:0 "Lorsqu'une galaxie sœur est entrée en collision avec la nôtre, son trou noir supermassif a arraché plusieurs étoiles de leur niche galactique. Elles ont toutes fini ici, accompagnant leur nouveau centre de gravité. Une planète massive s'est formée à partir des débris présents dans le système, orbitant autour du trou noir. La lumière de neuf soleils a créé un nouveau cycle de lumière du jour et de rayonnement variables et perpétuels. La vie a continué à évoluer là-bas, défiant les conditions défavorables.\n\n$system_initializer_DESC$"
 
-origin_nine_suns:0 "Legacy of Nine Suns"
-origin_nine_suns_desc:0 "When a sister galaxy collided with our own, its supermassive black hole tore multiple stars away from their galactic niche. They all ended up here, accompanying their new center of gravity. A massive planet formed out of the debris present in the system, orbiting the black hole. The light of nine suns created a new cycle of varying perpetual daylight and radiation. Life still evolved there, defying the adverse conditions."
-origin_tooltip_nine_suns_effects:0 "§WStart on a §Ysize 30 §Wplanet, accompanied by nine different stars, orbiting the supermassive §YBlack Hole §Win your Home System. A §YSuperflare §Wwill strike after one year."
+origin_nine_suns:0 "Héritage des Neuf Soleils"
+origin_nine_suns_desc:0 "Lorsqu'une galaxie sœur est entrée en collision avec la nôtre, son trou noir supermassif a arraché plusieurs étoiles de leur niche galactique. Elles ont toutes fini ici, accompagnant leur nouveau centre de gravité. Une planète massive s'est formée à partir des débris présents dans le système, orbitant autour du trou noir. La lumière de neuf soleils a créé un nouveau cycle de lumière du jour et de rayonnement variables et perpétuels. La vie a continué à évoluer là-bas, défiant les conditions défavorables."
+origin_tooltip_nine_suns_effects:0 "§WCommencez sur une planète de §Ytaille 30§W, accompagnée de neuf étoiles différentes, en orbite autour d'un §YTrou Noir§W dans votre système solaire. Une §YSuper éruption§W frappera dans un an."
 
-emo.3.title: "Even More Origins: Legacy of Nine Suns"
-emo.3.desc: "If observing the light of distant stars has taught our civilization anything, it is that we are one of a kind. Nine stars are present in close proximity to the black hole our home planet is orbiting. And their combined influence has allowed life as we know it to develop. In the shadow of the supermassive black hole, our ancestors have long since dreamt about taking to the skies. Now, we know that the black hole in our system is not originally from here. A sister galaxy collided with this one over fourteen billion years ago and what is left of its core is now our home.\n\nEven before the development of the first Hyper Drive, scientists had already conceptualized a massive engineering project. It was called: The §YBirch World§!. Using concepts from early theoretical physics, it should be possible to construct a gigantic sphere around the event horizon of the black hole.\nSuch a construction might be far out of our reach for now, but visionaries and nerds agree: It would be the crown jewel of galactic civilization!"
-emo.3.option.birch_world_conceptualized: "A goal worth pursuing."
+emo.3.title: "Even More Origins: Héritage des Neuf Soleils"
+emo.3.desc: "Si l'observation de la lumière des étoiles lointaines a appris quelque chose à notre civilisation, c'est que nous sommes uniques en notre genre. Neuf étoiles sont présentes à proximité immédiate du trou noir autour duquel orbite notre planète. Et leur influence combinée a permis le développement de la vie telle que nous la connaissons. Dans l'ombre du trou noir supermassif, nos ancêtres rêvaient depuis longtemps de s'envoler vers les cieux. Nous savons aujourd'hui que le trou noir de notre système n'est pas originaire d'ici. Une galaxie sœur est entrée en collision avec la nôtre il y a plus de quatorze milliards d'années, et ce qui reste de son noyau est désormais notre foyer.\n\nAvant même le développement du premier Hyperpropulseur, les scientifiques avaient déjà conceptualisé un projet d'ingénierie gigantesque. Il s'appelait le §YMonde de Birch§!. En utilisant des concepts issus des débuts de la physique théorique, il devrait être possible de construire une sphère gigantesque autour de l'horizon des événements du trou noir.\nUne telle construction est peut-être hors de notre portée pour l'instant, mais les visionnaires et les geeks s'accordent à dire qu'elle serait le joyau de la civilisation galactique !"
+emo.3.option.birch_world_conceptualized: "Un objectif qui mérite d'être poursuivi."
 
-emo.5.title: "Even More Origins: Legacy of Nine Suns"
-emo.5.desc: "If observing the light of distant stars has taught our civilization anything, it is that our galaxy is extraordinary. There has been a long-standing theory that the center of each galaxy must be of such concentrated mass that only a black hole or quasar could be present.\nHowever, for as long as that theory exists we have always wondered why it is that our galaxy seemed to have two distinct centers of gravity.\n\nNo longer! With our approach to the second, slightly smaller center, we have learned of its secret: Billions of years ago, a sister galaxy must have collided with our own. But instead of parting ways after the collision, the two merged and both of their cores have now entered a semi-stable orbit that will continue for at least another few billion years.\nThis second core has attracted nine stars which orbit it closer than we have thought possible.\n\nChatter among our scientists includes disturbingly insane proposals for the supermassive black hole. Necessary funding to construct one of these, a so-called §YBirch World§!, would exceed anything already built in the galaxy, be it by us or those who came before."
-emo.5.sister_galaxy_discovered: "This defies our current understanding of physics!"
-
-
-origin_subterra:0 "Out of Sight, Out of Mind"
-origin_subterra_desc:0 "Unbeknownst to your civilization, a subterranean species has thrived below the surface for eons."
-origin_tooltip_subterra_effects:0 "§WStart with a §YSubterranean Civilization §Won your Home Planet."
+emo.5.title: "Even More Origins: Héritage des Neuf Soleils"
+emo.5.desc: "Si l'observation de la lumière des étoiles lointaines a appris quelque chose à notre civilisation, c'est bien que notre galaxie est extraordinaire. Une théorie ancienne veut que le centre de chaque galaxie soit constitué d'une masse si concentrée que seul un trou noir ou un quasar pourrait y exister.\nCependant, tant que cette théorie existe, nous nous sommes toujours demandé pourquoi notre galaxie semblait avoir deux centres de gravité distincts.\n\nPlus maintenant ! En nous approchant du deuxième centre, légèrement plus petit, nous avons découvert son secret : il y a des milliards d'années, une galaxie sœur a dû entrer en collision avec la nôtre. Mais au lieu de se séparer après la collision, les deux galaxies ont fusionné et leurs noyaux sont désormais entrés dans une orbite semi-stable qui durera encore au moins quelques milliards d'années.\nCe deuxième noyau a attiré neuf étoiles qui gravitent autour de lui à une distance plus proche que nous ne l'aurions cru possible.\n\nLes discussions entre nos scientifiques incluent des propositions inquiétantes et insensées concernant le trou noir supermassif. Le financement nécessaire à la construction d'un tel projet, appelé §YMonde de Birch§!, dépasserait tout ce qui a déjà été construit dans la galaxie, que ce soit par nous ou par ceux qui nous ont précédés."
+emo.5.sister_galaxy_discovered: "Cela défie notre compréhension actuelle de la physique !"
 
 
-origin_enlightenment:0 "Endeavour to Enlightenment"
-origin_enlightenment_desc:0 "The search for ever more knowledge, the curiosity to lift the veil. This civilization never stops its education."
-origin_tooltip_enlightenment_effects:0 "§W- Chance that leaders retain their level: §G20%§!"
-MESSAGE_ENLIGHTENED_TITLE:0 "Level Retained"
-MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! has retained their leader level."
+origin_subterra:0 "Loin des yeux, loin du cœur"
+origin_subterra_desc:0 "À l'insu de votre civilisation, une espèce souterraine prospère sous la surface depuis des millénaires."
+origin_tooltip_subterra_effects:0 "§WCommencez avec une §YCivilisation souterraine §Wsur votre planète d'origine."
+
+
+origin_enlightenment:0 "En quête de l'illumination"
+origin_enlightenment_desc:0 "La quête d'un savoir toujours plus grand, la curiosité de lever le voile. Cette civilisation ne cesse jamais son apprentissage."
+origin_tooltip_enlightenment_effects:0 "§W- Probabilité que les dirigeants conservent leur niveau: §G20%§!"
+MESSAGE_ENLIGHTENED_TITLE:0 "Niveau conservé"
+MESSAGE_ENLIGHTENED:0 "§H[This.GetName]§! a conservé son niveau de dirigeant."
