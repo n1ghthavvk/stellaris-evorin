@@ -1,3 +1,6 @@
+Version 1.22.3
+* Added French translation by [url=https://steamcommunity.com/profiles/76561199311073872/myworkshopfiles/]Stern[/url]
+
 Version 1.22.2
 * Fixed "The Chosen One" Origin, updating its add_trait logic from old to new API
 * Updated "Endeavour to Enlightenment" toast message, linking it to the leader's scope correctly, so you can click on it
