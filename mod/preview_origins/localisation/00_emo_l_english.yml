@@ -63,7 +63,7 @@ emo.15.option.diff: "A primitive civilization of another, random species."
 
 origin_emperor:0 "The Chosen One"
 origin_emperor_desc:0 "''You are the Chosen One. You have brought balance to this world. Stay on this path and you will do it again... for the galaxy. But beware your heart...'' \n- The Father's last words"
-origin_tooltip_emperor_effects:0 "- Ruler Initial Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+origin_tooltip_emperor_effects:0 "- Ruler Starting Level: §G10§!$NEW_LINE$- Ruler Trait: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
 concept_leader_trait_chosen: "$leader_trait_chosen$"
 concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortal§!\n\n§L$leader_trait_chosen_desc$§!"
 

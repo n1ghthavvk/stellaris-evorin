@@ -17,7 +17,15 @@ event = {
 					trait = leader_trait_chosen
 					show_message = no
 				}
+				# for "Entropy Drinkers" civic
+				if = {
+					limit = {
+						has_trait = leader_trait_psionic
+					}
+					remove_trait = leader_trait_psionic
+				}
 				set_leader_flag = immune_to_negative_traits
+				set_leader_tier = leader_tier_legendary
 				add_skill_without_trait_selection = 9
 			}
 			add_research_option = tech_psionic_theory

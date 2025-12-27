@@ -30,7 +30,7 @@ If you are also subscribed to [url=https://steamcommunity.com/sharedfiles/filede
 Start with a Subterranean Civilization on your home world. This gives powerful bonuses in the form of additional districts or some districts and powerful jobs at the cost of losing quite a bit of science income for a while. If you aren't careful, they might take over the planet. And you don't want that, do you?
 
 [h2]The Chosen One[/h2]
-Your ruler is the Chosen One, an immortal, level 10 leader. They will allow you to start researching Psionic Theory right from the beginning. Though you probably shouldn't do that as it would take about 72 months.
+Your ruler is the Chosen One, an immortal, legendary level 10 leader. You can pick their traits at the start of the game. They will allow you to start researching Psionic Theory right from the beginning. 
 
 [h2]Walking On Eggshells[/h2]
 Start with a Voidspawn growing inside your Home Planet. It will hatch and destroy your empire capital.
@@ -60,14 +60,13 @@ Only the latest version of the game is supported, as several Origins use solar_s
 
 As of Mod Version 1.5.1 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=819148835]Planetary Diversity[/url] is fully compatible!
 It is now possible to use the "Eldest Sibling" Origin with a home world from that mod.
-Even the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279]Planetary Diversity - Exotic World[/url] ones!
 Any randomly generated worlds will also spawn using the Planetary Diversity list of normal and rare planet classes.
 
 As of Mod Version 1.6.0 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1121692237]Gigastructural Engineering[/url] will allow you to build a Birch World around the supermassive black hole featured by the "Legacy of Nine Suns" origin (a new save game is required).
 
 All of the added features above are optional. There's no need to subscribe to any more mods, if you don't want to do so in the first place.
 
-This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's two small exceptions: I have overwritten the following events: [code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code][code]utopia.2650 # fixed The Chosen One getting the Psionic trait[/code]
+This mod should also be fully compatible with almost any other mod (even those adding more origins). No vanilla files were touched. There's one small exception: I have overwritten the following event: [code]colony.50 # Allowed Subterranean Civilization to fire on empire capitals[/code]
 
 [h1]Endorsed Translations in Unsupported Languages[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2977692167][img]https://steamuserimages-a.akamaihd.net/ugc/2076767296794399254/D50CD23603B38450350F836D9E5C7506F3D98CF8/[/img][/url]

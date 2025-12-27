@@ -20,7 +20,7 @@ origin_reliquary = {
 
 	description = "origin_tooltip_reliquary_effects"
 
-	flags = { first_contact_event Story7}
+	flags = { first_contact_event Story7 }
 
 	traits = {
 

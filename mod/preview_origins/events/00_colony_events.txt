@@ -1,13 +1,34 @@
 namespace = colony
+
+### Seismic Disturbances
 planet_event = {
 	id = colony.50
 	title = "colony.50.name"
-	desc = "colony.50.desc"
+	desc = {
+		trigger = {
+			owner = {
+				is_subterranean_empire = no
+			}
+		}
+		text = "colony.50.desc"
+	}
+	desc = {
+		trigger = {
+			owner = {
+				is_subterranean_empire = yes
+			}
+		}
+		text = "colony.50.desc.subterranean"
+	}
+
 	picture = GFX_evt_in_the_dark
 	show_sound = event_air_raid_siren
 	location = ROOT
 	trackable = yes
+	event_chain = subterranean_civilization_chain
+
 	pre_triggers = {
+		is_ai = no
 		has_owner = yes
 		# is_homeworld = no
 		original_owner = yes
@@ -15,69 +36,74 @@ planet_event = {
 		# is_capital = no
 		is_occupied_flag = no
 	}
+
 	trigger = {
-		# owner = { NOT = { has_ethic = ethic_gestalt_consciousness } }
-		num_pops > 0
+		owner = { is_wilderness_empire = no }
+		pop_amount > 0
 		NOR = {
 			has_global_flag = seismic_disturbance_global
 			has_planet_flag = colony_event
 			is_planet_class = pc_nuked
 			is_planet_class = pc_ringworld_habitable
+			is_planet_class = pc_shattered_ring_habitable
 			is_planet_class = pc_habitat
 			is_planet_class = pc_city
 			is_planet_class = pc_relic
+			is_planet_class = pc_volcanic
 		}
 	}
+
 	is_triggered_only = yes
+
 	immediate = {
-		owner = {
-			save_event_target_as = subterranean_planet_owner
-		}
+		owner = { save_event_target_as = subterranean_planet_owner }
 		set_global_flag = seismic_disturbance_global
 		set_planet_flag = seismic_disturbance
 		set_planet_flag = colony_event
 		add_deposit = d_underground_farm_blocked
 		add_deposit = d_underground_mine_blocked
 		add_deposit = d_underground_generator_blocked
-	}
-	option = {
-		name = colony.50.a
+		create_subterranean_nation = { FLAG = subterranean_nation }
 		begin_event_chain = {
 			event_chain = "subterranean_civilization_chain"
 			target = ROOT
 		}
+	}
+
+	option = {
+		name = colony.50.a
+		tooltip = {
+			begin_event_chain = {
+				event_chain = "subterranean_civilization_chain"
+				target = ROOT
+			}
+		}
 		enable_special_project = {
-			name = "SEISMIC_DISTURBANCE_1_PROJECT"			#Establish Communications
+			name = "SEISMIC_DISTURBANCE_1_PROJECT" #Establish Communications
 			location = this
 			owner = root
 		}
 		enable_special_project = {
-			name = "SEISMIC_DISTURBANCE_2_PROJECT"			#Preemptive Strike
+			name = "SEISMIC_DISTURBANCE_2_PROJECT" #Preemptive Strike
 			location = this
 			owner = root
 		}
+
 	}
 	option = {
 		name = distar.216.a.exter
-		exclusive_trigger = {
-			OR = {
-				# Neither of these knows what to do with Trade Value
-				owner = {
-					is_homicidal = yes
-				}
-				owner = {
-					has_ethic = ethic_gestalt_consciousness
-				}
+		exclusive_trigger = { owner = { is_homicidal = yes } }
+		tooltip = {
+			begin_event_chain = {
+				event_chain = "subterranean_civilization_chain"
+				target = ROOT
 			}
 		}
-		begin_event_chain = {
-			event_chain = "subterranean_civilization_chain"
-			target = ROOT
-		}
 		enable_special_project = {
-			name = "SEISMIC_DISTURBANCE_2_PROJECT"			#Preemptive Strike
+			name = "SEISMIC_DISTURBANCE_2_PROJECT" #Preemptive Strike
 			location = this
 			owner = root
 		}
+
 	}
 }

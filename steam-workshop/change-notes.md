@@ -1,3 +1,9 @@
+Version 1.23.0
+* Update to game version 4.2.*
+* Fixed "The Chosen One" Origin, updating the picture and removing the reliance on the overwritten vanilla event
+* Updated "Out of Sight, Out of Mind" Origin, allowing it to be more playable by all kinds of empires (now possible due to the trade rework)
+* Updated "Eldest Sibling" Origin,  ensuring compatibility for all planet classes from Planetary Diversity (up to its release on 16th December 2025).
+
 Version 1.22.3
 * Added French translation by [url=https://steamcommunity.com/profiles/76561199311073872/myworkshopfiles/]Stern[/url]
 

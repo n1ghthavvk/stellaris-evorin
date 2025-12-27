@@ -96,6 +96,7 @@ generate_late_primitives_on_planet = {
 			create_pre_ftl_hive_species = yes
 			create_late_pre_ftl_hive_empire = yes
 			setup_pre_ftl_hive_planet = yes
+			pre_ftl_clean_up_effect = yes
 		}
 		90 = {
 			generate_late_pre_ftls_on_planet = yes

@@ -6,7 +6,7 @@ d_hydroponic_farms = {
 	icon = d_building_complex
 	
 	planet_modifier = {
-		district_farming_max =  3
+		district_farming_max_add = 3
 	}
 	
 	drop_weight = {

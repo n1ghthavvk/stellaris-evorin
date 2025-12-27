@@ -63,7 +63,7 @@ emo.15.option.diff: "Une civilisation primitive d'une autre espèce aléatoire."
 
 origin_emperor:0 "L'Élu"
 origin_emperor_desc:0 "''Vous êtes l'Élu. Vous avez ramené l'équilibre dans ce monde. Continuez sur cette voie et vous y parviendrez à nouveau... pour la galaxie. Mais prenez garde à votre cœur...'' \n- Les dernières paroles du Père"
-origin_tooltip_emperor_effects:0 "- Niveau initial du dirigeant: §G10§!$NEW_LINE$- Trait du dirigeant: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
+origin_tooltip_emperor_effects:0 "- Niveau initial du dirigeant: §G10§!$NEW_LINE$- Trait du dirigeant: ['concept_leader_trait_chosen', $leader_trait_chosen$]$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['concept_psionic_theory', £society_research£ $tech_psionic_theory$]"
 concept_leader_trait_chosen: "$leader_trait_chosen$"
 concept_leader_trait_chosen_desc: "$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §GImmortel§!\n\n§L$leader_trait_chosen_desc$§!"
 

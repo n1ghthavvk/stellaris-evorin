@@ -69,43 +69,13 @@ terraform_planet_and_generate_same_species_primitives = {
 					}
 				}
 				#### PLANETARY DIVERSITY PLANET CLASSES
-				# atoll, crag, tepui, fog desert, frigid, bog, mycellium, dune, dry tidally-locked, and frozen tidally-locked planets have different names in the code
 				# following their file structure:
-				# cavern
-				pc_pd_cold_cave = {
-					prevprev = {
-						change_pc = pc_pd_cold_cave
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_dry_cave = {
-					prevprev = {
-						change_pc = pc_pd_dry_cave
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
-				pc_pd_wet_cave = {
-					prevprev = {
-						change_pc = pc_pd_wet_cave
-						reroll_deposits = yes
-						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
-						generate_same_species_late_primitives_on_planet = yes
-					}
-				}
 				# superhabitable
 				pc_pd_wet_superhabitable = {
 					prevprev = {
 						change_pc = pc_pd_wet_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -114,7 +84,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_pd_cold_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -123,7 +92,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_pd_dry_superhabitable
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -133,7 +101,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_pd_wet_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -142,7 +109,6 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_pd_dry_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -151,7 +117,31 @@ terraform_planet_and_generate_same_species_primitives = {
 						change_pc = pc_pd_cold_tidally_locked
 						reroll_deposits = yes
 						reroll_planet_modifiers = yes
-						pd_make_uncommon_gaia_worlds_effect = yes
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				# cavern
+				pc_pd_cold_cave = {
+					prevprev = {
+						change_pc = pc_pd_cold_cave
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_dry_cave = {
+					prevprev = {
+						change_pc = pc_pd_dry_cave
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
+						generate_same_species_late_primitives_on_planet = yes
+					}
+				}
+				pc_pd_wet_cave = {
+					prevprev = {
+						change_pc = pc_pd_wet_cave
+						reroll_deposits = yes
+						reroll_planet_modifiers = yes
 						generate_same_species_late_primitives_on_planet = yes
 					}
 				}
@@ -188,11 +178,6 @@ match_pd_class_modifiers = {
 						pd_forest_world_effect = yes
 					}
 				}
-				pd_temperate = {
-					prevprev = {
-						pd_temperate_world_effect = yes
-					}
-				}
 				pd_tepid = {
 					prevprev = {
 						pd_tepid_world_effect = yes
@@ -201,6 +186,21 @@ match_pd_class_modifiers = {
 				pd_mushroom = {
 					prevprev = {
 						pd_mushroom_world_effect = yes
+					}
+				}
+				pd_sakura = {
+					prevprev = {
+						pd_sakura_world_effect = yes
+					}
+				}
+				pd_moss = {
+					prevprev = {
+						pd_moss_world_effect = yes
+					}
+				}
+				pd_marsh = {
+					prevprev = {
+						pd_marsh_world_effect = yes
 					}
 				}
 				pd_megaflora = {
@@ -229,6 +229,16 @@ match_pd_class_modifiers = {
 						pd_swamp_world_effect = yes
 					}
 				}
+				pd_algae = {
+					prevprev = {
+						pd_algae_world_effect = yes
+					}
+				}
+				pd_tidepool = {
+					prevprev = {
+						pd_tidepool_world_effect = yes
+					}
+				}
 				pd_crag = {
 					prevprev = {
 						pd_crag_world_effect = yes
@@ -244,19 +254,19 @@ match_pd_class_modifiers = {
 						pd_kelp_world_effect = yes
 					}
 				}
-				pd_algae = {
+				pd_columnar = {
 					prevprev = {
-						pd_algae_world_effect = yes
-					}
-				}
-				pd_reef = {
-					prevprev = {
-						pd_reef_world_effect = yes
+						pd_columnar_world_effect = yes
 					}
 				}
 				pd_archipelago = {
 					prevprev = {
 						pd_archipelago_world_effect = yes
+					}
+				}
+				pd_reef = {
+					prevprev = {
+						pd_reef_world_effect = yes
 					}
 				}
 				# tropical
@@ -270,14 +280,24 @@ match_pd_class_modifiers = {
 						pd_atoll_world_effect = yes
 					}
 				}
-				pd_tepui = {
-					prevprev = {
-						pd_tepui_world_effect = yes
-					}
-				}
 				pd_mangrove = {
 					prevprev = {
 						pd_mangrove_world_effect = yes
+					}
+				}
+				pd_aerial = {
+					prevprev = {
+						pd_aerial_world_effect = yes
+					}
+				}
+				pd_obsidian = {
+					prevprev = {
+						pd_obsidian_world_effect = yes
+					}
+				}
+				pd_tepui = {
+					prevprev = {
+						pd_tepui_world_effect = yes
 					}
 				}
 				pd_cenote = {
@@ -288,11 +308,6 @@ match_pd_class_modifiers = {
 				pd_fungal = {
 					prevprev = {
 						pd_fungal_world_effect = yes
-					}
-				}
-				pd_aerial = {
-					prevprev = {
-						pd_aerial_world_effect = yes
 					}
 				}
 				pd_lilypad = {
@@ -326,6 +341,16 @@ match_pd_class_modifiers = {
 						pd_oasis_world_effect = yes
 					}
 				}
+				pd_ironsand = {
+					prevprev = {
+						pd_ironsand_world_effect = yes
+					}
+				}
+				pd_dust = {
+					prevprev = {
+						pd_dust_world_effect = yes
+					}
+				}
 				pd_outback = {
 					prevprev = {
 						pd_outback_world_effect = yes
@@ -339,6 +364,11 @@ match_pd_class_modifiers = {
 				pd_fungi = {
 					prevprev = {
 						pd_fungi_world_effect = yes
+					}
+				}
+				pd_cactus = {
+					prevprev = {
+						pd_cactus_world_effect = yes
 					}
 				}
 				pd_salt = {
@@ -367,6 +397,16 @@ match_pd_class_modifiers = {
 						pd_fog_desert_world_effect = yes
 					}
 				}
+				pd_striped = {
+					prevprev = {
+						pd_striped_world_effect = yes
+					}
+				}
+				pd_opal = {
+					prevprev = {
+						pd_opal_world_effect = yes
+					}
+				}
 				pd_mediterranean = {
 					prevprev = {
 						pd_mediterranean_world_effect = yes
@@ -382,9 +422,9 @@ match_pd_class_modifiers = {
 						pd_succulent_world_effect = yes
 					}
 				}
-				pd_striped = {
+				pd_amethyst = {
 					prevprev = {
-						pd_striped_world_effect = yes
+						pd_amethyst_world_effect = yes
 					}
 				}
 				pd_coral = {
@@ -413,9 +453,19 @@ match_pd_class_modifiers = {
 						pd_prairie_world_effect = yes
 					}
 				}
-				pd_veld = {
+				pd_sandstone = {
 					prevprev = {
-						pd_veld_world_effect = yes
+						pd_sandstone_world_effect = yes
+					}
+				}
+				pd_monsoon = {
+					prevprev = {
+						pd_monsoon_world_effect = yes
+					}
+				}
+				pd_calcite = {
+					prevprev = {
+						pd_calcite_world_effect = yes
 					}
 				}
 				pd_semi_arid = {
@@ -428,9 +478,9 @@ match_pd_class_modifiers = {
 						pd_aspen_world_effect = yes
 					}
 				}
-				pd_sandstone = {
+				pd_turquoise = {
 					prevprev = {
-						pd_sandstone_world_effect = yes
+						pd_turquoise_world_effect = yes
 					}
 				}
 				pd_supercontinent = {
@@ -459,6 +509,16 @@ match_pd_class_modifiers = {
 						pd_glacial_world_effect = yes
 					}
 				}
+				pd_crevasse = {
+					prevprev = {
+						pd_crevasse_world_effect = yes
+					}
+				}
+				pd_ferrospring = {
+					prevprev = {
+						pd_ferrospring_world_effect = yes
+					}
+				}
 				pd_antarctic = {
 					prevprev = {
 						pd_antarctic_world_effect = yes
@@ -472,11 +532,6 @@ match_pd_class_modifiers = {
 				pd_ice_spike = {
 					prevprev = {
 						pd_ice_spike_world_effect = yes
-					}
-				}
-				pd_crevasse = {
-					prevprev = {
-						pd_crevasse_world_effect = yes
 					}
 				}
 				pd_ice_dunes = {
@@ -500,19 +555,29 @@ match_pd_class_modifiers = {
 						add_modifier = { modifier = pd_alpine }
 					}
 				}
+				pd_highland = {
+					prevprev = {
+						pd_highland_world_effect = yes
+					}
+				}
 				pd_boreal = {
 					prevprev = {
 						pd_boreal_world_effect = yes
 					}
 				}
+				pd_blossom = {
+					prevprev = {
+						pd_blossom_world_effect = yes
+					}
+				}
+				pd_craton = {
+					prevprev = {
+						pd_craton_world_effect = yes
+					}
+				}
 				pd_snow = {
 					prevprev = {
 						pd_snow_world_effect = yes
-					}
-				}
-				pd_highland = {
-					prevprev = {
-						pd_highland_world_effect = yes
 					}
 				}
 				pd_dune_forest = {
@@ -525,9 +590,9 @@ match_pd_class_modifiers = {
 						pd_fjord_world_effect = yes
 					}
 				}
-				pd_blossom = {
+				pd_taiga = {
 					prevprev = {
-						pd_blossom_world_effect = yes
+						pd_taiga_world_effect = yes
 					}
 				}
 				pd_glaciovolcanic = {
@@ -556,6 +621,16 @@ match_pd_class_modifiers = {
 						pd_mycelium_world_effect = yes
 					}
 				}
+				pd_cryovolcano = {
+					prevprev = {
+						pd_cryovolcano_world_effect = yes
+					}
+				}
+				pd_peatland = {
+					prevprev = {
+						pd_peatland_world_effect = yes
+					}
+				}
 				pd_mud = {
 					prevprev = {
 						pd_mud_world_effect = yes
@@ -569,6 +644,11 @@ match_pd_class_modifiers = {
 				pd_tuya = {
 					prevprev = {
 						pd_tuya_world_effect = yes
+					}
+				}
+				pd_treeline = {
+					prevprev = {
+						pd_treeline_world_effect = yes
 					}
 				}
 				pd_cryoflora = {
@@ -604,13 +684,25 @@ reroll_pd_class_modifiers = {
 					pd_forest_world_effect = yes
 				}
 				25 = {
-					pd_temperate_world_effect = yes
-				}
-				25 = {
 					pd_tepid_world_effect = yes
 				}
 				25 = {
 					pd_mushroom_world_effect = yes
+				}
+				25 = {
+					pd_sakura_world_effect = yes
+				}
+				25 = {
+					pd_moss_world_effect = yes
+				}
+				25 = {
+					pd_marsh_world_effect = yes
+				}
+				5 = {
+					pd_megaflora_world_effect = yes
+				}
+				5 = {
+					pd_petrified_world_effect = yes
 				}
 			}
 		}
@@ -626,6 +718,12 @@ reroll_pd_class_modifiers = {
 					pd_swamp_world_effect = yes
 				}
 				25 = {
+					pd_algae_world_effect = yes
+				}
+				25 = {
+					pd_tidepool_world_effect = yes
+				}
+				25 = {
 					pd_crag_world_effect = yes
 				}
 				25 = {
@@ -635,7 +733,13 @@ reroll_pd_class_modifiers = {
 					pd_kelp_world_effect = yes
 				}
 				25 = {
-					pd_algae_world_effect = yes
+					pd_columnar_world_effect = yes
+				}
+				5 = {
+					pd_archipelago_world_effect = yes
+				}
+				5 = {
+					pd_reef_world_effect = yes
 				}
 			}
 		}
@@ -648,10 +752,16 @@ reroll_pd_class_modifiers = {
 					pd_atoll_world_effect = yes
 				}
 				25 = {
-					pd_tepui_world_effect = yes
+					pd_mangrove_world_effect = yes
 				}
 				25 = {
-					pd_mangrove_world_effect = yes
+					pd_aerial_world_effect = yes
+				}
+				25 = {
+					pd_obsidian_world_effect = yes
+				}
+				25 = {
+					pd_tepui_world_effect = yes
 				}
 				25 = {
 					pd_cenote_world_effect = yes
@@ -660,10 +770,13 @@ reroll_pd_class_modifiers = {
 					pd_fungal_world_effect = yes
 				}
 				25 = {
-					pd_aerial_world_effect = yes
-				}
-				25 = {
 					pd_lilypad_world_effect = yes
+				}
+				5 = {
+					pd_geothermal_world_effect = yes
+				}
+				5 = {
+					pd_biolumen_world_effect = yes
 				}
 			}
 		}
@@ -679,6 +792,12 @@ reroll_pd_class_modifiers = {
 					pd_oasis_world_effect = yes
 				}
 				25 = {
+					pd_ironsand_world_effect = yes
+				}
+				25 = {
+					pd_dust_world_effect = yes
+				}
+				25 = {
 					pd_outback_world_effect = yes
 				}
 				25 = {
@@ -686,6 +805,15 @@ reroll_pd_class_modifiers = {
 				}
 				25 = {
 					pd_fungi_world_effect = yes
+				}
+				25 = {
+					pd_cactus_world_effect = yes
+				}
+				5 = {
+					pd_salt_world_effect = yes
+				}
+				5 = {
+					pd_aquifer_world_effect = yes
 				}
 			}
 		}
@@ -701,6 +829,12 @@ reroll_pd_class_modifiers = {
 					pd_fog_desert_world_effect = yes
 				}
 				25 = {
+					pd_striped_world_effect = yes
+				}
+				25 = {
+					pd_opal_world_effect = yes
+				}
+				25 = {
 					pd_mediterranean_world_effect = yes
 				}
 				25 = {
@@ -710,7 +844,13 @@ reroll_pd_class_modifiers = {
 					pd_succulent_world_effect = yes
 				}
 				25 = {
-					pd_striped_world_effect = yes
+					pd_amethyst_world_effect = yes
+				}
+				5 = {
+					pd_coral_world_effect = yes
+				}
+				5 = {
+					pd_primal_world_effect = yes
 				}
 			}
 		}
@@ -726,7 +866,13 @@ reroll_pd_class_modifiers = {
 					pd_prairie_world_effect = yes
 				}
 				25 = {
-					pd_veld_world_effect = yes
+					pd_sandstone_world_effect = yes
+				}
+				25 = {
+					pd_monsoon_world_effect = yes
+				}
+				25 = {
+					pd_calcite_world_effect = yes
 				}
 				25 = {
 					pd_semi_arid_world_effect = yes
@@ -735,7 +881,13 @@ reroll_pd_class_modifiers = {
 					pd_aspen_world_effect = yes
 				}
 				25 = {
-					pd_sandstone_world_effect = yes
+					pd_turquoise_world_effect = yes
+				}
+				5 = {
+					pd_supercontinent_world_effect = yes
+				}
+				5 = {
+					pd_sinkhole_world_effect = yes
 				}
 			}
 		}
@@ -751,6 +903,12 @@ reroll_pd_class_modifiers = {
 					pd_glacial_world_effect = yes
 				}
 				25 = {
+					pd_crevasse_world_effect = yes
+				}
+				25 = {
+					pd_ferrospring_world_effect = yes
+				}
+				25 = {
 					pd_antarctic_world_effect = yes
 				}
 				25 = {
@@ -760,10 +918,16 @@ reroll_pd_class_modifiers = {
 					pd_ice_spike_world_effect = yes
 				}
 				25 = {
-					pd_crevasse_world_effect = yes
+					pd_ice_dunes_world_effect = yes
 				}
 				25 = {
-					pd_ice_dunes_world_effect = yes
+					pd_storm_world_effect = yes
+				}
+				5 = {
+					pd_antarctic_world_effect = yes
+				}
+				5 = {
+					pd_iceberg_world_effect = yes
 				}
 			}
 		}
@@ -773,13 +937,19 @@ reroll_pd_class_modifiers = {
 					add_modifier = { modifier = pd_alpine }
 				}
 				25 = {
+					pd_highland_world_effect = yes
+				}
+				25 = {
 					pd_boreal_world_effect = yes
 				}
 				25 = {
-					pd_snow_world_effect = yes
+					pd_blossom_world_effect = yes
 				}
 				25 = {
-					pd_highland_world_effect = yes
+					pd_craton_world_effect = yes
+				}
+				25 = {
+					pd_snow_world_effect = yes
 				}
 				25 = {
 					pd_dune_forest_world_effect = yes
@@ -788,7 +958,13 @@ reroll_pd_class_modifiers = {
 					pd_fjord_world_effect = yes
 				}
 				25 = {
-					pd_blossom_world_effect = yes
+					pd_taiga_world_effect = yes
+				}
+				5 = {
+					pd_glaciovolcanic_world_effect = yes
+				}
+				5 = {
+					pd_lanthanide_world_effect = yes
 				}
 			}
 		}
@@ -804,6 +980,12 @@ reroll_pd_class_modifiers = {
 					pd_mycelium_world_effect = yes
 				}
 				25 = {
+					pd_cryovolcano_world_effect = yes
+				}
+				25 = {
+					pd_peatland_world_effect = yes
+				}
+				25 = {
 					pd_mud_world_effect = yes
 				}
 				25 = {
@@ -812,8 +994,16 @@ reroll_pd_class_modifiers = {
 				25 = {
 					pd_tuya_world_effect = yes
 				}
+				25 = {
+					pd_treeline_world_effect = yes
+				}
+				5 = {
+					pd_cryoflora_world_effect = yes
+				}
+				5 = {
+					pd_lichen_world_effect = yes
+				}
 			}
 		}
-		
 	}
 }
