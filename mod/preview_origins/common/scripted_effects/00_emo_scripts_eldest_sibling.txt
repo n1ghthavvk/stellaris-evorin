@@ -104,6 +104,8 @@ generate_late_primitives_on_planet = {
 	}
 }
 
+# Merges and optimizes choose_random_planet_to_terraform_and_generate_same_species_primitives, terraform_planet_and_generate_same_species_primitives, and reroll_planet_and_generate_same_species_primitives into one trigger
+# Similar optimizations can probably be made to the PD compat
 # scope = capital
 choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 	solar_system = {
@@ -147,96 +149,37 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 					NOT = { is_planet_class = pc_gas_giant }
 					NOT = { has_orbital_station = yes }
 				}
-				terraform_planet_and_generate_same_species_primitives = yes
+				root = {
+					capital_scope = {
+						switch = {
+							trigger = is_planet_class
+							pc_continental = { prevprev = { change_pc = pc_continental } }
+							pc_ocean       = { prevprev = { change_pc = pc_ocean } }
+							pc_tropical    = { prevprev = { change_pc = pc_tropical } }
+							pc_alpine      = { prevprev = { change_pc = pc_alpine } }
+							pc_arctic      = { prevprev = { change_pc = pc_arctic } }
+							pc_desert      = { prevprev = { change_pc = pc_desert } }
+							pc_savannah    = { prevprev = { change_pc = pc_savannah } }
+							pc_tundra      = { prevprev = { change_pc = pc_tundra } }
+							pc_arid        = { prevprev = { change_pc = pc_arid } }
+						}
+					}
+				}
+				# If I understand the code correctly, these checks and calls should be outside of the root/capital_scope/switch block for correct scope purposes
+				if = {
+					limit = { has_modifier = terraforming_candidate	}
+					remove_modifier = terraforming_candidate
+				}
+				if = {
+					limit = { has_modifier = toxic_terraforming_candidate }
+					remove_modifier = toxic_terraforming_candidate
+				}
+				reroll_deposits = yes
+				reroll_planet_modifiers = yes
+				generate_same_species_late_primitives_on_planet = yes
 			}
 		}
 	}
-}
-
-# scope = Non-habitable planet
-terraform_planet_and_generate_same_species_primitives = {
-	root = {
-		capital_scope = {
-			switch = {
-				trigger = is_planet_class
-				##### VANILLA PLANET CLASSES
-				pc_continental = {
-					# prevprev = chosen planet in system
-					prevprev = {
-						change_pc = pc_continental
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_ocean = {
-					prevprev = {
-						change_pc = pc_ocean
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_tropical = {
-					prevprev = {
-						change_pc = pc_tropical
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_alpine = {
-					prevprev = {
-						change_pc = pc_alpine
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_arctic = {
-					prevprev = {
-						change_pc = pc_arctic
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_desert = {
-					prevprev = {
-						change_pc = pc_desert
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_savannah = {
-					prevprev = {
-						change_pc = pc_savannah
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_tundra = {
-					prevprev = {
-						change_pc = pc_tundra
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-				pc_arid = {
-					prevprev = {
-						change_pc = pc_arid
-						reroll_planet_and_generate_same_species_primitives = yes
-					}
-				}
-			}
-		}
-	}
-}
-
-# scope = Non-Colonized Habitable Planet
-reroll_planet_and_generate_same_species_primitives = {
-	if = {
-		limit = {
-			has_modifier = terraforming_candidate
-		}
-		remove_modifier = terraforming_candidate
-	}
-	if = {
-		limit = {
-			has_modifier = toxic_terraforming_candidate
-		}
-		remove_modifier = toxic_terraforming_candidate
-	}
-	reroll_deposits = yes
-	reroll_planet_modifiers = yes
-	generate_same_species_late_primitives_on_planet = yes
 }
 
 # scope = Non-Colonized Habitable Planet
